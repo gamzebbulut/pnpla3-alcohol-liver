@@ -15,3 +15,8 @@
 .Rhistory
 .RData
 .Rproj.user/
+
+# Regenerated panels. run_all.R writes SVGs into analysis/<Fig N>/nc_panels/,
+# so without this a clone becomes dirty the first time anyone reproduces the
+# figures. The reference renders are committed under figures/ instead.
+analysis/**/nc_panels/
