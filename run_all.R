@@ -3,7 +3,17 @@
 ## Upstream scripts write the CSVs that panel scripts read, so they come first.
 ## Anything requiring raw data that is not distributed is skipped with a note
 ## rather than failed, so a fresh clone still produces the full figure set.
-source("setup.R")
+## Find setup.R beside this file, so run_all.R works from any working directory.
+## %||% is not available in older R, hence the explicit test.
+local({
+  here <- NULL
+  for (i in seq_len(sys.nframe())) {
+    of <- sys.frame(i)$ofile
+    if (!is.null(of)) { here <- dirname(normalizePath(of)); break }
+  }
+  if (is.null(here)) here <- normalizePath(".")
+  source(file.path(here, "setup.R"))
+})
 FIG <- Sys.getenv("FIGROOT")
 
 run <- function(rel) {
@@ -11,7 +21,19 @@ run <- function(rel) {
   if (!file.exists(f)) { message("skip (absent): ", rel); return(invisible(NULL)) }
   message("\n=== ", rel)
   tryCatch(source(f, chdir = TRUE, local = new.env()),
-           error = function(e) message("   FAILED: ", conditionMessage(e)))
+           error = function(e) {
+             m <- conditionMessage(e)
+             message("   FAILED: ", m)
+             ## The two failures a clone can expect, named so nobody has to
+             ## reverse-engineer them from a file path.
+             if (grepl("EtOH.xlsx", m, fixed = TRUE))
+               message("   -> needs the raw metabolomics workbook, which is not ",
+                       "distributed. See DATA.md; set OWL_CACHE to run this panel ",
+                       "from the cached sheets instead.")
+             if (grepl("no package called", m))
+               message("   -> missing R package. install.packages() or ",
+                       "BiocManager::install() it, then re-run.")
+           })
 }
 
 ## -- panels ----------------------------------------------------------------
