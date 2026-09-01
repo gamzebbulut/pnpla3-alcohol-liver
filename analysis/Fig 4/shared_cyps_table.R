@@ -15,14 +15,28 @@ suppressPackageStartupMessages({
   library(dplyr); library(readr); library(tidyr); library(stringr)
 })
 
-BASE     <- path.expand("~/Desktop/Lipidomics project with Dr Smirnova")
-# Full KEGG membership. After re-knitting the cleaned Stouffer Rmd this also
-# appears in the publication Q3 folder; until then use the exploratory copy
-# (membership is identical — written before any min_size filtering).
-KEGG_CSV <- file.path(BASE, "writing skeleton/figure making/exploratory_gene_minsize",
-                      "Q3_minGene10_StoufferPMAX/kegg_pathway_gene_symbols.csv")
-DE_CSV   <- file.path(BASE, "writing skeleton/figure making/Fig 4/fig4_outs/allHep_limma_genes_Q3.csv")
-OUT_DIR  <- file.path(BASE, "writing skeleton/figure making/Fig 4")
+## Paths follow the same contract as every other script in the pipeline, so this
+## runs unchanged from a clone of the reproducibility repository.
+BASE     <- Sys.getenv("LIPID_ROOT", path.expand("~/Desktop/Lipidomics project with Dr Smirnova"))
+FIGROOT  <- Sys.getenv("FIGROOT",    file.path(BASE, "writing skeleton/figure making"))
+
+# Full KEGG membership. Prefer the exploratory copy, which is what the published
+# table was built from; fall back to the publication Q3 folder, which is what
+# ships with the repository. Verified 1 Sep 2026: the two differ by a single
+# ribosome gene (mmu03010, Chchd1) and Cyp membership is identical for all three
+# pathways used here (mmu00590 38, mmu00591 34, mmu03320 11).
+KEGG_CAND <- c(
+  file.path(FIGROOT, "exploratory_gene_minsize/Q3_minGene10_StoufferPMAX",
+            "kegg_pathway_gene_symbols.csv"),
+  file.path(BASE, "GB_metabolomics_20260628/Q3_StoufferPMAX_pooled",
+            "kegg_pathway_gene_symbols.csv"))
+KEGG_CSV <- KEGG_CAND[file.exists(KEGG_CAND)][1]
+if (is.na(KEGG_CSV))
+  stop("No KEGG membership table found. Looked in:\n  ",
+       paste(KEGG_CAND, collapse = "\n  "))
+
+DE_CSV   <- file.path(FIGROOT, "Fig 4/fig4_outs/allHep_limma_genes_Q3.csv")
+OUT_DIR  <- file.path(FIGROOT, "Fig 4")
 
 paths   <- c(AA = "mmu00590", LA = "mmu00591", PPAR = "mmu03320")
 PREFIX  <- "^Cyp"            # gene family to tabulate (change to "^Ugt", etc.)
