@@ -1,0 +1,247 @@
+KEGG_id,KEGG_title,concordance,FDR_Pmax,cpd_id
+mmu04913,Ovarian steroidogenesis,Opposite,1.5894938258491224e-4,C00187
+mmu04913,Ovarian steroidogenesis,Opposite,1.5894938258491224e-4,C02530
+mmu04913,Ovarian steroidogenesis,Opposite,1.5894938258491224e-4,C00219
+mmu05417,Lipid and atherosclerosis,Same (↑↑),1.8163454634986418e-4,C00187
+mmu05417,Lipid and atherosclerosis,Same (↑↑),1.8163454634986418e-4,C02530
+mmu05417,Lipid and atherosclerosis,Same (↑↑),1.8163454634986418e-4,C00422
+mmu04975,Fat digestion and absorption,Same (↑↑),1.8163454634986418e-4,C00187
+mmu04975,Fat digestion and absorption,Same (↑↑),1.8163454634986418e-4,C02530
+mmu04975,Fat digestion and absorption,Same (↑↑),1.8163454634986418e-4,C00422
+mmu00061,Fatty acid biosynthesis,Opposite,2.0172471679662257e-4,C06424
+mmu00061,Fatty acid biosynthesis,Opposite,2.0172471679662257e-4,C00249
+mmu00061,Fatty acid biosynthesis,Opposite,2.0172471679662257e-4,C08362
+mmu00061,Fatty acid biosynthesis,Opposite,2.0172471679662257e-4,C01530
+mmu00061,Fatty acid biosynthesis,Opposite,2.0172471679662257e-4,C00712
+mmu04979,Cholesterol metabolism,Same (↑↑),3.7269357337016797e-4,C00187
+mmu04979,Cholesterol metabolism,Same (↑↑),3.7269357337016797e-4,C02530
+mmu04979,Cholesterol metabolism,Same (↑↑),3.7269357337016797e-4,C00422
+mmu04979,Cholesterol metabolism,Same (↑↑),3.7269357337016797e-4,C05122
+mmu04979,Cholesterol metabolism,Same (↑↑),3.7269357337016797e-4,C05465
+mmu04979,Cholesterol metabolism,Same (↑↑),3.7269357337016797e-4,C01921
+mmu04382,Cornified envelope formation,Same (↑↑),5.788314141709468e-4,C00064
+mmu04382,Cornified envelope formation,Same (↑↑),5.788314141709468e-4,C00135
+mmu04382,Cornified envelope formation,Same (↑↑),5.788314141709468e-4,C00187
+mmu04382,Cornified envelope formation,Same (↑↑),5.788314141709468e-4,C01879
+mmu00591,Linoleic acid metabolism,Same (↓↓),7.206773227172267e-4,C00157
+mmu00591,Linoleic acid metabolism,Same (↓↓),7.206773227172267e-4,C01595
+mmu00591,Linoleic acid metabolism,Same (↓↓),7.206773227172267e-4,C06426
+mmu00591,Linoleic acid metabolism,Same (↓↓),7.206773227172267e-4,C00219
+mmu00591,Linoleic acid metabolism,Same (↓↓),7.206773227172267e-4,C14762
+mmu00591,Linoleic acid metabolism,Same (↓↓),7.206773227172267e-4,C14833
+mmu04217,Necroptosis,Same (↑↑),8.766127688535957e-4,C00195
+mmu04217,Necroptosis,Same (↑↑),8.766127688535957e-4,C00550
+mmu04217,Necroptosis,Same (↑↑),8.766127688535957e-4,C00219
+mmu00600,Sphingolipid metabolism,Same (↑↑),8.917825121388383e-4,C00065
+mmu00600,Sphingolipid metabolism,Same (↑↑),8.917825121388383e-4,C00195
+mmu00600,Sphingolipid metabolism,Same (↑↑),8.917825121388383e-4,C01190
+mmu00600,Sphingolipid metabolism,Same (↑↑),8.917825121388383e-4,C00550
+mmu00650,Butanoate metabolism,Same (↓↓),0.0010551868330291256,C00025
+mmu00650,Butanoate metabolism,Same (↓↓),0.0010551868330291256,C00334
+mmu00650,Butanoate metabolism,Same (↓↓),0.0010551868330291256,C00042
+mmu00650,Butanoate metabolism,Same (↓↓),0.0010551868330291256,C00122
+mmu00650,Butanoate metabolism,Same (↓↓),0.0010551868330291256,C01089
+mmu04148,Efferocytosis,Same (↑↑),0.0012113427187455629,C00073
+mmu04148,Efferocytosis,Same (↑↑),0.0012113427187455629,C00187
+mmu04148,Efferocytosis,Same (↑↑),0.0012113427187455629,C02530
+mmu04148,Efferocytosis,Same (↑↑),0.0012113427187455629,C04230
+mmu04148,Efferocytosis,Same (↑↑),0.0012113427187455629,C00003
+mmu01200,Carbon metabolism,Same (↓↓),0.002702214277408628,C00025
+mmu01200,Carbon metabolism,Same (↓↓),0.002702214277408628,C00037
+mmu01200,Carbon metabolism,Same (↓↓),0.002702214277408628,C00041
+mmu01200,Carbon metabolism,Same (↓↓),0.002702214277408628,C00065
+mmu01200,Carbon metabolism,Same (↓↓),0.002702214277408628,C00049
+mmu01200,Carbon metabolism,Same (↓↓),0.002702214277408628,C00097
+mmu01200,Carbon metabolism,Same (↓↓),0.002702214277408628,C00354
+mmu01200,Carbon metabolism,Same (↓↓),0.002702214277408628,C00267
+mmu01200,Carbon metabolism,Same (↓↓),0.002702214277408628,C00085
+mmu01200,Carbon metabolism,Same (↓↓),0.002702214277408628,C00117
+mmu01200,Carbon metabolism,Same (↓↓),0.002702214277408628,C00345
+mmu01200,Carbon metabolism,Same (↓↓),0.002702214277408628,C00042
+mmu01200,Carbon metabolism,Same (↓↓),0.002702214277408628,C00122
+mmu01200,Carbon metabolism,Same (↓↓),0.002702214277408628,C00440
+mmu00053,Ascorbate and aldarate metabolism,Opposite,0.00414271795830001,C00191
+mmu00053,Ascorbate and aldarate metabolism,Opposite,0.00414271795830001,C00072
+mmu00053,Ascorbate and aldarate metabolism,Opposite,0.00414271795830001,C00029
+mmu00010,Glycolysis / Gluconeogenesis,Same (↓↓),0.005450006506831292,C00354
+mmu00010,Glycolysis / Gluconeogenesis,Same (↓↓),0.005450006506831292,C01159
+mmu00010,Glycolysis / Gluconeogenesis,Same (↓↓),0.005450006506831292,C00267
+mmu00010,Glycolysis / Gluconeogenesis,Same (↓↓),0.005450006506831292,C00085
+mmu00670,One carbon pool by folate,Same (↓↓),0.0068137290933245635,C00037
+mmu00670,One carbon pool by folate,Same (↓↓),0.0068137290933245635,C00065
+mmu00670,One carbon pool by folate,Same (↓↓),0.0068137290933245635,C00073
+mmu00670,One carbon pool by folate,Same (↓↓),0.0068137290933245635,C00213
+mmu00670,One carbon pool by folate,Same (↓↓),0.0068137290933245635,C00097
+mmu00670,One carbon pool by folate,Same (↓↓),0.0068137290933245635,C00021
+mmu00670,One carbon pool by folate,Same (↓↓),0.0068137290933245635,C02291
+mmu00670,One carbon pool by folate,Same (↓↓),0.0068137290933245635,C00440
+mmu00670,One carbon pool by folate,Same (↓↓),0.0068137290933245635,C00212
+mmu00270,Cysteine and methionine metabolism,Same (↓↓),0.007290877866237183,C00041
+mmu00270,Cysteine and methionine metabolism,Same (↓↓),0.007290877866237183,C00065
+mmu00270,Cysteine and methionine metabolism,Same (↓↓),0.007290877866237183,C00049
+mmu00270,Cysteine and methionine metabolism,Same (↓↓),0.007290877866237183,C00073
+mmu00270,Cysteine and methionine metabolism,Same (↓↓),0.007290877866237183,C00051
+mmu00270,Cysteine and methionine metabolism,Same (↓↓),0.007290877866237183,C00263
+mmu00270,Cysteine and methionine metabolism,Same (↓↓),0.007290877866237183,C00097
+mmu00270,Cysteine and methionine metabolism,Same (↓↓),0.007290877866237183,C00021
+mmu00270,Cysteine and methionine metabolism,Same (↓↓),0.007290877866237183,C00491
+mmu00270,Cysteine and methionine metabolism,Same (↓↓),0.007290877866237183,C02291
+mmu00630,Glyoxylate and dicarboxylate metabolism,Same (↓↓),0.013079514326236318,C00025
+mmu00630,Glyoxylate and dicarboxylate metabolism,Same (↓↓),0.013079514326236318,C00037
+mmu00630,Glyoxylate and dicarboxylate metabolism,Same (↓↓),0.013079514326236318,C00065
+mmu00630,Glyoxylate and dicarboxylate metabolism,Same (↓↓),0.013079514326236318,C00049
+mmu00630,Glyoxylate and dicarboxylate metabolism,Same (↓↓),0.013079514326236318,C00064
+mmu00630,Glyoxylate and dicarboxylate metabolism,Same (↓↓),0.013079514326236318,C00042
+mmu00330,Arginine and proline metabolism,Same (↓↓),0.018388690221705455,C00025
+mmu00330,Arginine and proline metabolism,Same (↓↓),0.018388690221705455,C00148
+mmu00330,Arginine and proline metabolism,Same (↓↓),0.018388690221705455,C00213
+mmu00330,Arginine and proline metabolism,Same (↓↓),0.018388690221705455,C00334
+mmu04981,Folate transport and metabolism,Same (↓↓),0.019190947398420068,C00073
+mmu04981,Folate transport and metabolism,Same (↓↓),0.019190947398420068,C00021
+mmu04981,Folate transport and metabolism,Same (↓↓),0.019190947398420068,C00157
+mmu04981,Folate transport and metabolism,Same (↓↓),0.019190947398420068,C00440
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C00025
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C00037
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C00041
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C00065
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C00148
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C00183
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C00188
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C00245
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C00407
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C00123
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C00049
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C00064
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C00047
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C00135
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C00079
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C00051
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C00491
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C01083
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C00794
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C00387
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C00330
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C00294
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C01762
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C00212
+mmu02010,ABC transporters,Opposite,0.02750896493373216,C00299
+mmu00120,Primary bile acid biosynthesis,Opposite,0.030803702026189424,C00037
+mmu00120,Primary bile acid biosynthesis,Opposite,0.030803702026189424,C00245
+mmu00120,Primary bile acid biosynthesis,Opposite,0.030803702026189424,C00187
+mmu00120,Primary bile acid biosynthesis,Opposite,0.030803702026189424,C00695
+mmu00120,Primary bile acid biosynthesis,Opposite,0.030803702026189424,C02528
+mmu00120,Primary bile acid biosynthesis,Opposite,0.030803702026189424,C05122
+mmu00120,Primary bile acid biosynthesis,Opposite,0.030803702026189424,C05465
+mmu00120,Primary bile acid biosynthesis,Opposite,0.030803702026189424,C01921
+mmu00260,"Glycine, serine and threonine metabolism",Same (↓↓),0.0334882253015268,C00037
+mmu00260,"Glycine, serine and threonine metabolism",Same (↓↓),0.0334882253015268,C00065
+mmu00260,"Glycine, serine and threonine metabolism",Same (↓↓),0.0334882253015268,C00188
+mmu00260,"Glycine, serine and threonine metabolism",Same (↓↓),0.0334882253015268,C00049
+mmu00260,"Glycine, serine and threonine metabolism",Same (↓↓),0.0334882253015268,C00078
+mmu00260,"Glycine, serine and threonine metabolism",Same (↓↓),0.0334882253015268,C00213
+mmu00260,"Glycine, serine and threonine metabolism",Same (↓↓),0.0334882253015268,C00263
+mmu00260,"Glycine, serine and threonine metabolism",Same (↓↓),0.0334882253015268,C00097
+mmu00260,"Glycine, serine and threonine metabolism",Same (↓↓),0.0334882253015268,C02291
+mmu00860,Porphyrin metabolism,Same (↓↓),0.03759808358149058,C00025
+mmu00860,Porphyrin metabolism,Same (↓↓),0.03759808358149058,C00037
+mmu00860,Porphyrin metabolism,Same (↓↓),0.03759808358149058,C00188
+mmu00730,Thiamine metabolism,Same (↓↓),0.03854546938327076,C00037
+mmu00730,Thiamine metabolism,Same (↓↓),0.03854546938327076,C00082
+mmu00730,Thiamine metabolism,Same (↓↓),0.03854546938327076,C00097
+mmu00730,Thiamine metabolism,Same (↓↓),0.03854546938327076,C00003
+mmu04976,Bile secretion,Opposite,0.04014032060208359,C00051
+mmu04976,Bile secretion,Opposite,0.04014032060208359,C00187
+mmu04976,Bile secretion,Opposite,0.04014032060208359,C02530
+mmu04976,Bile secretion,Opposite,0.04014032060208359,C00695
+mmu04976,Bile secretion,Opposite,0.04014032060208359,C04483
+mmu04976,Bile secretion,Opposite,0.04014032060208359,C02528
+mmu04976,Bile secretion,Opposite,0.04014032060208359,C05122
+mmu04976,Bile secretion,Opposite,0.04014032060208359,C05465
+mmu04976,Bile secretion,Opposite,0.04014032060208359,C01921
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00025
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00037
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00041
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00065
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00148
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00183
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00188
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00407
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00123
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00152
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00049
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00064
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00047
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00073
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00135
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00079
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00082
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00078
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00956
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00327
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00263
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00097
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00021
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C02291
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00624
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00354
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00085
+mmu01230,Biosynthesis of amino acids,Same (↓↓),0.049524552526277084,C00117
+mmu04923,Regulation of lipolysis in adipocytes,Same (↑↑),0.0534556723776067,C00422
+mmu04923,Regulation of lipolysis in adipocytes,Same (↑↑),0.0534556723776067,C00219
+mmu04923,Regulation of lipolysis in adipocytes,Same (↑↑),0.0534556723776067,C00020
+mmu04923,Regulation of lipolysis in adipocytes,Same (↑↑),0.0534556723776067,C00212
+mmu00760,Nicotinate and nicotinamide metabolism,Same (↓↓),0.05495589400827993,C00049
+mmu00760,Nicotinate and nicotinamide metabolism,Same (↓↓),0.05495589400827993,C00334
+mmu00760,Nicotinate and nicotinamide metabolism,Same (↓↓),0.05495589400827993,C00006
+mmu00760,Nicotinate and nicotinamide metabolism,Same (↓↓),0.05495589400827993,C00042
+mmu00760,Nicotinate and nicotinamide metabolism,Same (↓↓),0.05495589400827993,C00122
+mmu00760,Nicotinate and nicotinamide metabolism,Same (↓↓),0.05495589400827993,C00003
+mmu05230,Central carbon metabolism in cancer,Same (↓↓),0.07060179645170127,C00025
+mmu05230,Central carbon metabolism in cancer,Same (↓↓),0.07060179645170127,C00037
+mmu05230,Central carbon metabolism in cancer,Same (↓↓),0.07060179645170127,C00041
+mmu05230,Central carbon metabolism in cancer,Same (↓↓),0.07060179645170127,C00065
+mmu05230,Central carbon metabolism in cancer,Same (↓↓),0.07060179645170127,C00148
+mmu05230,Central carbon metabolism in cancer,Same (↓↓),0.07060179645170127,C00183
+mmu05230,Central carbon metabolism in cancer,Same (↓↓),0.07060179645170127,C00407
+mmu05230,Central carbon metabolism in cancer,Same (↓↓),0.07060179645170127,C00123
+mmu05230,Central carbon metabolism in cancer,Same (↓↓),0.07060179645170127,C00152
+mmu05230,Central carbon metabolism in cancer,Same (↓↓),0.07060179645170127,C00049
+mmu05230,Central carbon metabolism in cancer,Same (↓↓),0.07060179645170127,C00064
+mmu05230,Central carbon metabolism in cancer,Same (↓↓),0.07060179645170127,C00073
+mmu05230,Central carbon metabolism in cancer,Same (↓↓),0.07060179645170127,C00135
+mmu05230,Central carbon metabolism in cancer,Same (↓↓),0.07060179645170127,C00079
+mmu05230,Central carbon metabolism in cancer,Same (↓↓),0.07060179645170127,C00082
+mmu05230,Central carbon metabolism in cancer,Same (↓↓),0.07060179645170127,C00078
+mmu05230,Central carbon metabolism in cancer,Same (↓↓),0.07060179645170127,C00097
+mmu05230,Central carbon metabolism in cancer,Same (↓↓),0.07060179645170127,C00354
+mmu05230,Central carbon metabolism in cancer,Same (↓↓),0.07060179645170127,C00085
+mmu05230,Central carbon metabolism in cancer,Same (↓↓),0.07060179645170127,C00092
+mmu05230,Central carbon metabolism in cancer,Same (↓↓),0.07060179645170127,C00042
+mmu05230,Central carbon metabolism in cancer,Same (↓↓),0.07060179645170127,C00122
+mmu00052,Galactose metabolism,Opposite,0.0776052693497812,C00267
+mmu00052,Galactose metabolism,Opposite,0.0776052693497812,C00085
+mmu00052,Galactose metabolism,Opposite,0.0776052693497812,C00794
+mmu00052,Galactose metabolism,Opposite,0.0776052693497812,C00029
+mmu00470,D-Amino acid metabolism,Same (↓↓),0.0821638938650959,C00025
+mmu00470,D-Amino acid metabolism,Same (↓↓),0.0821638938650959,C00037
+mmu00470,D-Amino acid metabolism,Same (↓↓),0.0821638938650959,C00041
+mmu00470,D-Amino acid metabolism,Same (↓↓),0.0821638938650959,C00065
+mmu00470,D-Amino acid metabolism,Same (↓↓),0.0821638938650959,C00148
+mmu00470,D-Amino acid metabolism,Same (↓↓),0.0821638938650959,C00188
+mmu00470,D-Amino acid metabolism,Same (↓↓),0.0821638938650959,C00049
+mmu00470,D-Amino acid metabolism,Same (↓↓),0.0821638938650959,C00064
+mmu00470,D-Amino acid metabolism,Same (↓↓),0.0821638938650959,C00047
+mmu00470,D-Amino acid metabolism,Same (↓↓),0.0821638938650959,C00073
+mmu00470,D-Amino acid metabolism,Same (↓↓),0.0821638938650959,C00135
+mmu00470,D-Amino acid metabolism,Same (↓↓),0.0821638938650959,C00079
+mmu00470,D-Amino acid metabolism,Same (↓↓),0.0821638938650959,C00097
+mmu00470,D-Amino acid metabolism,Same (↓↓),0.0821638938650959,C00624
+mmu04071,Sphingolipid signaling pathway,Same (↑↑),0.0847631818939785,C00065
+mmu04071,Sphingolipid signaling pathway,Same (↑↑),0.0847631818939785,C00195
+mmu04071,Sphingolipid signaling pathway,Same (↑↑),0.0847631818939785,C00550
+mmu04071,Sphingolipid signaling pathway,Same (↑↑),0.0847631818939785,C00212
+mmu00051,Fructose and mannose metabolism,Same (↓↓),0.0962374604191966,C00354
+mmu00051,Fructose and mannose metabolism,Same (↓↓),0.0962374604191966,C00267
+mmu00051,Fructose and mannose metabolism,Same (↓↓),0.0962374604191966,C00085
+mmu00051,Fructose and mannose metabolism,Same (↓↓),0.0962374604191966,C00275
+mmu00051,Fructose and mannose metabolism,Same (↓↓),0.0962374604191966,C00794

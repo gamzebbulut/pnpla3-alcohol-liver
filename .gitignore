@@ -1,0 +1,17 @@
+# Raw data is never in this repo. See DATA.md.
+*.RDS
+*.rds
+*.xlsx
+*.xls
+*.h5ad
+
+# Big rendered artwork: the SVGs are committed, the Illustrator files are not.
+*.ai
+*.eps
+
+# OS and editor noise
+.DS_Store
+~$*
+.Rhistory
+.RData
+.Rproj.user/

@@ -1,0 +1,138 @@
+KEGG_id,KEGG_title,concordance,FDR_Pmax,cpd_id
+mmu04217,Necroptosis,Opposite,0.015850118656587742,C00195
+mmu04217,Necroptosis,Opposite,0.015850118656587742,C00550
+mmu04217,Necroptosis,Opposite,0.015850118656587742,C00219
+mmu00470,D-Amino acid metabolism,Same (↑↑),0.02844685000561138,C00025
+mmu00470,D-Amino acid metabolism,Same (↑↑),0.02844685000561138,C00037
+mmu00470,D-Amino acid metabolism,Same (↑↑),0.02844685000561138,C00041
+mmu00470,D-Amino acid metabolism,Same (↑↑),0.02844685000561138,C00065
+mmu00470,D-Amino acid metabolism,Same (↑↑),0.02844685000561138,C00148
+mmu00470,D-Amino acid metabolism,Same (↑↑),0.02844685000561138,C00188
+mmu00470,D-Amino acid metabolism,Same (↑↑),0.02844685000561138,C00049
+mmu00470,D-Amino acid metabolism,Same (↑↑),0.02844685000561138,C00064
+mmu00470,D-Amino acid metabolism,Same (↑↑),0.02844685000561138,C00047
+mmu00470,D-Amino acid metabolism,Same (↑↑),0.02844685000561138,C00073
+mmu00470,D-Amino acid metabolism,Same (↑↑),0.02844685000561138,C00135
+mmu00470,D-Amino acid metabolism,Same (↑↑),0.02844685000561138,C00079
+mmu00470,D-Amino acid metabolism,Same (↑↑),0.02844685000561138,C00097
+mmu00470,D-Amino acid metabolism,Same (↑↑),0.02844685000561138,C00624
+mmu00260,"Glycine, serine and threonine metabolism",Same (↑↑),0.03134148754773625,C00037
+mmu00260,"Glycine, serine and threonine metabolism",Same (↑↑),0.03134148754773625,C00065
+mmu00260,"Glycine, serine and threonine metabolism",Same (↑↑),0.03134148754773625,C00188
+mmu00260,"Glycine, serine and threonine metabolism",Same (↑↑),0.03134148754773625,C00049
+mmu00260,"Glycine, serine and threonine metabolism",Same (↑↑),0.03134148754773625,C00078
+mmu00260,"Glycine, serine and threonine metabolism",Same (↑↑),0.03134148754773625,C00213
+mmu00260,"Glycine, serine and threonine metabolism",Same (↑↑),0.03134148754773625,C00263
+mmu00260,"Glycine, serine and threonine metabolism",Same (↑↑),0.03134148754773625,C00097
+mmu00260,"Glycine, serine and threonine metabolism",Same (↑↑),0.03134148754773625,C02291
+mmu00670,One carbon pool by folate,Same (↑↑),0.031693257141287796,C00037
+mmu00670,One carbon pool by folate,Same (↑↑),0.031693257141287796,C00065
+mmu00670,One carbon pool by folate,Same (↑↑),0.031693257141287796,C00073
+mmu00670,One carbon pool by folate,Same (↑↑),0.031693257141287796,C00213
+mmu00670,One carbon pool by folate,Same (↑↑),0.031693257141287796,C00097
+mmu00670,One carbon pool by folate,Same (↑↑),0.031693257141287796,C00021
+mmu00670,One carbon pool by folate,Same (↑↑),0.031693257141287796,C02291
+mmu00670,One carbon pool by folate,Same (↑↑),0.031693257141287796,C00440
+mmu00670,One carbon pool by folate,Same (↑↑),0.031693257141287796,C00212
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00025
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00037
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00041
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00065
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00148
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00183
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00188
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00407
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00123
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00152
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00049
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00064
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00047
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00073
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00135
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00079
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00082
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00078
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00956
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00327
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00263
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00097
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00021
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C02291
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00624
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00354
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00085
+mmu01230,Biosynthesis of amino acids,Same (↑↑),0.04505468291111643,C00117
+mmu00590,Arachidonic acid metabolism,Same (↓↓),0.048461311196882045,C00157
+mmu00590,Arachidonic acid metabolism,Same (↓↓),0.048461311196882045,C00219
+mmu00590,Arachidonic acid metabolism,Same (↓↓),0.048461311196882045,C04742
+mmu00270,Cysteine and methionine metabolism,Same (↑↑),0.048757287981389875,C00041
+mmu00270,Cysteine and methionine metabolism,Same (↑↑),0.048757287981389875,C00065
+mmu00270,Cysteine and methionine metabolism,Same (↑↑),0.048757287981389875,C00049
+mmu00270,Cysteine and methionine metabolism,Same (↑↑),0.048757287981389875,C00073
+mmu00270,Cysteine and methionine metabolism,Same (↑↑),0.048757287981389875,C00051
+mmu00270,Cysteine and methionine metabolism,Same (↑↑),0.048757287981389875,C00263
+mmu00270,Cysteine and methionine metabolism,Same (↑↑),0.048757287981389875,C00097
+mmu00270,Cysteine and methionine metabolism,Same (↑↑),0.048757287981389875,C00021
+mmu00270,Cysteine and methionine metabolism,Same (↑↑),0.048757287981389875,C00491
+mmu00270,Cysteine and methionine metabolism,Same (↑↑),0.048757287981389875,C02291
+mmu00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",Same (↑↑),0.05021691559189355,C00079
+mmu00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",Same (↑↑),0.05021691559189355,C00082
+mmu00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",Same (↑↑),0.05021691559189355,C00078
+mmu00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",Same (↑↑),0.05021691559189355,C00354
+mmu01210,2-Oxocarboxylic acid metabolism,Same (↑↑),0.05595856143357891,C00025
+mmu01210,2-Oxocarboxylic acid metabolism,Same (↑↑),0.05595856143357891,C00041
+mmu01210,2-Oxocarboxylic acid metabolism,Same (↑↑),0.05595856143357891,C00183
+mmu01210,2-Oxocarboxylic acid metabolism,Same (↑↑),0.05595856143357891,C00407
+mmu01210,2-Oxocarboxylic acid metabolism,Same (↑↑),0.05595856143357891,C00123
+mmu01210,2-Oxocarboxylic acid metabolism,Same (↑↑),0.05595856143357891,C00049
+mmu01210,2-Oxocarboxylic acid metabolism,Same (↑↑),0.05595856143357891,C00047
+mmu01210,2-Oxocarboxylic acid metabolism,Same (↑↑),0.05595856143357891,C00073
+mmu01210,2-Oxocarboxylic acid metabolism,Same (↑↑),0.05595856143357891,C00079
+mmu01210,2-Oxocarboxylic acid metabolism,Same (↑↑),0.05595856143357891,C00082
+mmu01210,2-Oxocarboxylic acid metabolism,Same (↑↑),0.05595856143357891,C00078
+mmu01210,2-Oxocarboxylic acid metabolism,Same (↑↑),0.05595856143357891,C00956
+mmu01210,2-Oxocarboxylic acid metabolism,Same (↑↑),0.05595856143357891,C00624
+mmu00591,Linoleic acid metabolism,Same (↓↓),0.05801754369425337,C00157
+mmu00591,Linoleic acid metabolism,Same (↓↓),0.05801754369425337,C01595
+mmu00591,Linoleic acid metabolism,Same (↓↓),0.05801754369425337,C06426
+mmu00591,Linoleic acid metabolism,Same (↓↓),0.05801754369425337,C00219
+mmu00591,Linoleic acid metabolism,Same (↓↓),0.05801754369425337,C14762
+mmu00591,Linoleic acid metabolism,Same (↓↓),0.05801754369425337,C14833
+mmu04978,Mineral absorption,Opposite,0.06456311726706469,C00037
+mmu04978,Mineral absorption,Opposite,0.06456311726706469,C00041
+mmu04978,Mineral absorption,Opposite,0.06456311726706469,C00065
+mmu04978,Mineral absorption,Opposite,0.06456311726706469,C00148
+mmu04978,Mineral absorption,Opposite,0.06456311726706469,C00183
+mmu04978,Mineral absorption,Opposite,0.06456311726706469,C00188
+mmu04978,Mineral absorption,Opposite,0.06456311726706469,C00407
+mmu04978,Mineral absorption,Opposite,0.06456311726706469,C00123
+mmu04978,Mineral absorption,Opposite,0.06456311726706469,C00152
+mmu04978,Mineral absorption,Opposite,0.06456311726706469,C00064
+mmu04978,Mineral absorption,Opposite,0.06456311726706469,C00073
+mmu04978,Mineral absorption,Opposite,0.06456311726706469,C00079
+mmu04978,Mineral absorption,Opposite,0.06456311726706469,C00078
+mmu00970,Aminoacyl-tRNA biosynthesis,Same (↑↑),0.07056147318431291,C00025
+mmu00970,Aminoacyl-tRNA biosynthesis,Same (↑↑),0.07056147318431291,C00037
+mmu00970,Aminoacyl-tRNA biosynthesis,Same (↑↑),0.07056147318431291,C00041
+mmu00970,Aminoacyl-tRNA biosynthesis,Same (↑↑),0.07056147318431291,C00065
+mmu00970,Aminoacyl-tRNA biosynthesis,Same (↑↑),0.07056147318431291,C00148
+mmu00970,Aminoacyl-tRNA biosynthesis,Same (↑↑),0.07056147318431291,C00183
+mmu00970,Aminoacyl-tRNA biosynthesis,Same (↑↑),0.07056147318431291,C00188
+mmu00970,Aminoacyl-tRNA biosynthesis,Same (↑↑),0.07056147318431291,C00407
+mmu00970,Aminoacyl-tRNA biosynthesis,Same (↑↑),0.07056147318431291,C00123
+mmu00970,Aminoacyl-tRNA biosynthesis,Same (↑↑),0.07056147318431291,C00152
+mmu00970,Aminoacyl-tRNA biosynthesis,Same (↑↑),0.07056147318431291,C00049
+mmu00970,Aminoacyl-tRNA biosynthesis,Same (↑↑),0.07056147318431291,C00064
+mmu00970,Aminoacyl-tRNA biosynthesis,Same (↑↑),0.07056147318431291,C00047
+mmu00970,Aminoacyl-tRNA biosynthesis,Same (↑↑),0.07056147318431291,C00073
+mmu00970,Aminoacyl-tRNA biosynthesis,Same (↑↑),0.07056147318431291,C00135
+mmu00970,Aminoacyl-tRNA biosynthesis,Same (↑↑),0.07056147318431291,C00079
+mmu00970,Aminoacyl-tRNA biosynthesis,Same (↑↑),0.07056147318431291,C00082
+mmu00970,Aminoacyl-tRNA biosynthesis,Same (↑↑),0.07056147318431291,C00078
+mmu00970,Aminoacyl-tRNA biosynthesis,Same (↑↑),0.07056147318431291,C00097
+mmu01250,Biosynthesis of nucleotide sugars,Opposite,0.08775666451927788,C00191
+mmu01250,Biosynthesis of nucleotide sugars,Opposite,0.08775666451927788,C00267
+mmu01250,Biosynthesis of nucleotide sugars,Opposite,0.08775666451927788,C00085
+mmu01250,Biosynthesis of nucleotide sugars,Opposite,0.08775666451927788,C00275
+mmu01250,Biosynthesis of nucleotide sugars,Opposite,0.08775666451927788,C00029
+mmu01250,Biosynthesis of nucleotide sugars,Opposite,0.08775666451927788,C00394

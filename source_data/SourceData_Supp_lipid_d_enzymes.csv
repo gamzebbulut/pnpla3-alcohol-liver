@@ -1,0 +1,73 @@
+"gene","module","contrast","logFC","FDR","sig"
+"Srebf1","Synthesis","Alcohol on wild type",1.04185957617061,0.0581848523705831,TRUE
+"Mlxipl","Synthesis","Alcohol on wild type",0.24599475952973,0.630778940286369,FALSE
+"Acly","Synthesis","Alcohol on wild type",1.25836259700038,0.04498989821994,TRUE
+"Acaca","Synthesis","Alcohol on wild type",1.35412757390134,0.0579787276996996,TRUE
+"Acacb","Synthesis","Alcohol on wild type",-0.721236184032004,0.504785143583482,FALSE
+"Fasn","Synthesis","Alcohol on wild type",1.31578388273239,0.0799511120428387,TRUE
+"Scd1","Desaturation / elongation","Alcohol on wild type",-0.487618761683996,0.598307024813881,FALSE
+"Scd2","Desaturation / elongation","Alcohol on wild type",0.719991406730065,0.429735070243482,FALSE
+"Fads1","Desaturation / elongation","Alcohol on wild type",0.102339524473735,0.92902310526998,FALSE
+"Fads2","Desaturation / elongation","Alcohol on wild type",0.125641476014342,0.92238637044312,FALSE
+"Elovl5","Desaturation / elongation","Alcohol on wild type",-1.07821618334333,0.105564700692032,FALSE
+"Elovl6","Desaturation / elongation","Alcohol on wild type",2.10054745412201,0.0287850766850739,TRUE
+"Pnpla2","Mobilization / handling","Alcohol on wild type",-0.827628114649629,0.0936289618526628,TRUE
+"Lpcat3","Mobilization / handling","Alcohol on wild type",-0.647422813045038,0.153016260260247,FALSE
+"Mboat7","Mobilization / handling","Alcohol on wild type",0.210495481449903,0.696637219010506,FALSE
+"Pla2g6","Mobilization / handling","Alcohol on wild type",-0.771108073972445,0.195891342075548,FALSE
+"Mttp","Mobilization / handling","Alcohol on wild type",-0.276503412102225,0.373101408087715,FALSE
+"Apob","Mobilization / handling","Alcohol on wild type",-0.220023256393121,0.714721370152514,FALSE
+"Srebf1","Synthesis","Alcohol on variant",1.04578052151996,0.145126001599397,FALSE
+"Mlxipl","Synthesis","Alcohol on variant",-0.0844153149333382,0.894527946126652,FALSE
+"Acly","Synthesis","Alcohol on variant",0.907914876006664,0.264756710933251,FALSE
+"Acaca","Synthesis","Alcohol on variant",0.743820233060442,0.394749647291855,FALSE
+"Acacb","Synthesis","Alcohol on variant",0.340396644266573,0.799387422241857,FALSE
+"Fasn","Synthesis","Alcohol on variant",1.8316298707238,0.0440669119230823,TRUE
+"Scd1","Desaturation / elongation","Alcohol on variant",0.601759089805121,0.471929916899221,FALSE
+"Scd2","Desaturation / elongation","Alcohol on variant",0.12526864388443,0.92557796774616,FALSE
+"Fads1","Desaturation / elongation","Alcohol on variant",1.01150843258468,0.230932304728931,FALSE
+"Fads2","Desaturation / elongation","Alcohol on variant",0.828876267032538,0.386009326196558,FALSE
+"Elovl5","Desaturation / elongation","Alcohol on variant",0.298116366921358,0.75596546575128,FALSE
+"Elovl6","Desaturation / elongation","Alcohol on variant",1.50587749968913,0.199293780761521,FALSE
+"Pnpla2","Mobilization / handling","Alcohol on variant",-0.622403376862689,0.320449894530963,FALSE
+"Lpcat3","Mobilization / handling","Alcohol on variant",0.12322263736188,0.855438025092609,FALSE
+"Mboat7","Mobilization / handling","Alcohol on variant",0.228943256387837,0.684318681243613,FALSE
+"Pla2g6","Mobilization / handling","Alcohol on variant",-0.249997130785082,0.76392757353064,FALSE
+"Mttp","Mobilization / handling","Alcohol on variant",-0.207981017700904,0.558473241309116,FALSE
+"Apob","Mobilization / handling","Alcohol on variant",-0.24609700565361,0.680457364860053,FALSE
+"Srebf1","Synthesis","Variant alone",0.278055888782694,0.999641948309722,FALSE
+"Mlxipl","Synthesis","Variant alone",-0.27019287368516,0.999641948309722,FALSE
+"Acly","Synthesis","Variant alone",-0.191944387752983,0.999641948309722,FALSE
+"Acaca","Synthesis","Variant alone",0.00124519227511261,0.999641948309722,FALSE
+"Acacb","Synthesis","Variant alone",-0.113727628694951,0.999641948309722,FALSE
+"Fasn","Synthesis","Variant alone",-0.0245808470607483,0.999641948309722,FALSE
+"Scd1","Desaturation / elongation","Variant alone",-0.675383084757582,0.999641948309722,FALSE
+"Scd2","Desaturation / elongation","Variant alone",0.242235800885655,0.999641948309722,FALSE
+"Fads1","Desaturation / elongation","Variant alone",-0.330448541825308,0.999641948309722,FALSE
+"Fads2","Desaturation / elongation","Variant alone",-0.135649869921161,0.999641948309722,FALSE
+"Elovl5","Desaturation / elongation","Variant alone",-0.199954036073087,0.999641948309722,FALSE
+"Elovl6","Desaturation / elongation","Variant alone",0.0318510683943266,0.999641948309722,FALSE
+"Pnpla2","Mobilization / handling","Variant alone",0.439865895702753,0.999641948309722,FALSE
+"Lpcat3","Mobilization / handling","Variant alone",0.185195884504607,0.999641948309722,FALSE
+"Mboat7","Mobilization / handling","Variant alone",0.0838886411247366,0.999641948309722,FALSE
+"Pla2g6","Mobilization / handling","Variant alone",0.17504166543645,0.999641948309722,FALSE
+"Mttp","Mobilization / handling","Variant alone",-0.032862759655534,0.999641948309722,FALSE
+"Apob","Mobilization / handling","Variant alone",0.14628683109334,0.999641948309722,FALSE
+"Srebf1","Synthesis","Variant on alcohol",0.281976834132049,0.676861153244923,FALSE
+"Mlxipl","Synthesis","Variant on alcohol",-0.600602948148228,0.155911380201369,FALSE
+"Acly","Synthesis","Variant on alcohol",-0.542392108746703,0.44834869791254,FALSE
+"Acaca","Synthesis","Variant on alcohol",-0.609062148565786,0.433017072540747,FALSE
+"Acacb","Synthesis","Variant on alcohol",0.947905199603626,0.357635742280506,FALSE
+"Fasn","Synthesis","Variant on alcohol",0.491265140930666,0.576285038870875,FALSE
+"Scd1","Desaturation / elongation","Variant on alcohol",0.413994766731535,0.617556819198862,FALSE
+"Scd2","Desaturation / elongation","Variant on alcohol",-0.352486961959979,0.703771607692948,FALSE
+"Fads1","Desaturation / elongation","Variant on alcohol",0.578720366285637,0.464681544527142,FALSE
+"Fads2","Desaturation / elongation","Variant on alcohol",0.567584921097035,0.546392685850411,FALSE
+"Elovl5","Desaturation / elongation","Variant on alcohol",1.1763785141916,0.121428239401808,FALSE
+"Elovl6","Desaturation / elongation","Variant on alcohol",-0.562818886038551,0.601245372882388,FALSE
+"Pnpla2","Mobilization / handling","Variant on alcohol",0.645090633489693,0.219961915742764,FALSE
+"Lpcat3","Mobilization / handling","Variant on alcohol",0.955841334911525,0.0660306033364164,TRUE
+"Mboat7","Mobilization / handling","Variant on alcohol",0.10233641606267,0.844305838202342,FALSE
+"Pla2g6","Mobilization / handling","Variant on alcohol",0.696152608623813,0.264438919912956,FALSE
+"Mttp","Mobilization / handling","Variant on alcohol",0.0356596347457879,0.926458798493712,FALSE
+"Apob","Mobilization / handling","Variant on alcohol",0.120213081832851,0.831902452881771,FALSE

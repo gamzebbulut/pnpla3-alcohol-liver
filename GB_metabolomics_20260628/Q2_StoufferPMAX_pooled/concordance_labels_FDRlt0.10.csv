@@ -1,0 +1,2 @@
+rank_by_FDR,KEGG_id,KEGG_title,Z_gene,Z_met,P_gene,P_met,Pmax,FDR_Pmax,concordance
+1,mmu04964,Proximal tubule bicarbonate reclamation,-4.0431163713609815,2.8144450873051388,5.274542507251806e-5,0.004886152472635491,0.004886152472635491,0.07641942467201908,Opposite

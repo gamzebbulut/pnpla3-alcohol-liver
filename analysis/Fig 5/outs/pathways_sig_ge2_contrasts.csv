@@ -1,0 +1,17 @@
+KEGG_id,pw_label,contrast,Z_gene,Z_met,FDR_Pmax,concordance
+mmu04217,Necroptosis,C1_Q3_MUT_PAL_vs_NAL,4.54,-2.8,0.0158,Opposite
+mmu00270,Cysteine and methionine metab.,C1_Q3_MUT_PAL_vs_NAL,4.89,2.31,0.0486,Same (↑↑)
+mmu01210,2-Oxocarboxylic acid metab.,C1_Q3_MUT_PAL_vs_NAL,3.53,2.25,0.0558,Same (↑↑)
+mmu01250,Biosynthesis of nucleotide sugars,C1_Q3_MUT_PAL_vs_NAL,4.75,-2.03,0.0875,Opposite
+mmu00270,Cysteine and methionine metab.,C2_Q4_CTL_PAL_vs_NAL,4.54,2.81,0.014,Same (↑↑)
+mmu01250,Biosynthesis of nucleotide sugars,C2_Q4_CTL_PAL_vs_NAL,5.55,-2.14,0.0709,Opposite
+mmu01210,2-Oxocarboxylic acid metab.,C2_Q4_CTL_PAL_vs_NAL,-3.18,1.96,0.0995,Opposite
+mmu04217,Necroptosis,C2_Q4_CTL_PAL_vs_NAL,-4.94,-2.18,0.0668,Same (↓↓)
+mmu00270,Cysteine and methionine metab.,C3_Q2_MUT_vs_CTL_NAL,0.37,-1.17,0.928,Opposite
+mmu01250,Biosynthesis of nucleotide sugars,C3_Q2_MUT_vs_CTL_NAL,2.89,2.16,0.222,Same (↑↑)
+mmu01210,2-Oxocarboxylic acid metab.,C3_Q2_MUT_vs_CTL_NAL,0.65,-1.86,0.823,Opposite
+mmu04217,Necroptosis,C3_Q2_MUT_vs_CTL_NAL,1.27,0.55,0.851,Same (↑↑)
+mmu04217,Necroptosis,C4_Q5_MUT_vs_CTL_PAL,7.48,0.81,0.518,Same (↑↑)
+mmu01250,Biosynthesis of nucleotide sugars,C4_Q5_MUT_vs_CTL_PAL,1.45,0.69,0.578,Same (↑↑)
+mmu00270,Cysteine and methionine metab.,C4_Q5_MUT_vs_CTL_PAL,1.05,-2.77,0.39,Opposite
+mmu01210,2-Oxocarboxylic acid metab.,C4_Q5_MUT_vs_CTL_PAL,5.81,-1.07,0.381,Opposite

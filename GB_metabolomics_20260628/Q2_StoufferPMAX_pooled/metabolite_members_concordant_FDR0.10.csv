@@ -1,0 +1,4 @@
+KEGG_id,KEGG_title,concordance,FDR_Pmax,cpd_id
+mmu04964,Proximal tubule bicarbonate reclamation,Opposite,0.07641942467201908,C00025
+mmu04964,Proximal tubule bicarbonate reclamation,Opposite,0.07641942467201908,C00064
+mmu04964,Proximal tubule bicarbonate reclamation,Opposite,0.07641942467201908,C00267

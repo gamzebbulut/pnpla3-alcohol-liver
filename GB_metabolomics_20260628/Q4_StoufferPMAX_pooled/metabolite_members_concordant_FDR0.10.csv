@@ -1,0 +1,63 @@
+KEGG_id,KEGG_title,concordance,FDR_Pmax,cpd_id
+mmu00270,Cysteine and methionine metabolism,Same (↑↑),0.014068164115132419,C00041
+mmu00270,Cysteine and methionine metabolism,Same (↑↑),0.014068164115132419,C00065
+mmu00270,Cysteine and methionine metabolism,Same (↑↑),0.014068164115132419,C00049
+mmu00270,Cysteine and methionine metabolism,Same (↑↑),0.014068164115132419,C00073
+mmu00270,Cysteine and methionine metabolism,Same (↑↑),0.014068164115132419,C00051
+mmu00270,Cysteine and methionine metabolism,Same (↑↑),0.014068164115132419,C00263
+mmu00270,Cysteine and methionine metabolism,Same (↑↑),0.014068164115132419,C00097
+mmu00270,Cysteine and methionine metabolism,Same (↑↑),0.014068164115132419,C00021
+mmu00270,Cysteine and methionine metabolism,Same (↑↑),0.014068164115132419,C00491
+mmu00270,Cysteine and methionine metabolism,Same (↑↑),0.014068164115132419,C02291
+mmu00430,Taurine and hypotaurine metabolism,Opposite,0.027793941053242843,C00025
+mmu00430,Taurine and hypotaurine metabolism,Opposite,0.027793941053242843,C00041
+mmu00430,Taurine and hypotaurine metabolism,Opposite,0.027793941053242843,C00245
+mmu00430,Taurine and hypotaurine metabolism,Opposite,0.027793941053242843,C00519
+mmu00430,Taurine and hypotaurine metabolism,Opposite,0.027793941053242843,C00097
+mmu00430,Taurine and hypotaurine metabolism,Opposite,0.027793941053242843,C05122
+mmu00600,Sphingolipid metabolism,Same (↓↓),0.04302240967811779,C00065
+mmu00600,Sphingolipid metabolism,Same (↓↓),0.04302240967811779,C00195
+mmu00600,Sphingolipid metabolism,Same (↓↓),0.04302240967811779,C01190
+mmu00600,Sphingolipid metabolism,Same (↓↓),0.04302240967811779,C00550
+mmu04217,Necroptosis,Same (↓↓),0.06693445665885502,C00195
+mmu04217,Necroptosis,Same (↓↓),0.06693445665885502,C00550
+mmu04217,Necroptosis,Same (↓↓),0.06693445665885502,C00219
+mmu04923,Regulation of lipolysis in adipocytes,Same (↓↓),0.06848124387267573,C00422
+mmu04923,Regulation of lipolysis in adipocytes,Same (↓↓),0.06848124387267573,C00219
+mmu04923,Regulation of lipolysis in adipocytes,Same (↓↓),0.06848124387267573,C00020
+mmu04923,Regulation of lipolysis in adipocytes,Same (↓↓),0.06848124387267573,C00212
+mmu01250,Biosynthesis of nucleotide sugars,Opposite,0.07104322355508248,C00191
+mmu01250,Biosynthesis of nucleotide sugars,Opposite,0.07104322355508248,C00267
+mmu01250,Biosynthesis of nucleotide sugars,Opposite,0.07104322355508248,C00085
+mmu01250,Biosynthesis of nucleotide sugars,Opposite,0.07104322355508248,C00275
+mmu01250,Biosynthesis of nucleotide sugars,Opposite,0.07104322355508248,C00029
+mmu01250,Biosynthesis of nucleotide sugars,Opposite,0.07104322355508248,C00394
+mmu00520,Amino sugar and nucleotide sugar metabolism,Opposite,0.07104322355508248,C00191
+mmu00520,Amino sugar and nucleotide sugar metabolism,Opposite,0.07104322355508248,C00267
+mmu00520,Amino sugar and nucleotide sugar metabolism,Opposite,0.07104322355508248,C00085
+mmu00520,Amino sugar and nucleotide sugar metabolism,Opposite,0.07104322355508248,C00275
+mmu00520,Amino sugar and nucleotide sugar metabolism,Opposite,0.07104322355508248,C00029
+mmu00520,Amino sugar and nucleotide sugar metabolism,Opposite,0.07104322355508248,C00394
+mmu00860,Porphyrin metabolism,Same (↑↑),0.07724972579655304,C00025
+mmu00860,Porphyrin metabolism,Same (↑↑),0.07724972579655304,C00037
+mmu00860,Porphyrin metabolism,Same (↑↑),0.07724972579655304,C00188
+mmu04977,Vitamin digestion and absorption,Same (↓↓),0.0875765237710301,C00187
+mmu04977,Vitamin digestion and absorption,Same (↓↓),0.0875765237710301,C02530
+mmu04977,Vitamin digestion and absorption,Same (↓↓),0.0875765237710301,C00422
+mmu04977,Vitamin digestion and absorption,Same (↓↓),0.0875765237710301,C00016
+mmu04977,Vitamin digestion and absorption,Same (↓↓),0.0875765237710301,C00003
+mmu04977,Vitamin digestion and absorption,Same (↓↓),0.0875765237710301,C00072
+mmu04977,Vitamin digestion and absorption,Same (↓↓),0.0875765237710301,C00864
+mmu01210,2-Oxocarboxylic acid metabolism,Opposite,0.09975219675702786,C00025
+mmu01210,2-Oxocarboxylic acid metabolism,Opposite,0.09975219675702786,C00041
+mmu01210,2-Oxocarboxylic acid metabolism,Opposite,0.09975219675702786,C00183
+mmu01210,2-Oxocarboxylic acid metabolism,Opposite,0.09975219675702786,C00407
+mmu01210,2-Oxocarboxylic acid metabolism,Opposite,0.09975219675702786,C00123
+mmu01210,2-Oxocarboxylic acid metabolism,Opposite,0.09975219675702786,C00049
+mmu01210,2-Oxocarboxylic acid metabolism,Opposite,0.09975219675702786,C00047
+mmu01210,2-Oxocarboxylic acid metabolism,Opposite,0.09975219675702786,C00073
+mmu01210,2-Oxocarboxylic acid metabolism,Opposite,0.09975219675702786,C00079
+mmu01210,2-Oxocarboxylic acid metabolism,Opposite,0.09975219675702786,C00082
+mmu01210,2-Oxocarboxylic acid metabolism,Opposite,0.09975219675702786,C00078
+mmu01210,2-Oxocarboxylic acid metabolism,Opposite,0.09975219675702786,C00956
+mmu01210,2-Oxocarboxylic acid metabolism,Opposite,0.09975219675702786,C00624

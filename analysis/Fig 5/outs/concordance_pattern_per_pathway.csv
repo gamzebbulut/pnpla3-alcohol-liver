@@ -1,0 +1,22 @@
+KEGG_id,pw_label,concordance_C1_Q3_MUT_PAL_vs_NAL,concordance_C2_Q4_CTL_PAL_vs_NAL,concordance_C3_Q2_MUT_vs_CTL_NAL,concordance_C4_Q5_MUT_vs_CTL_PAL,pattern
+mmu00270,Cysteine and methionine metab.,Same (↑↑),Same (↑↑),Opposite,Opposite,↑↑ | ↑↑ | OPP | OPP
+mmu04217,Necroptosis,Opposite,Same (↓↓),Same (↑↑),Same (↑↑),OPP | ↓↓ | ↑↑ | ↑↑
+mmu01210,2-Oxocarboxylic acid metab.,Same (↑↑),Opposite,Opposite,Opposite,↑↑ | OPP | OPP | OPP
+mmu01250,Biosynthesis of nucleotide sugars,Opposite,Opposite,Same (↑↑),Same (↑↑),OPP | OPP | ↑↑ | ↑↑
+mmu00430,Taurine and hypotaurine metab.,Opposite,Opposite,Opposite,Opposite,OPP | OPP | OPP | OPP
+mmu00470,D-Amino acid metab.,Same (↑↑),Opposite,Opposite,Opposite,↑↑ | OPP | OPP | OPP
+mmu00260,"Glycine, serine and threonine metab.",Same (↑↑),Same (↑↑),Same (↓↓),Opposite,↑↑ | ↑↑ | ↓↓ | OPP
+mmu00670,One carbon pool by folate,Same (↑↑),Opposite,Same (↓↓),Opposite,↑↑ | OPP | ↓↓ | OPP
+mmu04152,AMPK signaling pathway,Same (↑↑),Opposite,Same (↑↑),Same (↑↑),↑↑ | OPP | ↑↑ | ↑↑
+mmu00600,Sphingolipid metab.,Same (↓↓),Same (↓↓),Opposite,Opposite,↓↓ | ↓↓ | OPP | OPP
+mmu01230,Biosynthesis of amino acids,Same (↑↑),Opposite,Opposite,Opposite,↑↑ | OPP | OPP | OPP
+mmu00590,Arachidonic acid metab.,Same (↓↓),Same (↓↓),Same (↓↓),Opposite,↓↓ | ↓↓ | ↓↓ | OPP
+mmu00400,"Phenylalanine, tyrosine and tryptophan biosynth.",Same (↑↑),Same (↑↑),Same (↓↓),Same (↑↑),↑↑ | ↑↑ | ↓↓ | ↑↑
+mmu00591,Linoleic acid metab.,Same (↓↓),Opposite,Opposite,Same (↓↓),↓↓ | OPP | OPP | ↓↓
+mmu04978,Mineral absorption,Opposite,Same (↑↑),Same (↓↓),Same (↓↓),OPP | ↑↑ | ↓↓ | ↓↓
+mmu04923,Regulation of lipolysis in adipocytes,Same (↓↓),Same (↓↓),Opposite,Same (↑↑),↓↓ | ↓↓ | OPP | ↑↑
+mmu00970,Aminoacyl-tRNA biosynth.,Same (↑↑),Same (↑↑),Same (↓↓),Same (↓↓),↑↑ | ↑↑ | ↓↓ | ↓↓
+mmu00520,Amino sugar and nucleotide sugar metab.,Opposite,Opposite,Same (↑↑),Same (↑↑),OPP | OPP | ↑↑ | ↑↑
+mmu04964,Proximal tubule bicarbonate reclamation,Opposite,Same (↑↑),Opposite,Opposite,OPP | ↑↑ | OPP | OPP
+mmu00860,Porphyrin metab.,Opposite,Same (↑↑),Same (↓↓),Same (↓↓),OPP | ↑↑ | ↓↓ | ↓↓
+mmu04977,Vitamin digestion and absorption,Opposite,Same (↓↓),Same (↓↓),Opposite,OPP | ↓↓ | ↓↓ | OPP

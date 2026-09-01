@@ -1,0 +1,941 @@
+"comparison","metabolite","class","log2_fold_change","P_value","q_value","significant"
+"Alcohol on wild type","N-Acetylglutamic acid","Amino acids & derivatives",0.244833601268594,0.24,0.27598940511826,FALSE
+"Alcohol on wild type","N-Acetyl-glutamine","Amino acids & derivatives",0.720370173910934,0.0322,0.129696810098599,FALSE
+"Alcohol on wild type","Pyroglutamic acid","Amino acids & derivatives",0.469215548943048,0.369,0.322692101133368,FALSE
+"Alcohol on wild type","Glutamic Acid","Amino acids & derivatives",0.857262058159043,0.247,0.280816712904977,FALSE
+"Alcohol on wild type","Glycine","Amino acids & derivatives",0.724975016940205,0.219,0.270594984555236,FALSE
+"Alcohol on wild type","Alanine","Amino acids & derivatives",0.889242494054806,0.033,0.129696810098599,FALSE
+"Alcohol on wild type","Serine","Amino acids & derivatives",0.343700521163731,0.353,0.322011771539865,FALSE
+"Alcohol on wild type","Proline","Amino acids & derivatives",0.79162826272797,0.00395,0.0605440833023131,TRUE
+"Alcohol on wild type","Valine","Amino acids & derivatives",0.291283234720485,0.136,0.214280114029828,FALSE
+"Alcohol on wild type","Threonine","Amino acids & derivatives",0.604843728694905,0.00625,0.0637942315186308,TRUE
+"Alcohol on wild type","Taurine","Amino acids & derivatives",-0.0890919480411348,0.953,0.484261735292422,FALSE
+"Alcohol on wild type","Isoleucine","Amino acids & derivatives",0.00271716859936794,0.89,0.471645298126003,FALSE
+"Alcohol on wild type","Leucine","Amino acids & derivatives",0.421215966830932,0.113,0.197971591303787,FALSE
+"Alcohol on wild type","Asparagine","Amino acids & derivatives",0.312111643648308,0.448,0.344472171970144,FALSE
+"Alcohol on wild type","Aspartic Acid","Amino acids & derivatives",1.29521111995117,0.108,0.197129045181235,FALSE
+"Alcohol on wild type","Glutamine","Amino acids & derivatives",0.238535461930849,0.238,0.27598940511826,FALSE
+"Alcohol on wild type","Lysine","Amino acids & derivatives",0.27712698345778,0.338,0.319875968207522,FALSE
+"Alcohol on wild type","Methionine","Amino acids & derivatives",0.481979167892414,0.0355,0.133777516101418,FALSE
+"Alcohol on wild type","Histidine","Amino acids & derivatives",0.181091039958743,0.314,0.313683022997482,FALSE
+"Alcohol on wild type","Phenylalanine","Amino acids & derivatives",0.33208173330321,0.26,0.285225797743112,FALSE
+"Alcohol on wild type","Tyrosine","Amino acids & derivatives",0.782396417314236,0.000358,0.0159247413665574,TRUE
+"Alcohol on wild type","Tryptophan","Amino acids & derivatives",0.365562290851148,0.0852,0.192324886282937,FALSE
+"Alcohol on wild type","Sarcosine","Amino acids & derivatives",0.311840147931383,0.415,0.333315061935978,FALSE
+"Alcohol on wild type","Glutathione (reduced)","Peptides",-0.770453212823696,0.165,0.23911023072909,FALSE
+"Alcohol on wild type","Gly-DL-Phe","Peptides",1.46099002982607,0.0501,0.143434327763743,FALSE
+"Alcohol on wild type","Hypotaurine","Sulfinic Acids and Derivatives",1.8502609806276,0.104,0.197129045181235,FALSE
+"Alcohol on wild type","Gamma-Aminobutyric acid","Amino acids & derivatives",0.461242709956409,0.645,0.397433039193234,FALSE
+"Alcohol on wild type","DL-2-Aminoadipic acid","Amino acids & derivatives",1.65611099598724,0.0494,0.143434327763743,FALSE
+"Alcohol on wild type","Gly-Gly","Peptides",0.111387330156351,0.637,0.396668131980672,FALSE
+"Alcohol on wild type","L-Citrulline","Amino acids & derivatives",0.908510766575318,0.257,0.285225797743112,FALSE
+"Alcohol on wild type","L-Homoserine","Amino acids & derivatives",0.880602005661515,0.0915,0.197129045181235,FALSE
+"Alcohol on wild type","Homocysteine","Amino acids & derivatives",-0.216849634716554,0.697,0.414846619868394,FALSE
+"Alcohol on wild type","Ala-Gln","Peptides",0.930357860528993,0.11,0.197129045181235,FALSE
+"Alcohol on wild type","Cysteine","Amino acids & derivatives",1.58847044555818,0.295,0.304779739072869,FALSE
+"Alcohol on wild type","S-Adenosylhomocysteine","Nucleoside analogue",0.328682883452454,0.213,0.268659001099209,FALSE
+"Alcohol on wild type","Glutathione (oxidized)","Polypeptide",-2.40740403971577,0.337,0.319875968207522,FALSE
+"Alcohol on wild type","Cystine-double charge","AA derivative",1.76050432958373,0.373,0.322692101133368,FALSE
+"Alcohol on wild type","Cystathionine","Amino acids & derivatives",1.69633384342345,0.00823,0.0726895101416434,TRUE
+"Alcohol on wild type","1-Methyl-L-histidine","Amino acids & derivatives",-0.621718591742669,0.805,0.449961979644742,FALSE
+"Alcohol on wild type","D(-)-2-Aminobutyric acid","AA derivative",0.79230306520181,0.11,0.197129045181235,FALSE
+"Alcohol on wild type",NA,"Fatty esters",-0.311339207178809,0.294,0.304779739072869,FALSE
+"Alcohol on wild type","AC(18:2n-6)","Fatty esters",-0.0722122344308995,0.924,0.482453009394995,FALSE
+"Alcohol on wild type","AC(18:1n-9)","Fatty esters",-0.72199097465403,0.117,0.199038002338128,FALSE
+"Alcohol on wild type","AC(16:0)","Fatty esters",-0.623101046199409,0.684,0.411285163202467,FALSE
+"Alcohol on wild type","AC(18:0)","Fatty esters",0.0569939749555323,0.477,0.355316627874579,FALSE
+"Alcohol on wild type",NA,"Fatty esters",-0.849744197777066,0.0678,0.165801207716921,FALSE
+"Alcohol on wild type","Cholic acid","Bile acids",2.97709446894827,0.00325,0.0592324532401908,TRUE
+"Alcohol on wild type","Deoxycholic acid","Bile acids",2.99900559099049,0.0958,0.197129045181235,FALSE
+"Alcohol on wild type","Chenodeoxycholic acid","Bile acids",1.47380653072266,0.237,0.27598940511826,FALSE
+"Alcohol on wild type","Ursodeoxycholic + Hyodeoxycholic acid","Bile acids",2.2892450549931,0.118,0.199295015069426,FALSE
+"Alcohol on wild type","Taurocholic acid","Bile acids",1.5854641996185,0.102,0.197129045181235,FALSE
+"Alcohol on wild type","Taurodeoxycholic acid","Bile acids",3.58032846387184,0.11,0.197129045181235,FALSE
+"Alcohol on wild type","Taurochenodeoxycholic acid","Bile acids",1.38231847724436,0.326,0.316881437087441,FALSE
+"Alcohol on wild type","Tauroursodeoxycholic + Taurohyodeoxycholic acid","Bile acids",2.14829486468409,0.124,0.203570515570501,FALSE
+"Alcohol on wild type","Glycocholic acid","Bile acids",0.858000990609198,0.497,0.355316627874579,FALSE
+"Alcohol on wild type","Tauro-ω-muricholic acid+Tauro-α-muricholic acid","Bile acids",1.60526153002042,0.139,0.214684377015855,FALSE
+"Alcohol on wild type","Glucuronic acid","Sugar Acids and Derivatives",-1.45649567479398,0.0866,0.19362339099247,FALSE
+"Alcohol on wild type","N-Acetylneuraminic acid","Sugar Acids and Derivatives",0.145307306592217,0.56,0.370991310100233,FALSE
+"Alcohol on wild type","Fructose 1,6-bisphosphate","Monosaccharides",-0.593385622114446,0.172,0.244722404739591,FALSE
+"Alcohol on wild type","2,3-bisphosphoglycerate","Carbohydrates and Carbohydrate Conjugates",1.01505776688241,0.0359,0.133777516101418,FALSE
+"Alcohol on wild type","2-phosphoglycerate / 3-phosphoglycerate","Sugar Acids and Derivatives",-0.762465658727989,0.069,0.166996198631038,FALSE
+"Alcohol on wild type","Adenosine 5'-diphosphate","Purine Nucleotides",-0.11277525214098,0.718,0.422455314004478,FALSE
+"Alcohol on wild type","Adenosine 5'-monophosphate","Purine Nucleotides",0.51639124388179,0.0499,0.143434327763743,FALSE
+"Alcohol on wild type","Glucose","Monosaccharides",0.423113382674066,0.224,0.271066293430091,FALSE
+"Alcohol on wild type","Fructose 6-phosphate","Monosaccharides",0.35718921214721,0.393,0.328001887104585,FALSE
+"Alcohol on wild type","Glucose-6-phosphate","Monosaccharides",0.359940297644488,0.386,0.327654516300582,FALSE
+"Alcohol on wild type","Sedoheptulose","Disaccharides",-0.152743684004519,0.691,0.412776273394646,FALSE
+"Alcohol on wild type","D-Ribose 5-phosphate","Monosaccharides",0.0998852819314817,0.685,0.411285163202467,FALSE
+"Alcohol on wild type","Nicotinamide adenine dinucleotide phosphate","Purine Nucleotides",-0.267977169341472,0.975,0.491188203194951,FALSE
+"Alcohol on wild type","6-Phosphogluconate","Sugar Acids and Derivatives",-0.396694037643032,0.446,0.344472171970144,FALSE
+"Alcohol on wild type","Succinate","Carboxylic Acids and Derivatives",0.181019594367229,0.73,0.425252663899875,FALSE
+"Alcohol on wild type","Malate","Carboxylic Acids and Derivatives",0.700574613283471,0.121,0.201463088018552,FALSE
+"Alcohol on wild type","Fumaric acid","Fatty Acids and Conjugates",0.723172247818295,0.131,0.210643309113024,FALSE
+"Alcohol on wild type","Flavin adenine dinucleotide","Flavin Nucleotides",-0.0784822090348052,0.82,0.452954054189694,FALSE
+"Alcohol on wild type","Guanosine 5'-diphosphate","Purine Nucleotides",0.0267180432501609,0.776,0.442744353968719,FALSE
+"Alcohol on wild type","Nicotinamide adenine dinucleotide reduced","Purine Nucleotides",0.50642255997506,0.119,0.199548356190277,FALSE
+"Alcohol on wild type","Nicotinamide adenine dinucleotide","Purine Nucleotides",0.12566366087597,0.527,0.36388229658227,FALSE
+"Alcohol on wild type","Lactic acid","Hydroxy Acids and Derivatives",0.576864049981042,0.0283,0.127765123986082,FALSE
+"Alcohol on wild type","beta-hydroxybutyric Acid","Hydroxy Acids and Derivatives",0.170380189970714,0.398,0.328667880783986,FALSE
+"Alcohol on wild type","D-Mannose 6-phosphate and 1D-myo-Inositol 3-phosphate","Monosaccharides",0.000920897327114312,0.75,0.433675071407441,FALSE
+"Alcohol on wild type","5-Methyltetrahydrofolic acid","Pteridines and Derivatives",0.263933775726299,0.782,0.44451449805098,FALSE
+"Alcohol on wild type","Cer(d18:1/16:0)","Sphingolipids",-0.0828290374006686,0.723,0.422806584377409,FALSE
+"Alcohol on wild type","Cer(d18:1/20:0)","Sphingolipids",0.176666943746486,0.514,0.360203178513792,FALSE
+"Alcohol on wild type","Cer(d18:1/21:0)","Sphingolipids",-0.165224038911593,0.547,0.367861893429369,FALSE
+"Alcohol on wild type","Cer(d18:1/22:0)","Sphingolipids",-0.143340644333963,0.568,0.374565321599727,FALSE
+"Alcohol on wild type","Cer(d18:1/23:0)","Sphingolipids",-0.362870040542177,0.24,0.27598940511826,FALSE
+"Alcohol on wild type","Cer(d18:1/24:0)","Sphingolipids",0.591543614824931,0.142,0.217884402760625,FALSE
+"Alcohol on wild type","Cer(d18:1/24:1)+Cer(d18:2/24:0)","Sphingolipids",-0.12354327468743,0.491,0.355316627874579,FALSE
+"Alcohol on wild type","Cer(42:3)","Sphingolipids",0.465642293783278,0.198,0.264108118487131,FALSE
+"Alcohol on wild type","Cer(d18:1/18:0)","Sphingolipids",-0.229408563068668,0.539,0.366774301744448,FALSE
+"Alcohol on wild type","Cer(d18:1/25:0)","Sphingolipids",0.669975728789211,0.0716,0.17152055586103,FALSE
+"Alcohol on wild type","Cer(d18:1/19:0)","Sphingolipids",0.286952680844309,0.336,0.319875968207522,FALSE
+"Alcohol on wild type","Cholesterol","Sterols",0.0780122666839631,0.552,0.368150710618425,FALSE
+"Alcohol on wild type","ChoE(20:4)","Sterols",-1.63088256461958,0.00415,0.0605440833023131,TRUE
+"Alcohol on wild type","ChoE(22:6)","Sterols",-0.410078555809384,0.811,0.450100728327951,FALSE
+"Alcohol on wild type",NA,"Sterols",-0.0333701269027727,0.435,0.340406019383414,FALSE
+"Alcohol on wild type",NA,"Sterols",-0.472633562389277,0.81,0.450100728327951,FALSE
+"Alcohol on wild type","ChoE(18:0)","Sterols",-0.427085610517982,0.457,0.346085763867008,FALSE
+"Alcohol on wild type","CMH(d18:1/22:0)","Sphingolipids",0.0695633836800775,0.617,0.387295802986477,FALSE
+"Alcohol on wild type","CMH(d18:1/24:0)","Sphingolipids",-0.373089680875147,0.2,0.265268668913628,FALSE
+"Alcohol on wild type","PC(32:0)","Glycerophospholipids",0.0556919199419221,0.61,0.386853707604806,FALSE
+"Alcohol on wild type","PC(32:1)","Glycerophospholipids",0.605195219005001,0.0446,0.141492157171484,FALSE
+"Alcohol on wild type","PC(32:2)","Glycerophospholipids",0.849293315965226,0.0386,0.135251388041171,FALSE
+"Alcohol on wild type","PC(34:0)","Glycerophospholipids",0.554372746734218,0.279,0.293716651949814,FALSE
+"Alcohol on wild type","PC(34:1)","Glycerophospholipids",0.130034679512856,0.358,0.322011771539865,FALSE
+"Alcohol on wild type","PC(34:2)","Glycerophospholipids",0.563469116889691,0.111,0.197414149172199,FALSE
+"Alcohol on wild type","PC(34:4)","Glycerophospholipids",-0.303910887034999,0.786,0.44463503321207,FALSE
+"Alcohol on wild type","PC(36:1)","Glycerophospholipids",0.681443242170272,0.0097,0.0813285317246087,TRUE
+"Alcohol on wild type","PC(36:2)","Glycerophospholipids",0.742362145956692,0.000407,0.0159247413665574,TRUE
+"Alcohol on wild type","PC(36:4)","Glycerophospholipids",1.5345770886483,0.016,0.110476598582852,FALSE
+"Alcohol on wild type","PC(36:4)","Glycerophospholipids",-0.583064190258868,0.601,0.38236429800847,FALSE
+"Alcohol on wild type","PC(36:5)","Glycerophospholipids",3.08359243426728,0.0167,0.111963783563775,FALSE
+"Alcohol on wild type","PC(36:6)","Glycerophospholipids",-0.353609038081137,0.494,0.355316627874579,FALSE
+"Alcohol on wild type","PC(38:2)","Glycerophospholipids",0.575336475833096,0.0961,0.197129045181235,FALSE
+"Alcohol on wild type","PC(38:3)","Glycerophospholipids",0.143410456933731,0.369,0.322692101133368,FALSE
+"Alcohol on wild type","PC(38:4)","Glycerophospholipids",-0.382259178522103,0.538,0.366774301744448,FALSE
+"Alcohol on wild type","PC(38:5)","Glycerophospholipids",-0.46018485142182,0.184,0.255599704413581,FALSE
+"Alcohol on wild type","PC(38:5)","Glycerophospholipids",-0.269183550012934,0.209,0.268659001099209,FALSE
+"Alcohol on wild type","PC(38:6)","Glycerophospholipids",1.03852576407084,0.0426,0.138901306759899,FALSE
+"Alcohol on wild type","PC(38:6)","Glycerophospholipids",-0.446898528367278,0.207,0.268659001099209,FALSE
+"Alcohol on wild type","PC(40:4)","Glycerophospholipids",-0.221118385508152,0.645,0.397433039193234,FALSE
+"Alcohol on wild type","PC(40:4)","Glycerophospholipids",1.06452302408913,0.115,0.198512638078563,FALSE
+"Alcohol on wild type","PC(40:5)","Glycerophospholipids",-1.70852413248822,3.88e-05,0.00455439777657809,TRUE
+"Alcohol on wild type","PC(40:5)","Glycerophospholipids",0.463937343433231,0.221,0.271066293430091,FALSE
+"Alcohol on wild type","PC(40:6)","Glycerophospholipids",0.119970790787367,0.418,0.333442716824431,FALSE
+"Alcohol on wild type","PC(40:7)","Glycerophospholipids",-0.720683438859383,0.0411,0.138901306759899,FALSE
+"Alcohol on wild type","PC(40:7)","Glycerophospholipids",-0.151463930325438,0.909,0.478473900756955,FALSE
+"Alcohol on wild type","PC(40:8)","Glycerophospholipids",0.27890042880141,0.267,0.28621762612304,FALSE
+"Alcohol on wild type","PC(42:8)","Glycerophospholipids",-0.0225220553475569,0.973,0.491188203194951,FALSE
+"Alcohol on wild type","PC(34:3)","Glycerophospholipids",0.731344626109511,0.0272,0.125206811727233,FALSE
+"Alcohol on wild type","PC(34:3)","Glycerophospholipids",0.488299816165112,0.249,0.280816712904977,FALSE
+"Alcohol on wild type","PC(36:3)","Glycerophospholipids",0.65636100337254,0.00321,0.0592324532401908,TRUE
+"Alcohol on wild type","PC(36:3)","Glycerophospholipids",-0.3716533316947,0.175,0.247490874084327,FALSE
+"Alcohol on wild type","PC(36:5)","Glycerophospholipids",-0.446016071640411,0.0674,0.165801207716921,FALSE
+"Alcohol on wild type","PC(31:0)","Glycerophospholipids",0.726527644492272,0.322,0.316881437087441,FALSE
+"Alcohol on wild type","PC(30:0)","Glycerophospholipids",1.14199222635272,0.218,0.270594984555236,FALSE
+"Alcohol on wild type","PC(30:1)","Glycerophospholipids",1.05897631813645,0.00462,0.0605440833023131,TRUE
+"Alcohol on wild type","PC(36:0)","Glycerophospholipids",0.645805237797726,0.194,0.260251301518748,FALSE
+"Alcohol on wild type","PC(40:0)","Glycerophospholipids",-0.143743817082184,0.938,0.483940801906244,FALSE
+"Alcohol on wild type","PC(40:1)","Glycerophospholipids",0.919961222068365,0.204,0.268659001099209,FALSE
+"Alcohol on wild type","PE(34:1)","Glycerophospholipids",0.61531989129278,0.103,0.197129045181235,FALSE
+"Alcohol on wild type","PE(34:2)","Glycerophospholipids",0.786455950608784,0.0238,0.121464216811473,FALSE
+"Alcohol on wild type","PC(33:0)","Glycerophospholipids",0.81330969965496,0.112,0.197694965885104,FALSE
+"Alcohol on wild type","PC(33:1)","Glycerophospholipids",0.740819608769841,0.0108,0.0817883205637568,TRUE
+"Alcohol on wild type","PC(33:2)","Glycerophospholipids",1.06923507360779,0.0426,0.138901306759899,FALSE
+"Alcohol on wild type","PE(36:4)","Glycerophospholipids",-0.419612129451139,0.079,0.180516616907709,FALSE
+"Alcohol on wild type","PE(36:4)","Glycerophospholipids",1.46961039380146,0.00555,0.0620444468826912,TRUE
+"Alcohol on wild type","PC(35:1)","Glycerophospholipids",0.899818751316311,0.0181,0.111963783563775,FALSE
+"Alcohol on wild type","PC(35:1)","Glycerophospholipids",0.868378291852772,0.00134,0.0349535682738524,TRUE
+"Alcohol on wild type","PC(35:2)","Glycerophospholipids",1.06242533247586,0.00328,0.0592324532401908,TRUE
+"Alcohol on wild type","PC(35:3)","Glycerophospholipids",1.40786210354678,0.00444,0.0605440833023131,TRUE
+"Alcohol on wild type","PC(35:4)","Glycerophospholipids",0.0201199671264675,0.593,0.381409106271827,FALSE
+"Alcohol on wild type","PE(38:4)","Glycerophospholipids",-0.165802174747693,0.407,0.331429795748557,FALSE
+"Alcohol on wild type","PE(38:5)","Glycerophospholipids",-0.261244206570357,0.263,0.28621762612304,FALSE
+"Alcohol on wild type","PE(38:6)","Glycerophospholipids",-0.645848498884233,0.172,0.244722404739591,FALSE
+"Alcohol on wild type","PC(37:2)","Glycerophospholipids",0.946757045160431,0.0564,0.153960701629708,FALSE
+"Alcohol on wild type","PC(37:2)","Glycerophospholipids",1.15669385129516,0.187,0.256601169382846,FALSE
+"Alcohol on wild type","PC(37:3)","Glycerophospholipids",0.69866483909026,0.0108,0.0817883205637568,TRUE
+"Alcohol on wild type","PC(37:4)","Glycerophospholipids",-0.798628564284624,0.0672,0.165801207716921,FALSE
+"Alcohol on wild type","PC(37:4)","Glycerophospholipids",0.0777218822442648,0.578,0.376924672803856,FALSE
+"Alcohol on wild type","PC(37:5)","Glycerophospholipids",1.36703139655189,0.000396,0.0159247413665574,TRUE
+"Alcohol on wild type","PE(40:6)","Glycerophospholipids",-0.0178476644899319,0.777,0.442744353968719,FALSE
+"Alcohol on wild type","PC(37:6)","Glycerophospholipids",-0.268656090172501,0.593,0.381409106271827,FALSE
+"Alcohol on wild type","PE(16:0/16:0)","Glycerophospholipids",0.606653525539051,0.106,0.197129045181235,FALSE
+"Alcohol on wild type","PE(32:1)","Glycerophospholipids",0.889103387846319,0.0337,0.129696810098599,FALSE
+"Alcohol on wild type","PE(36:1)","Glycerophospholipids",0.544876520901131,0.326,0.316881437087441,FALSE
+"Alcohol on wild type","PE(40:4)","Glycerophospholipids",-0.396216100410431,0.896,0.472690884723035,FALSE
+"Alcohol on wild type","PI(38:4)","Glycerophospholipids",0.132247976060466,0.479,0.355316627874579,FALSE
+"Alcohol on wild type","PI(36:4)","Glycerophospholipids",0.470192241070987,0.292,0.304669908536266,FALSE
+"Alcohol on wild type","PI(40:6)","Glycerophospholipids",0.0382670272518192,0.612,0.386853707604806,FALSE
+"Alcohol on wild type","DG(32:0)","Glycerolipids",-0.597945264313503,0.325,0.316881437087441,FALSE
+"Alcohol on wild type","DG(32:1)","Glycerolipids",-0.216588383528269,0.829,0.454203032052461,FALSE
+"Alcohol on wild type","DG(32:2)","Glycerolipids",0.128029214795577,0.554,0.36843789144947,FALSE
+"Alcohol on wild type","DG(34:0)","Glycerolipids",-0.113614916568993,0.724,0.422806584377409,FALSE
+"Alcohol on wild type","DG(34:1)","Glycerolipids",-0.761381736365324,0.149,0.225733434604386,FALSE
+"Alcohol on wild type","DG(34:2)","Glycerolipids",-0.36440141394769,0.481,0.355316627874579,FALSE
+"Alcohol on wild type","DG(36:2)","Glycerolipids",-0.626166654926219,0.15,0.225733434604386,FALSE
+"Alcohol on wild type","DG(36:3)","Glycerolipids",-0.265964726290746,0.537,0.366774301744448,FALSE
+"Alcohol on wild type","DG(36:4)","Glycerolipids",0.390256618565426,0.227,0.271893618578589,FALSE
+"Alcohol on wild type","DG(36:4)","Glycerolipids",-1.46748848631878,0.0263,0.12395474360996,FALSE
+"Alcohol on wild type","DG(30:0)","Glycerolipids",0.187090750916805,0.481,0.355316627874579,FALSE
+"Alcohol on wild type","DG(30:1)","Glycerolipids",0.404516006660361,0.345,0.321058968806491,FALSE
+"Alcohol on wild type","DG(36:1)","Glycerolipids",-0.460823247290747,0.25,0.280816712904977,FALSE
+"Alcohol on wild type","DG(38:4)","Glycerolipids",-0.532811791263135,0.304,0.308632092484962,FALSE
+"Alcohol on wild type","DG(38:5)","Glycerolipids",-0.758971764589614,0.116,0.198777237596154,FALSE
+"Alcohol on wild type","Cer(d18:0/16:0)","Sphingolipids",-0.0867422592406404,0.678,0.409175216987775,FALSE
+"Alcohol on wild type","Cer(d18:0/18:0)","Sphingolipids",-0.604191653442416,0.0996,0.197129045181235,FALSE
+"Alcohol on wild type","Cer(d18:0/20:0)","Sphingolipids",-0.0275064398353373,0.979,0.492147224361459,FALSE
+"Alcohol on wild type","Cer(d18:0/22:0)","Sphingolipids",0.110468386698179,0.561,0.370991310100233,FALSE
+"Alcohol on wild type","Cer(d18:0/24:0)","Sphingolipids",0.121534266832029,0.55,0.367861893429369,FALSE
+"Alcohol on wild type","Ascorbic acid","Dihydrofurans",-1.32060103731474,0.0936,0.197129045181235,FALSE
+"Alcohol on wild type","Hippuric acid","Amino acids & derivatives",0.741880703193363,0.0573,0.154619618792466,FALSE
+"Alcohol on wild type","Hydroxyphenyllactic acid","Benzyl Alcohols and Derivatives",0.20866273397662,0.342,0.319875968207522,FALSE
+"Alcohol on wild type","14:0","Fatty acids",0.554828943582719,0.338,0.319875968207522,FALSE
+"Alcohol on wild type","16:0","Fatty acids",-0.145404366992089,0.716,0.422455314004478,FALSE
+"Alcohol on wild type","16:1n-7","Fatty acids",0.35717917708319,0.502,0.355316627874579,FALSE
+"Alcohol on wild type","16:1n-9","Fatty acids",-0.210090808482203,0.526,0.36388229658227,FALSE
+"Alcohol on wild type",NA,"Fatty acids",-1.19174187753885,0.376,0.322692101133368,FALSE
+"Alcohol on wild type","18:0","Fatty acids",-0.0180481388975874,0.927,0.482453009394995,FALSE
+"Alcohol on wild type","18:1n-9","Fatty acids",-0.0374930217379648,0.84,0.458139820624328,FALSE
+"Alcohol on wild type",NA,"Fatty acids",0.45429573394281,0.368,0.322692101133368,FALSE
+"Alcohol on wild type","18:2n-6","Fatty acids",0.365881128228172,0.338,0.319875968207522,FALSE
+"Alcohol on wild type",NA,"Fatty acids",0.998542764998749,0.058,0.154730008810643,FALSE
+"Alcohol on wild type","18:3n-3","Fatty acids",1.69043606804965,0.0264,0.12395474360996,FALSE
+"Alcohol on wild type","18:3n-6","Fatty acids",0.458255927382842,0.357,0.322011771539865,FALSE
+"Alcohol on wild type",NA,"Fatty acids",-0.250559281527509,0.465,0.351011861654923,FALSE
+"Alcohol on wild type","20:1n-6","Fatty acids",0.100761118188815,0.801,0.449961979644742,FALSE
+"Alcohol on wild type","20:2n-6","Fatty acids",-0.363588849713208,0.186,0.256601169382846,FALSE
+"Alcohol on wild type","20:3n-3","Fatty acids",0.104508444518589,0.689,0.412631504847241,FALSE
+"Alcohol on wild type",NA,"Fatty acids",0.381644923384469,0.368,0.322692101133368,FALSE
+"Alcohol on wild type","20:3n-9","Fatty acids",-0.897116515008736,0.0633,0.162819341863034,FALSE
+"Alcohol on wild type","20:4n-6","Fatty acids",-0.439455638051222,0.504,0.355316627874579,FALSE
+"Alcohol on wild type",NA,"Fatty acids",2.26035961024681,0.0013,0.0349535682738524,TRUE
+"Alcohol on wild type","20:4n-3","Fatty acids",1.08904367518192,0.0334,0.129696810098599,FALSE
+"Alcohol on wild type","20:5n-3","Fatty acids",1.80325197527472,0.00836,0.0726895101416434,TRUE
+"Alcohol on wild type","22:4n-6","Fatty acids",-0.552956521358538,0.644,0.397433039193234,FALSE
+"Alcohol on wild type","22:5n-3","Fatty acids",1.12045295645363,0.181,0.252928938868628,FALSE
+"Alcohol on wild type","22:5n-6","Fatty acids",-1.65306025196653,0.0222,0.120582696521397,FALSE
+"Alcohol on wild type","22:6n-3","Fatty acids",0.0628357054596986,0.805,0.449961979644742,FALSE
+"Alcohol on wild type","17:0","Fatty acids",0.0714547236247699,0.66,0.403060239699841,FALSE
+"Alcohol on wild type",NA,"Fatty acids",0.205496034916023,0.546,0.367861893429369,FALSE
+"Alcohol on wild type",NA,"Fatty acids",0.236697419129567,0.214,0.268659001099209,FALSE
+"Alcohol on wild type",NA,"Fatty acids",0.284643696816672,0.432,0.339189021735981,FALSE
+"Alcohol on wild type",NA,"Fatty acids",-1.37899400599059,0.0237,0.121464216811473,FALSE
+"Alcohol on wild type",NA,"Fatty acids",0.422998232568714,0.536,0.366774301744448,FALSE
+"Alcohol on wild type","15-HETE","Oxidized fatty acids",-0.0551942969740791,0.876,0.46633149265755,FALSE
+"Alcohol on wild type","12-HETE","Oxidized fatty acids",-0.14501586243071,0.501,0.355316627874579,FALSE
+"Alcohol on wild type","9-HODE + 13-HODE","Oxidized fatty acids",0.778149989495905,0.346,0.321058968806491,FALSE
+"Alcohol on wild type","x-HODE","Oxidized fatty acids",-0.296088589546102,0.772,0.442041121890657,FALSE
+"Alcohol on wild type","9,12,13-TriHOME","Oxidized fatty acids",0.844756731912213,0.106,0.197129045181235,FALSE
+"Alcohol on wild type","PC(14:0/0:0)","Glycerophospholipids",0.357583847355373,0.0602,0.158794594086645,FALSE
+"Alcohol on wild type","PC(0:0/14:0)","Glycerophospholipids",0.892691842741952,0.0542,0.151477883830714,FALSE
+"Alcohol on wild type","PC(15:0/0:0)","Glycerophospholipids",0.290512415549113,0.139,0.214684377015855,FALSE
+"Alcohol on wild type","PC(0:0/15:0)","Glycerophospholipids",0.247885529266466,0.388,0.327654516300582,FALSE
+"Alcohol on wild type","PC(16:0/0:0)","Glycerophospholipids",-0.0314681442878244,0.772,0.442041121890657,FALSE
+"Alcohol on wild type","PC(0:0/16:0)","Glycerophospholipids",-0.22355496130779,0.353,0.322011771539865,FALSE
+"Alcohol on wild type","PC(0:0/16:1)","Glycerophospholipids",0.607677565119147,0.0518,0.146514597457921,FALSE
+"Alcohol on wild type","PC(16:1/0:0)","Glycerophospholipids",0.233844691035354,0.327,0.316881437087441,FALSE
+"Alcohol on wild type","PC(16:1/0:0)","Glycerophospholipids",-0.473704194871821,0.455,0.346085763867008,FALSE
+"Alcohol on wild type","PC(0:0/18:0)","Glycerophospholipids",0.0379715923867561,0.868,0.464723578186447,FALSE
+"Alcohol on wild type","PC(18:0/0:0)","Glycerophospholipids",0.212544269144005,0.327,0.316881437087441,FALSE
+"Alcohol on wild type","PC(0:0/18:1)","Glycerophospholipids",0.180410024314148,0.285,0.298693705431875,FALSE
+"Alcohol on wild type","PC(18:1/0:0)","Glycerophospholipids",-0.000875521714189892,0.948,0.484261735292422,FALSE
+"Alcohol on wild type","PC(18:1/0:0)","Glycerophospholipids",0.26611171122082,0.0941,0.197129045181235,FALSE
+"Alcohol on wild type","PC(0:0/18:2)","Glycerophospholipids",0.580251028992702,0.0049,0.0605440833023131,TRUE
+"Alcohol on wild type","PC(18:2/0:0)","Glycerophospholipids",0.377753547692543,0.103,0.197129045181235,FALSE
+"Alcohol on wild type","PC(18:2/0:0)","Glycerophospholipids",0.691897100290069,0.208,0.268659001099209,FALSE
+"Alcohol on wild type","PC(0:0/18:3)","Glycerophospholipids",2.60666358516954,0.0486,0.143434327763743,FALSE
+"Alcohol on wild type","PC(18:3/0:0)","Glycerophospholipids",0.991539126224661,0.0414,0.138901306759899,FALSE
+"Alcohol on wild type","PC(18:3/0:0)","Glycerophospholipids",0.611928816332845,0.258,0.285225797743112,FALSE
+"Alcohol on wild type","PC(0:0/20:0)","Glycerophospholipids",1.21291686590605,0.0183,0.111963783563775,FALSE
+"Alcohol on wild type","PC(20:0/0:0)","Glycerophospholipids",1.19886519051008,0.0293,0.129696810098599,FALSE
+"Alcohol on wild type","PC(0:0/20:1)","Glycerophospholipids",0.0779384618380808,0.619,0.387515082295785,FALSE
+"Alcohol on wild type","PC(20:1/0:0)","Glycerophospholipids",0.296585161180216,0.265,0.28621762612304,FALSE
+"Alcohol on wild type","PC(20:1/0:0)","Glycerophospholipids",1.56933305018205,0.00526,0.0617426090329916,TRUE
+"Alcohol on wild type","PC(0:0/20:2)","Glycerophospholipids",-0.361617571668923,0.488,0.355316627874579,FALSE
+"Alcohol on wild type","PC(20:2/0:0)","Glycerophospholipids",-0.349443860601683,0.264,0.28621762612304,FALSE
+"Alcohol on wild type","PC(20:2/0:0)","Glycerophospholipids",0.0812518583497682,0.825,0.454131263846725,FALSE
+"Alcohol on wild type","PC(0:0/20:3)","Glycerophospholipids",0.0713217466485333,0.577,0.376924672803856,FALSE
+"Alcohol on wild type","PC(20:3/0:0)","Glycerophospholipids",0.0714283719360364,0.963,0.487233942726259,FALSE
+"Alcohol on wild type","PC(20:3/0:0)","Glycerophospholipids",-0.664384456498104,0.125,0.203787128462293,FALSE
+"Alcohol on wild type","PC(0:0/20:4)","Glycerophospholipids",-0.414887255668613,0.172,0.244722404739591,FALSE
+"Alcohol on wild type","PC(20:4/0:0)","Glycerophospholipids",-0.529343840495699,0.214,0.268659001099209,FALSE
+"Alcohol on wild type","PC(0:0/20:5)","Glycerophospholipids",2.33392084118503,3.68e-05,0.00455439777657809,TRUE
+"Alcohol on wild type","PC(20:5/0:0)","Glycerophospholipids",2.4690209411717,0.00701,0.0658274812655925,TRUE
+"Alcohol on wild type","PC(0:0/22:4)","Glycerophospholipids",-0.457684982525865,0.0942,0.197129045181235,FALSE
+"Alcohol on wild type","PC(22:4/0:0)","Glycerophospholipids",-0.618208773929888,0.161,0.237697306638418,FALSE
+"Alcohol on wild type","PC(0:0/22:5)","Glycerophospholipids",0.636300656550884,0.0386,0.135251388041171,FALSE
+"Alcohol on wild type","PC(22:5/0:0)","Glycerophospholipids",1.09040630863558,0.0998,0.197129045181235,FALSE
+"Alcohol on wild type","PC(0:0/22:5)","Glycerophospholipids",-1.88541326579029,0.00604,0.0637942315186308,TRUE
+"Alcohol on wild type","PC(22:5/0:0)","Glycerophospholipids",-1.99612856879639,0.0223,0.120582696521397,FALSE
+"Alcohol on wild type","PC(0:0/22:6)","Glycerophospholipids",-0.15665596762308,0.869,0.464723578186447,FALSE
+"Alcohol on wild type","PC(22:6/0:0)","Glycerophospholipids",-0.174603669789468,0.503,0.355316627874579,FALSE
+"Alcohol on wild type","PC(17:0/0:0)","Glycerophospholipids",0.362050815918129,0.0102,0.0817883205637568,TRUE
+"Alcohol on wild type","PC(0:0/17:0)","Glycerophospholipids",0.119456178023496,0.493,0.355316627874579,FALSE
+"Alcohol on wild type","PC(19:0/0:0)","Glycerophospholipids",0.533557717351013,0.0376,0.135251388041171,FALSE
+"Alcohol on wild type","LPC(22:0)","Glycerophospholipids",0.864324337614474,0.133,0.212404412751555,FALSE
+"Alcohol on wild type","PC(17:1/0:0)","Glycerophospholipids",0.43990820265014,0.164,0.23911023072909,FALSE
+"Alcohol on wild type","PC(0:0/17:1)","Glycerophospholipids",0.728769541491675,0.0226,0.120582696521397,FALSE
+"Alcohol on wild type","LPC(22:1)","Glycerophospholipids",0.630934383566105,0.0332,0.129696810098599,FALSE
+"Alcohol on wild type","PE(14:0/0:0)","Glycerophospholipids",0.532021862411338,0.0488,0.143434327763743,FALSE
+"Alcohol on wild type","PE(0:0/16:0)","Glycerophospholipids",-0.0815393210871708,0.925,0.482453009394995,FALSE
+"Alcohol on wild type","PE(16:0/0:0)","Glycerophospholipids",-0.115326834159026,0.441,0.342815835917071,FALSE
+"Alcohol on wild type",NA,"Glycerophospholipids",0.93776986682799,0.0222,0.120582696521397,FALSE
+"Alcohol on wild type","PE(16:1/0:0)","Glycerophospholipids",-0.0324610410182712,0.924,0.482453009394995,FALSE
+"Alcohol on wild type","PE(0:0/18:0)","Glycerophospholipids",-0.020459205501354,0.94,0.483940801906244,FALSE
+"Alcohol on wild type","PE(18:0/0:0)","Glycerophospholipids",0.134867031246709,0.296,0.304779739072869,FALSE
+"Alcohol on wild type","PE(0:0/18:1)","Glycerophospholipids",0.517052760461838,0.273,0.291063346266361,FALSE
+"Alcohol on wild type","PE(18:1/0:0)","Glycerophospholipids",-0.00361285402871042,0.952,0.484261735292422,FALSE
+"Alcohol on wild type","PE(18:1/0:0)","Glycerophospholipids",0.387927516572125,0.0645,0.162819341863034,FALSE
+"Alcohol on wild type","PE(0:0/18:2)","Glycerophospholipids",0.953336556754432,0.0219,0.120582696521397,FALSE
+"Alcohol on wild type","PE(18:2/0:0)","Glycerophospholipids",0.66310684443959,0.0454,0.142109731310409,FALSE
+"Alcohol on wild type","PE(18:2/0:0)","Glycerophospholipids",0.174737263762413,0.663,0.403232429607295,FALSE
+"Alcohol on wild type",NA,"Glycerophospholipids",1.70283139024915,0.000113,0.0088427310782358,TRUE
+"Alcohol on wild type",NA,"Glycerophospholipids",0.609422822979205,0.157,0.23327693165952,FALSE
+"Alcohol on wild type",NA,"Glycerophospholipids",0.722461778265665,0.00688,0.0658274812655925,TRUE
+"Alcohol on wild type","PE(20:3/0:0)","Glycerophospholipids",0.407955205707682,0.59,0.381409106271827,FALSE
+"Alcohol on wild type","PE(0:0/20:4)","Glycerophospholipids",0.0782844530338935,0.677,0.409175216987775,FALSE
+"Alcohol on wild type","PE(20:4/0:0)","Glycerophospholipids",-0.302353275156172,0.358,0.322011771539865,FALSE
+"Alcohol on wild type",NA,"Glycerophospholipids",2.75491256569468,0.001,0.0335375388555087,TRUE
+"Alcohol on wild type",NA,"Glycerophospholipids",2.54350516240441,0.0145,0.103153339207095,FALSE
+"Alcohol on wild type","PE(0:0/22:4)","Glycerophospholipids",-0.394363274772317,0.667,0.404616973944109,FALSE
+"Alcohol on wild type","PE(22:4/0:0)","Glycerophospholipids",-0.168191762466699,0.87,0.464723578186447,FALSE
+"Alcohol on wild type",NA,"Glycerophospholipids",1.34456461751216,0.11,0.197129045181235,FALSE
+"Alcohol on wild type",NA,"Glycerophospholipids",1.37784126463434,0.238,0.27598940511826,FALSE
+"Alcohol on wild type",NA,"Glycerophospholipids",-1.60552054763983,0.00466,0.0605440833023131,TRUE
+"Alcohol on wild type",NA,"Glycerophospholipids",-1.79779094397206,0.0792,0.180516616907709,FALSE
+"Alcohol on wild type","PE(0:0/22:6)","Glycerophospholipids",0.0317056148395326,0.95,0.484261735292422,FALSE
+"Alcohol on wild type","PE(22:6/0:0)","Glycerophospholipids",-0.245407516180887,0.432,0.339189021735981,FALSE
+"Alcohol on wild type","LPG(16:0)","Glycerophospholipids",-0.00777051379650384,0.83,0.454203032052461,FALSE
+"Alcohol on wild type","LPG(16:0)","Glycerophospholipids",0.261068820005338,0.661,0.403060239699841,FALSE
+"Alcohol on wild type","LPG(18:0)","Glycerophospholipids",0.15267744644476,0.739,0.429429922028581,FALSE
+"Alcohol on wild type","LPG(18:1)","Glycerophospholipids",-0.2415925279182,0.392,0.328001887104585,FALSE
+"Alcohol on wild type","LPG(18:1)","Glycerophospholipids",-0.32800974951537,0.642,0.397433039193234,FALSE
+"Alcohol on wild type","LPG(18:2)","Glycerophospholipids",-0.458249236547952,0.327,0.316881437087441,FALSE
+"Alcohol on wild type","LPG(20:4)","Glycerophospholipids",-1.12743487937517,0.0482,0.143434327763743,FALSE
+"Alcohol on wild type","LPG(22:4)","Glycerophospholipids",-1.27251005996784,0.0253,0.12395474360996,FALSE
+"Alcohol on wild type","LPG(22:6)","Glycerophospholipids",0.193444906841033,0.953,0.484261735292422,FALSE
+"Alcohol on wild type","LPI(16:0)","Glycerophospholipids",-0.0239451578760114,0.933,0.482453009394995,FALSE
+"Alcohol on wild type","LPI(16:0)","Glycerophospholipids",0.0972873729491789,0.627,0.391479409672414,FALSE
+"Alcohol on wild type","LPI(18:0)","Glycerophospholipids",-0.121269483528464,0.601,0.38236429800847,FALSE
+"Alcohol on wild type","LPI(18:0)","Glycerophospholipids",0.132437856130537,0.496,0.355316627874579,FALSE
+"Alcohol on wild type","LPI(18:1)","Glycerophospholipids",1.19989376316552,0.103,0.197129045181235,FALSE
+"Alcohol on wild type","LPI(18:1)","Glycerophospholipids",0.52881876745402,0.114,0.198244118568118,FALSE
+"Alcohol on wild type","LPI(18:1)","Glycerophospholipids",0.224658254913988,0.342,0.319875968207522,FALSE
+"Alcohol on wild type","LPI(18:2)","Glycerophospholipids",1.096662868158,0.00327,0.0592324532401908,TRUE
+"Alcohol on wild type","LPI(18:2)","Glycerophospholipids",0.252324221852655,0.218,0.270594984555236,FALSE
+"Alcohol on wild type","LPI(20:3)","Glycerophospholipids",-0.771711568291249,0.298,0.305499153068084,FALSE
+"Alcohol on wild type","LPI(20:4)","Glycerophospholipids",-0.266378869807989,0.427,0.338661160942958,FALSE
+"Alcohol on wild type","LPI(20:4)","Glycerophospholipids",-0.183352542812909,0.5,0.355316627874579,FALSE
+"Alcohol on wild type","LPI(22:6)","Glycerophospholipids",0.471975595167332,0.49,0.355316627874579,FALSE
+"Alcohol on wild type","PC(O-16:0/14:0)","Glycerophospholipids",0.55213559537378,0.0911,0.197129045181235,FALSE
+"Alcohol on wild type","PC(O-16:0/16:0)","Glycerophospholipids",-0.307601442500786,0.21,0.268659001099209,FALSE
+"Alcohol on wild type","PC(O-34:0)","Glycerophospholipids",0.00512776218834482,0.893,0.472169268886903,FALSE
+"Alcohol on wild type","PC(O-34:1)","Glycerophospholipids",-0.538713178011844,0.0415,0.138901306759899,FALSE
+"Alcohol on wild type","PC(O-16:0/18:2)","Glycerophospholipids",-0.0555006117667973,0.757,0.435577005870933,FALSE
+"Alcohol on wild type","PC(O-18:1/18:1)","Glycerophospholipids",-0.726362637751531,0.0559,0.153960701629708,FALSE
+"Alcohol on wild type","PC(O-18:1/18:2)","Glycerophospholipids",0.526749911189995,0.249,0.280816712904977,FALSE
+"Alcohol on wild type","PC(O-18:0/20:4)","Glycerophospholipids",-0.83096825063709,0.131,0.210643309113024,FALSE
+"Alcohol on wild type","PC(O-38:5)","Glycerophospholipids",-1.17002938117807,0.0438,0.140857663193137,FALSE
+"Alcohol on wild type","PC(P-18:0/20:4)","Glycerophospholipids",-0.564203251787772,0.595,0.381649861566103,FALSE
+"Alcohol on wild type","PE(O-16:0/18:1)","Glycerophospholipids",0.921679477064118,0.37,0.322692101133368,FALSE
+"Alcohol on wild type","PE(P-18:0/18:1)","Glycerophospholipids",0.534672180919389,0.387,0.327654516300582,FALSE
+"Alcohol on wild type","PE(P-16:0/20:4)","Glycerophospholipids",0.237547671707809,0.449,0.344472171970144,FALSE
+"Alcohol on wild type","PE(P-18:0/20:4)","Glycerophospholipids",0.448588235314876,0.415,0.333315061935978,FALSE
+"Alcohol on wild type","PE(P-18:1/20:4)","Glycerophospholipids",0.451539605981388,0.416,0.333315061935978,FALSE
+"Alcohol on wild type","PE(P-16:0/22:6)","Glycerophospholipids",0.167573804268484,0.47,0.353649047546871,FALSE
+"Alcohol on wild type","PE(18:1e/22:4)","Glycerophospholipids",-1.06370029455079,0.0637,0.162819341863034,FALSE
+"Alcohol on wild type","PE(18:2e/22:6)","Glycerophospholipids",0.0559264060489412,0.52,0.362245226807275,FALSE
+"Alcohol on wild type","PC(O-16:0/0:0)","Glycerophospholipids",-0.34348786917962,0.139,0.214684377015855,FALSE
+"Alcohol on wild type","PC(O-18:0/0:0)","Glycerophospholipids",-0.199230768516325,0.35,0.322011771539865,FALSE
+"Alcohol on wild type","PC(O-18:1/0:0)","Glycerophospholipids",-0.752943079506405,0.0639,0.162819341863034,FALSE
+"Alcohol on wild type","PC(O-20:0/0:0)","Glycerophospholipids",0.00470819377275739,0.805,0.449961979644742,FALSE
+"Alcohol on wild type","PC(O-20:1/0:0)","Glycerophospholipids",-0.0694098436900362,0.988,0.494553558048398,FALSE
+"Alcohol on wild type","PE(O-16:0/0:0)","Glycerophospholipids",0.418103107531874,0.419,0.333442716824431,FALSE
+"Alcohol on wild type","PE(P-16:1/0:0)","Glycerophospholipids",-0.102798055703757,0.544,0.367861893429369,FALSE
+"Alcohol on wild type","PE(P-18:0/0:0)","Glycerophospholipids",-0.0298432634554842,0.55,0.367861893429369,FALSE
+"Alcohol on wild type","PE(P-18:1/0:0)","Glycerophospholipids",-0.348641904108349,0.597,0.381889304842428,FALSE
+"Alcohol on wild type","PE(P-18:1/0:0)","Glycerophospholipids",0.580992332525517,0.405,0.33128544479222,FALSE
+"Alcohol on wild type","PE(P-20:0/0:0)","Glycerophospholipids",0.419473829205887,0.362,0.322692101133368,FALSE
+"Alcohol on wild type","MG(18:1(9Z)/0:0/0:0)","Glycerolipids",0.351122153493139,0.348,0.321643482881966,FALSE
+"Alcohol on wild type","D(+) Trehalose reduced","Disaccharides",0.932179235164692,0.0262,0.12395474360996,FALSE
+"Alcohol on wild type","Sorbitol","Fatty Alcohols",0.631991788018355,0.135,0.214141717692269,FALSE
+"Alcohol on wild type","NAE(16:0)","Fatty amides",-0.531449563390282,0.0365,0.133888143399726,FALSE
+"Alcohol on wild type","NAE(18:0)","Fatty amides",-0.243556940075166,0.305,0.308632092484962,FALSE
+"Alcohol on wild type",NA,"Fatty amides",-0.267709913152822,0.267,0.28621762612304,FALSE
+"Alcohol on wild type","Guanosine","Purine Nucleosides and Analogues",0.120553756755436,0.575,0.376924672803856,FALSE
+"Alcohol on wild type","2'Deoxyguanosine","Purine Nucleosides and Analogues",-0.193293021709706,0.842,0.458139820624328,FALSE
+"Alcohol on wild type","Cytidine 5'-monophosphate","Pyrimidine Nucleotides",-0.145522763709776,0.947,0.484261735292422,FALSE
+"Alcohol on wild type","2'Inosine 5'-monophosphate","Purine Nucleotides",0.379248695461508,0.0879,0.194675921299948,FALSE
+"Alcohol on wild type","Guanosine 5'-monophosphate","Purine Nucleotides",0.436776286274337,0.104,0.197129045181235,FALSE
+"Alcohol on wild type","Uridine 5'-monophosphate","Pyrimidine Nucleotides",0.485735945139627,0.0752,0.177480655623352,FALSE
+"Alcohol on wild type","Inosine","Purine Nucleosides and Analogues",0.257561231741044,0.3,0.306212311289428,FALSE
+"Alcohol on wild type","Xanthosine","Purine Nucleosides and Analogues",0.391197703254968,0.206,0.268659001099209,FALSE
+"Alcohol on wild type","Adenosine","Purine Nucleosides and Analogues",-0.192145025969454,0.844,0.458139820624328,FALSE
+"Alcohol on wild type","UDP-Glucose","Pyrimidine Nucleotides",0.146616055232519,0.784,0.444574911205391,FALSE
+"Alcohol on wild type","ADP-ribose","Purine Nucleotides",0.623294695688958,0.851,0.459271537844289,FALSE
+"Alcohol on wild type","GDP-Glucose","Purine Nucleotides",0.798376635778903,0.0987,0.197129045181235,FALSE
+"Alcohol on wild type","Uracil","Diazines",-0.222245339851577,0.613,0.386853707604806,FALSE
+"Alcohol on wild type","Uridine","Pyrimidine Nucleosides and Analogues",0.590337601635881,0.0317,0.129696810098599,FALSE
+"Alcohol on wild type","SM(d18:0/16:0)","Sphingolipids",0.140961439029919,0.49,0.355316627874579,FALSE
+"Alcohol on wild type","SM(d18:0/18:0)","Sphingolipids",-0.289496200674799,0.414,0.333315061935978,FALSE
+"Alcohol on wild type","SM(d18:0/22:0)","Sphingolipids",0.284267820117481,0.274,0.291063346266361,FALSE
+"Alcohol on wild type","SM(32:1)","Sphingolipids",0.52463636510162,0.192,0.260251301518748,FALSE
+"Alcohol on wild type","SM(33:1)","Sphingolipids",0.469047941645766,0.23,0.272704230087723,FALSE
+"Alcohol on wild type","SM(d18:1/16:0)","Sphingolipids",0.119651734376052,0.58,0.37718118491237,FALSE
+"Alcohol on wild type","SM(d18:2/16:0)","Sphingolipids",0.737383522788615,0.34,0.319875968207522,FALSE
+"Alcohol on wild type","SM(d18:1/17:0)","Sphingolipids",0.191544503411293,0.51,0.358470100940617,FALSE
+"Alcohol on wild type","SM(d18:1/18:0)","Sphingolipids",-0.143611812332699,0.931,0.482453009394995,FALSE
+"Alcohol on wild type","SM(36:2)","Sphingolipids",-0.475419029512398,0.399,0.328667880783986,FALSE
+"Alcohol on wild type","SM(38:1)","Sphingolipids",0.449118255271792,0.378,0.322692101133368,FALSE
+"Alcohol on wild type","SM(d18:2/20:0)","Sphingolipids",0.469034306621272,0.393,0.328001887104585,FALSE
+"Alcohol on wild type","SM(39:1)","Sphingolipids",0.737689507664906,0.0463,0.143019951882505,FALSE
+"Alcohol on wild type","SM(d18:1/22:0)","Sphingolipids",0.622416706649065,0.0771,0.179209997230872,FALSE
+"Alcohol on wild type","SM(d16:1/24:1)","Sphingolipids",0.132454451953894,0.437,0.340834987903659,FALSE
+"Alcohol on wild type","SM(d18:1/23:0)","Sphingolipids",0.428483043404798,0.0756,0.177480655623352,FALSE
+"Alcohol on wild type","SM(d18:1/23:1)","Sphingolipids",-0.012102732019427,0.921,0.482453009394995,FALSE
+"Alcohol on wild type","SM(d18:1/24:1) + SM(d18:2/24:0)","Sphingolipids",0.12127035853398,0.484,0.355316627874579,FALSE
+"Alcohol on wild type","SM(42:3)","Sphingolipids",0.458903929937414,0.311,0.312013769608729,FALSE
+"Alcohol on wild type","SM(42:1)","Sphingolipids",0.785783600444899,0.0942,0.197129045181235,FALSE
+"Alcohol on wild type","SM(38:0)","Sphingolipids",-0.0426483055555792,0.871,0.464723578186447,FALSE
+"Alcohol on wild type","TG(51:0)","Glycerolipids",-0.0524065100326527,0.524,0.36388229658227,FALSE
+"Alcohol on wild type","TG(42:0)","Glycerolipids",0.54881962505605,0.354,0.322011771539865,FALSE
+"Alcohol on wild type","TG(44:0)","Glycerolipids",-0.0157876004898027,0.592,0.381409106271827,FALSE
+"Alcohol on wild type","TG(44:1)","Glycerolipids",0.108461313430473,0.375,0.322692101133368,FALSE
+"Alcohol on wild type","TG(44:2)","Glycerolipids",0.460307618982694,0.193,0.260251301518748,FALSE
+"Alcohol on wild type","TG(45:0)","Glycerolipids",-0.0399465226870644,0.516,0.360528542696719,FALSE
+"Alcohol on wild type","TG(46:0)","Glycerolipids",-0.0553488188301016,0.813,0.450146541572406,FALSE
+"Alcohol on wild type","TG(46:1)","Glycerolipids",-0.625358176108767,0.648,0.398236325258083,FALSE
+"Alcohol on wild type","TG(46:2)","Glycerolipids",-0.0990191589098517,0.372,0.322692101133368,FALSE
+"Alcohol on wild type","TG(46:3)","Glycerolipids",0.288803538621886,0.188,0.256601169382846,FALSE
+"Alcohol on wild type","TG(47:0)","Glycerolipids",-0.409103396556684,0.755,0.435493594229395,FALSE
+"Alcohol on wild type","TG(47:1)","Glycerolipids",-0.448021581672106,0.66,0.403060239699841,FALSE
+"Alcohol on wild type","TG(48:0)","Glycerolipids",-0.674662559430351,0.0182,0.111963783563775,FALSE
+"Alcohol on wild type","TG(48:1)","Glycerolipids",-0.739678371440864,0.124,0.203570515570501,FALSE
+"Alcohol on wild type","TG(48:2)","Glycerolipids",-0.934742842723523,0.533,0.366774301744448,FALSE
+"Alcohol on wild type","TG(48:3)","Glycerolipids",-0.30732589111367,0.431,0.339189021735981,FALSE
+"Alcohol on wild type","TG(48:4)","Glycerolipids",0.494205081328554,0.109,0.197129045181235,FALSE
+"Alcohol on wild type","TG(49:0)","Glycerolipids",-0.64568648757334,0.958,0.485751048736591,FALSE
+"Alcohol on wild type","TG(49:1)","Glycerolipids",-1.07388131629325,0.26,0.285225797743112,FALSE
+"Alcohol on wild type","TG(49:2)","Glycerolipids",-0.825733274584732,0.881,0.467932131497562,FALSE
+"Alcohol on wild type","TG(49:3)","Glycerolipids",-0.283921517212599,0.402,0.329981238948957,FALSE
+"Alcohol on wild type","TG(50:0)","Glycerolipids",-0.987936371969676,0.15,0.225733434604386,FALSE
+"Alcohol on wild type","TG(50:1)","Glycerolipids",-1.05851794119259,0.0134,0.09830691077021,TRUE
+"Alcohol on wild type","TG(50:2)","Glycerolipids",-0.977689747335714,0.162,0.237697306638418,FALSE
+"Alcohol on wild type","TG(50:3)","Glycerolipids",-0.991379430848233,0.547,0.367861893429369,FALSE
+"Alcohol on wild type","TG(50:4)","Glycerolipids",-0.193433546432477,0.278,0.293716651949814,FALSE
+"Alcohol on wild type","TG(51:1)","Glycerolipids",-1.12019578833343,0.212,0.268659001099209,FALSE
+"Alcohol on wild type","TG(51:2)","Glycerolipids",-1.19814724844009,0.328,0.316881437087441,FALSE
+"Alcohol on wild type","TG(51:3)","Glycerolipids",-0.833395618443305,0.984,0.49360377700159,FALSE
+"Alcohol on wild type","TG(51:4)","Glycerolipids",-0.23703714994516,0.363,0.322692101133368,FALSE
+"Alcohol on wild type","TG(52:0)","Glycerolipids",-0.162985523268898,0.7,0.414984697959578,FALSE
+"Alcohol on wild type","TG(52:1)","Glycerolipids",-1.48676387032527,0.0186,0.111963783563775,FALSE
+"Alcohol on wild type","TG(52:2)","Glycerolipids",-0.959014169938645,0.154,0.230276859148015,FALSE
+"Alcohol on wild type","TG(52:3)","Glycerolipids",-0.821939467175383,0.504,0.355316627874579,FALSE
+"Alcohol on wild type","TG(52:4)","Glycerolipids",-0.880776584428103,0.826,0.454131263846725,FALSE
+"Alcohol on wild type","TG(52:5)","Glycerolipids",-0.220841848445457,0.311,0.312013769608729,FALSE
+"Alcohol on wild type","TG(53:0)","Glycerolipids",0.191504001491386,0.457,0.346085763867008,FALSE
+"Alcohol on wild type","TG(53:1)","Glycerolipids",-0.504528645403993,0.748,0.433586551722083,FALSE
+"Alcohol on wild type","TG(53:2)","Glycerolipids",-1.11771741992444,0.447,0.344472171970144,FALSE
+"Alcohol on wild type","TG(53:3)","Glycerolipids",-1.01470588325844,0.717,0.422455314004478,FALSE
+"Alcohol on wild type","TG(54:0)","Glycerolipids",0.124204783655207,0.493,0.355316627874579,FALSE
+"Alcohol on wild type","TG(54:1)","Glycerolipids",-0.595928760529881,0.86,0.463064183280189,FALSE
+"Alcohol on wild type","TG(54:2)","Glycerolipids",-1.62369477969671,0.032,0.129696810098599,FALSE
+"Alcohol on wild type","TG(54:3)","Glycerolipids",-0.667707687461778,0.698,0.414846619868394,FALSE
+"Alcohol on wild type","TG(54:4)","Glycerolipids",-1.03641985592787,0.241,0.27598940511826,FALSE
+"Alcohol on wild type","TG(54:5)","Glycerolipids",-0.177128913384908,0.226,0.271893618578589,FALSE
+"Alcohol on wild type","TG(54:5)","Glycerolipids",-4.1660493398258,0.0328,0.129696810098599,FALSE
+"Alcohol on wild type","TG(56:0)","Glycerolipids",0.0806201285643939,0.481,0.355316627874579,FALSE
+"Alcohol on wild type","TG(56:1)","Glycerolipids",0.257034735589707,0.368,0.322692101133368,FALSE
+"Alcohol on wild type","TG(56:2)","Glycerolipids",-0.741779615595229,0.807,0.450008448918691,FALSE
+"Alcohol on wild type","TG(56:3)","Glycerolipids",-1.47905432070428,0.177,0.24882042300584,FALSE
+"Alcohol on wild type","TG(56:6)","Glycerolipids",-1.48058877497523,0.23,0.272704230087723,FALSE
+"Alcohol on wild type","TG(56:7)","Glycerolipids",-0.586101871415948,0.849,0.459247911102047,FALSE
+"Alcohol on wild type","TG(56:7)","Glycerolipids",-1.77155531026267,0.578,0.376924672803856,FALSE
+"Alcohol on wild type","TG(56:8)","Glycerolipids",-1.26963064524784,0.933,0.482453009394995,FALSE
+"Alcohol on wild type","TG(58:1)","Glycerolipids",0.435949180976003,0.377,0.322692101133368,FALSE
+"Alcohol on wild type","TG(58:2)","Glycerolipids",0.176571688746065,0.254,0.283951162309974,FALSE
+"Alcohol on wild type","TG(58:3)","Glycerolipids",-0.715448959431529,0.72,0.42257298957941,FALSE
+"Alcohol on wild type","TG(58:4)","Glycerolipids",-0.957419479704238,0.845,0.458139820624328,FALSE
+"Alcohol on wild type","TG(58:8)","Glycerolipids",-1.19787494349076,0.796,0.449209534862728,FALSE
+"Alcohol on wild type","TG(58:9)","Glycerolipids",-0.703667626913023,0.991,0.494999802214179,FALSE
+"Alcohol on wild type","TG(59:1)","Glycerolipids",0.419488489360487,0.408,0.331429795748557,FALSE
+"Alcohol on wild type","TG(60:1)","Glycerolipids",0.618832478365863,0.394,0.328001887104585,FALSE
+"Alcohol on wild type","TG(60:2)","Glycerolipids",0.690838089829687,0.24,0.27598940511826,FALSE
+"Alcohol on wild type","TG(60:3)","Glycerolipids",0.143358283179893,0.222,0.271066293430091,FALSE
+"Alcohol on wild type","TG(42:1)","Glycerolipids",0.59824413574061,0.223,0.271066293430091,FALSE
+"Alcohol on wild type","TG(53:4)","Glycerolipids",-0.585761950092569,0.617,0.387295802986477,FALSE
+"Alcohol on wild type","TG(45:1)","Glycerolipids",0.262287912035812,0.399,0.328667880783986,FALSE
+"Alcohol on wild type","Pantothenic acid","Alkylamines",-0.292009048119059,0.456,0.346085763867008,FALSE
+"Alcohol on variant","N-Acetylglutamic acid","Amino acids & derivatives",0.743753644787544,0.000835,0.0153272623779695,TRUE
+"Alcohol on variant","N-Acetyl-glutamine","Amino acids & derivatives",0.216305751099697,0.442,0.253542289336172,FALSE
+"Alcohol on variant","Pyroglutamic acid","Amino acids & derivatives",-0.276253163988049,0.434,0.252104596075144,FALSE
+"Alcohol on variant","Glutamic Acid","Amino acids & derivatives",0.0835370820998338,0.783,0.344670269301687,FALSE
+"Alcohol on variant","Glycine","Amino acids & derivatives",0.703235658532973,0.00157,0.0185156202639361,TRUE
+"Alcohol on variant","Alanine","Amino acids & derivatives",0.501914645444386,0.027,0.0660816102523235,TRUE
+"Alcohol on variant","Serine","Amino acids & derivatives",0.341721281156861,0.129,0.13010573447115,FALSE
+"Alcohol on variant","Proline","Amino acids & derivatives",0.7784307856088,0.0596,0.0946040146774717,FALSE
+"Alcohol on variant","Valine","Amino acids & derivatives",0.638118388933206,0.0289,0.0663110602879218,TRUE
+"Alcohol on variant","Threonine","Amino acids & derivatives",0.649997426145313,0.0136,0.048949340927647,TRUE
+"Alcohol on variant","Taurine","Amino acids & derivatives",0.378013290388194,0.00655,0.0336526718877573,TRUE
+"Alcohol on variant","Isoleucine","Amino acids & derivatives",0.342894644212158,0.354,0.221021258780447,FALSE
+"Alcohol on variant","Leucine","Amino acids & derivatives",0.609272231648757,0.0484,0.0846124321749327,TRUE
+"Alcohol on variant","Asparagine","Amino acids & derivatives",0.409002809184034,0.272,0.193406160274467,FALSE
+"Alcohol on variant","Aspartic Acid","Amino acids & derivatives",0.0881191635511741,0.662,0.315419687179121,FALSE
+"Alcohol on variant","Glutamine","Amino acids & derivatives",0.0548405419853922,0.717,0.324620937063275,FALSE
+"Alcohol on variant","Lysine","Amino acids & derivatives",0.435707351433649,0.117,0.123428295011524,FALSE
+"Alcohol on variant","Methionine","Amino acids & derivatives",0.683018085930018,0.0976,0.114441746150286,FALSE
+"Alcohol on variant","Histidine","Amino acids & derivatives",0.354703015325542,0.0253,0.0643717360144399,TRUE
+"Alcohol on variant","Phenylalanine","Amino acids & derivatives",0.7076058065428,0.0383,0.0786964802945815,TRUE
+"Alcohol on variant","Tyrosine","Amino acids & derivatives",0.555599172531515,0.0829,0.106798562023957,FALSE
+"Alcohol on variant","Tryptophan","Amino acids & derivatives",0.305760032436434,0.115,0.122729088808417,FALSE
+"Alcohol on variant","Sarcosine","Amino acids & derivatives",0.839970222046046,0.0228,0.0615465977840268,TRUE
+"Alcohol on variant","Glutathione (reduced)","Peptides",-0.129147383930266,0.745,0.333542002967351,FALSE
+"Alcohol on variant","Gly-DL-Phe","Peptides",0.775687151249106,0.121,0.124082477351508,FALSE
+"Alcohol on variant","Hypotaurine","Sulfinic Acids and Derivatives",1.64341566215512,0.0294,0.0666254918181862,TRUE
+"Alcohol on variant","Gamma-Aminobutyric acid","Amino acids & derivatives",0.51349544713137,0.151,0.142141355386052,FALSE
+"Alcohol on variant","DL-2-Aminoadipic acid","Amino acids & derivatives",0.407001502714162,0.207,0.172713299523118,FALSE
+"Alcohol on variant","Gly-Gly","Peptides",0.512874197832983,0.0601,0.0946040146774717,FALSE
+"Alcohol on variant","L-Citrulline","Amino acids & derivatives",0.381100863135202,0.104,0.116403920498673,FALSE
+"Alcohol on variant","L-Homoserine","Amino acids & derivatives",0.0934821641863548,0.391,0.239239903783875,FALSE
+"Alcohol on variant","Homocysteine","Amino acids & derivatives",-0.125499834026944,0.665,0.315419687179121,FALSE
+"Alcohol on variant","Ala-Gln","Peptides",0.796386951340922,0.081,0.106798562023957,FALSE
+"Alcohol on variant","Cysteine","Amino acids & derivatives",-0.89736856777247,0.00767,0.0361001389341397,TRUE
+"Alcohol on variant","S-Adenosylhomocysteine","Nucleoside analogue",0.627258774193727,0.0898,0.11225882013764,FALSE
+"Alcohol on variant","Glutathione (oxidized)","Polypeptide",0.157585242697468,0.43,0.250574007129622,FALSE
+"Alcohol on variant","Cystine-double charge","AA derivative",-0.0742894979152702,0.851,0.356737702405391,FALSE
+"Alcohol on variant","Cystathionine","Amino acids & derivatives",1.23503161332684,0.0179,0.0556902459282764,TRUE
+"Alcohol on variant","1-Methyl-L-histidine","Amino acids & derivatives",-0.758024497474005,0.00836,0.0373238724573309,TRUE
+"Alcohol on variant","D(-)-2-Aminobutyric acid","AA derivative",-0.294334743881345,0.298,0.202525640277211,FALSE
+"Alcohol on variant",NA,"Fatty esters",-0.0623509086264152,0.855,0.356737702405391,FALSE
+"Alcohol on variant","AC(18:2n-6)","Fatty esters",-0.729444841624086,0.0747,0.104289290254181,FALSE
+"Alcohol on variant","AC(18:1n-9)","Fatty esters",-0.387315077749652,0.299,0.202525640277211,FALSE
+"Alcohol on variant","AC(16:0)","Fatty esters",-1.4230514930338,0.0198,0.0586207832883515,TRUE
+"Alcohol on variant","AC(18:0)","Fatty esters",-1.04846621646688,0.0669,0.0987727772290021,FALSE
+"Alcohol on variant",NA,"Fatty esters",-0.125512615935918,0.503,0.273167734688681,FALSE
+"Alcohol on variant","Cholic acid","Bile acids",1.75566001195205,0.101,0.114441746150286,FALSE
+"Alcohol on variant","Deoxycholic acid","Bile acids",0.737139945195174,0.322,0.208856286820261,FALSE
+"Alcohol on variant","Chenodeoxycholic acid","Bile acids",1.98469758552169,0.118,0.12377190491705,FALSE
+"Alcohol on variant","Ursodeoxycholic + Hyodeoxycholic acid","Bile acids",1.79343216296965,0.0227,0.0615465977840268,TRUE
+"Alcohol on variant","Taurocholic acid","Bile acids",1.29778696911645,0.511,0.27507089311614,FALSE
+"Alcohol on variant","Taurodeoxycholic acid","Bile acids",-0.671298194925346,0.983,0.386380102772032,FALSE
+"Alcohol on variant","Taurochenodeoxycholic acid","Bile acids",1.12887295962417,0.627,0.30528931052243,FALSE
+"Alcohol on variant","Tauroursodeoxycholic + Taurohyodeoxycholic acid","Bile acids",0.196181387866723,0.622,0.304954393979241,FALSE
+"Alcohol on variant","Glycocholic acid","Bile acids",2.98311973255658,0.232,0.182010998702485,FALSE
+"Alcohol on variant","Tauro-ω-muricholic acid+Tauro-α-muricholic acid","Bile acids",0.834986788005637,0.889,0.363849499657065,FALSE
+"Alcohol on variant","Glucuronic acid","Sugar Acids and Derivatives",-1.94928471759499,0.0678,0.0987727772290021,FALSE
+"Alcohol on variant","N-Acetylneuraminic acid","Sugar Acids and Derivatives",0.484614777208498,0.167,0.152510073412632,FALSE
+"Alcohol on variant","Fructose 1,6-bisphosphate","Monosaccharides",1.30585796703219,0.228,0.181963854317992,FALSE
+"Alcohol on variant","2,3-bisphosphoglycerate","Carbohydrates and Carbohydrate Conjugates",0.369213436242421,0.171,0.152523308687596,FALSE
+"Alcohol on variant","2-phosphoglycerate / 3-phosphoglycerate","Sugar Acids and Derivatives",-0.337938325522775,0.231,0.182010998702485,FALSE
+"Alcohol on variant","Adenosine 5'-diphosphate","Purine Nucleotides",0.438433305475378,0.0066,0.0336526718877573,TRUE
+"Alcohol on variant","Adenosine 5'-monophosphate","Purine Nucleotides",0.0290967599615663,0.842,0.356546322597982,FALSE
+"Alcohol on variant","Glucose","Monosaccharides",-0.117541414709707,0.688,0.318693416278305,FALSE
+"Alcohol on variant","Fructose 6-phosphate","Monosaccharides",-0.203427493368623,0.413,0.246939061113008,FALSE
+"Alcohol on variant","Glucose-6-phosphate","Monosaccharides",-0.359220165747668,0.234,0.182010998702485,FALSE
+"Alcohol on variant","Sedoheptulose","Disaccharides",-0.949186089220823,0.00632,0.0336526718877573,TRUE
+"Alcohol on variant","D-Ribose 5-phosphate","Monosaccharides",-0.432035796776458,0.0623,0.0955414902327537,FALSE
+"Alcohol on variant","Nicotinamide adenine dinucleotide phosphate","Purine Nucleotides",0.204312173442788,0.437,0.252250730959691,FALSE
+"Alcohol on variant","6-Phosphogluconate","Sugar Acids and Derivatives",-0.88836899484107,0.47,0.263832456834795,FALSE
+"Alcohol on variant","Succinate","Carboxylic Acids and Derivatives",-0.480462966578203,0.253,0.18723122904825,FALSE
+"Alcohol on variant","Malate","Carboxylic Acids and Derivatives",-0.0569122421413,0.69,0.318693416278305,FALSE
+"Alcohol on variant","Fumaric acid","Fatty Acids and Conjugates",-0.148189129471745,0.522,0.279888906397515,FALSE
+"Alcohol on variant","Flavin adenine dinucleotide","Flavin Nucleotides",0.313067666199424,0.0398,0.0786964802945815,TRUE
+"Alcohol on variant","Guanosine 5'-diphosphate","Purine Nucleotides",0.259452887730752,0.341,0.216474240481749,FALSE
+"Alcohol on variant","Nicotinamide adenine dinucleotide reduced","Purine Nucleotides",0.24423921418694,0.402,0.244341494862344,FALSE
+"Alcohol on variant","Nicotinamide adenine dinucleotide","Purine Nucleotides",-0.315157828703792,0.486,0.267096328864182,FALSE
+"Alcohol on variant","Lactic acid","Hydroxy Acids and Derivatives",0.174346465262405,0.612,0.304610425637587,FALSE
+"Alcohol on variant","beta-hydroxybutyric Acid","Hydroxy Acids and Derivatives",0.390739408619105,0.481,0.267046667937351,FALSE
+"Alcohol on variant","D-Mannose 6-phosphate and 1D-myo-Inositol 3-phosphate","Monosaccharides",-0.697633556867367,0.0698,0.100097578029778,FALSE
+"Alcohol on variant","5-Methyltetrahydrofolic acid","Pteridines and Derivatives",0.0961093394066168,0.702,0.322147849980077,FALSE
+"Alcohol on variant","Cer(d18:1/16:0)","Sphingolipids",0.165840392831153,0.337,0.215539127516773,FALSE
+"Alcohol on variant","Cer(d18:1/20:0)","Sphingolipids",-0.673988774484072,0.000369,0.0102531387335946,TRUE
+"Alcohol on variant","Cer(d18:1/21:0)","Sphingolipids",-0.743414158173797,0.0216,0.0603523123937466,TRUE
+"Alcohol on variant","Cer(d18:1/22:0)","Sphingolipids",-0.961482537743433,0.0041,0.0268784327415205,TRUE
+"Alcohol on variant","Cer(d18:1/23:0)","Sphingolipids",0.0452602908941118,0.807,0.347729913103971,FALSE
+"Alcohol on variant","Cer(d18:1/24:0)","Sphingolipids",0.0282519298689076,0.777,0.342851303192143,FALSE
+"Alcohol on variant","Cer(d18:1/24:1)+Cer(d18:2/24:0)","Sphingolipids",0.364108688647703,0.0634,0.0955414902327537,FALSE
+"Alcohol on variant","Cer(42:3)","Sphingolipids",0.648695070809744,0.004,0.0268784327415205,TRUE
+"Alcohol on variant","Cer(d18:1/18:0)","Sphingolipids",-0.0528462608347303,0.754,0.334753192032369,FALSE
+"Alcohol on variant","Cer(d18:1/25:0)","Sphingolipids",-0.135049437625455,0.676,0.318170716029706,FALSE
+"Alcohol on variant","Cer(d18:1/19:0)","Sphingolipids",-0.314369103512833,0.043,0.0798486123882242,TRUE
+"Alcohol on variant","Cholesterol","Sterols",0.465796135397798,0.0212,0.0603523123937466,TRUE
+"Alcohol on variant","ChoE(20:4)","Sterols",0.228855856904311,0.46,0.261416758824121,FALSE
+"Alcohol on variant","ChoE(22:6)","Sterols",0.634122637215873,0.0895,0.11225882013764,FALSE
+"Alcohol on variant",NA,"Sterols",1.19851050337976,0.0389,0.0786964802945815,TRUE
+"Alcohol on variant",NA,"Sterols",1.12420867705615,0.0275,0.0661286769262924,TRUE
+"Alcohol on variant","ChoE(18:0)","Sterols",0.999973538437733,0.0394,0.0786964802945815,TRUE
+"Alcohol on variant","CMH(d18:1/22:0)","Sphingolipids",-0.0591697963590508,0.73,0.328428482327044,FALSE
+"Alcohol on variant","CMH(d18:1/24:0)","Sphingolipids",0.331875730012428,0.0877,0.111793156233194,FALSE
+"Alcohol on variant","PC(32:0)","Glycerophospholipids",0.492533993000917,0.113,0.121299901860178,FALSE
+"Alcohol on variant","PC(32:1)","Glycerophospholipids",0.59533760508155,0.0127,0.0475757624832488,TRUE
+"Alcohol on variant","PC(32:2)","Glycerophospholipids",0.808869588783883,0.0135,0.048949340927647,TRUE
+"Alcohol on variant","PC(34:0)","Glycerophospholipids",0.464332952769264,0.0378,0.0786964802945815,TRUE
+"Alcohol on variant","PC(34:1)","Glycerophospholipids",0.382046224412035,0.00687,0.0340826323148245,TRUE
+"Alcohol on variant","PC(34:2)","Glycerophospholipids",-0.159963936561281,0.296,0.201984269255347,FALSE
+"Alcohol on variant","PC(34:4)","Glycerophospholipids",0.388158378451039,0.048,0.0846124321749327,TRUE
+"Alcohol on variant","PC(36:1)","Glycerophospholipids",0.412855903734839,0.119,0.124082477351508,FALSE
+"Alcohol on variant","PC(36:2)","Glycerophospholipids",0.215296525183176,0.144,0.140599170749624,FALSE
+"Alcohol on variant","PC(36:4)","Glycerophospholipids",-0.458287859115297,0.407,0.245549152850164,FALSE
+"Alcohol on variant","PC(36:4)","Glycerophospholipids",-0.56737660597311,0.00638,0.0336526718877573,TRUE
+"Alcohol on variant","PC(36:5)","Glycerophospholipids",1.28178539574636,0.0761,0.104289290254181,FALSE
+"Alcohol on variant","PC(36:6)","Glycerophospholipids",0.70988396774765,0.00854,0.0373238724573309,TRUE
+"Alcohol on variant","PC(38:2)","Glycerophospholipids",0.745514784398087,0.00225,0.0185156202639361,TRUE
+"Alcohol on variant","PC(38:3)","Glycerophospholipids",-0.927510067904977,0.0242,0.0643717360144399,TRUE
+"Alcohol on variant","PC(38:4)","Glycerophospholipids",-1.22746329792689,0.00101,0.0154496357302886,TRUE
+"Alcohol on variant","PC(38:5)","Glycerophospholipids",0.0903155215707758,0.344,0.216991923699879,FALSE
+"Alcohol on variant","PC(38:5)","Glycerophospholipids",0.404473112306101,0.122,0.124412908191103,FALSE
+"Alcohol on variant","PC(38:6)","Glycerophospholipids",0.00261409078814556,0.938,0.373490903932751,FALSE
+"Alcohol on variant","PC(38:6)","Glycerophospholipids",-0.0497626708243593,0.686,0.318693416278305,FALSE
+"Alcohol on variant","PC(40:4)","Glycerophospholipids",0.379535834882234,0.0635,0.0955414902327537,FALSE
+"Alcohol on variant","PC(40:4)","Glycerophospholipids",-1.21978455289243,0.0364,0.0786964802945815,TRUE
+"Alcohol on variant","PC(40:5)","Glycerophospholipids",-0.59605210880507,0.0289,0.0663110602879218,TRUE
+"Alcohol on variant","PC(40:5)","Glycerophospholipids",0.0603865332538438,0.749,0.333705003229438,FALSE
+"Alcohol on variant","PC(40:6)","Glycerophospholipids",-0.287598520049705,0.259,0.187913230735088,FALSE
+"Alcohol on variant","PC(40:7)","Glycerophospholipids",-0.994925391784154,0.00178,0.0185156202639361,TRUE
+"Alcohol on variant","PC(40:7)","Glycerophospholipids",0.653358368020697,0.000251,0.0102531387335946,TRUE
+"Alcohol on variant","PC(40:8)","Glycerophospholipids",0.43762897423635,0.00224,0.0185156202639361,TRUE
+"Alcohol on variant","PC(42:8)","Glycerophospholipids",0.654082868865692,5.54e-05,0.0101692255777187,TRUE
+"Alcohol on variant","PC(34:3)","Glycerophospholipids",0.199108501741189,0.25,0.18723122904825,FALSE
+"Alcohol on variant","PC(34:3)","Glycerophospholipids",0.284484383011863,0.199,0.167561677372737,FALSE
+"Alcohol on variant","PC(36:3)","Glycerophospholipids",0.484311596239785,0.0217,0.0603523123937466,TRUE
+"Alcohol on variant","PC(36:3)","Glycerophospholipids",-0.634636244884693,0.00983,0.0419626762777997,TRUE
+"Alcohol on variant","PC(36:5)","Glycerophospholipids",0.320770295510098,0.0183,0.0559858086859963,TRUE
+"Alcohol on variant","PC(31:0)","Glycerophospholipids",0.484959989941673,0.0665,0.0987727772290021,FALSE
+"Alcohol on variant","PC(30:0)","Glycerophospholipids",0.945211505821315,0.00172,0.0185156202639361,TRUE
+"Alcohol on variant","PC(30:1)","Glycerophospholipids",1.10446214651592,0.00541,0.0320341856151497,TRUE
+"Alcohol on variant","PC(36:0)","Glycerophospholipids",0.229378530018321,0.147,0.141273948619714,FALSE
+"Alcohol on variant","PC(40:0)","Glycerophospholipids",-0.113320544293956,0.479,0.267046667937351,FALSE
+"Alcohol on variant","PC(40:1)","Glycerophospholipids",0.325573694429048,0.203,0.170149250142335,FALSE
+"Alcohol on variant","PE(34:1)","Glycerophospholipids",0.937364877348468,0.0537,0.0878813941654548,FALSE
+"Alcohol on variant","PE(34:2)","Glycerophospholipids",0.0485720111313886,0.691,0.318693416278305,FALSE
+"Alcohol on variant","PC(33:0)","Glycerophospholipids",0.937548173193137,0.0015,0.0185156202639361,TRUE
+"Alcohol on variant","PC(33:1)","Glycerophospholipids",0.479231728545523,0.0492,0.0850895085284332,TRUE
+"Alcohol on variant","PC(33:2)","Glycerophospholipids",0.0897603167199111,0.607,0.304610425637587,FALSE
+"Alcohol on variant","PE(36:4)","Glycerophospholipids",-0.170115365159892,0.462,0.26150244057116,FALSE
+"Alcohol on variant","PE(36:4)","Glycerophospholipids",0.395593167884388,0.263,0.188559717970314,FALSE
+"Alcohol on variant","PC(35:1)","Glycerophospholipids",1.0841619465182,0.0111,0.045091920039327,TRUE
+"Alcohol on variant","PC(35:1)","Glycerophospholipids",0.206950593829851,0.295,0.201984269255347,FALSE
+"Alcohol on variant","PC(35:2)","Glycerophospholipids",0.81026134815425,0.00227,0.0185156202639361,TRUE
+"Alcohol on variant","PC(35:3)","Glycerophospholipids",0.345677782459797,0.313,0.205929350945612,FALSE
+"Alcohol on variant","PC(35:4)","Glycerophospholipids",-0.302732161028829,0.211,0.173682358784757,FALSE
+"Alcohol on variant","PE(38:4)","Glycerophospholipids",-0.550896794010855,0.0281,0.0661286769262924,TRUE
+"Alcohol on variant","PE(38:5)","Glycerophospholipids",0.140492783621608,0.405,0.245352513313082,FALSE
+"Alcohol on variant","PE(38:6)","Glycerophospholipids",0.0635376626610941,0.687,0.318693416278305,FALSE
+"Alcohol on variant","PC(37:2)","Glycerophospholipids",0.799761805774808,0.0256,0.0643717360144399,TRUE
+"Alcohol on variant","PC(37:2)","Glycerophospholipids",-2.15547509012204,0.00225,0.0185156202639361,TRUE
+"Alcohol on variant","PC(37:3)","Glycerophospholipids",0.161094270514424,0.453,0.258238176710684,FALSE
+"Alcohol on variant","PC(37:4)","Glycerophospholipids",0.133091400752259,0.559,0.292336341651225,FALSE
+"Alcohol on variant","PC(37:4)","Glycerophospholipids",-1.06748791097342,0.00314,0.0240157703926268,TRUE
+"Alcohol on variant","PC(37:5)","Glycerophospholipids",1.0727763558085,0.0207,0.0603125807858508,TRUE
+"Alcohol on variant","PE(40:6)","Glycerophospholipids",-0.224733648529378,0.476,0.266385894987347,FALSE
+"Alcohol on variant","PC(37:6)","Glycerophospholipids",-0.140725742879926,0.635,0.305933380797794,FALSE
+"Alcohol on variant","PE(16:0/16:0)","Glycerophospholipids",0.419790698533082,0.164,0.150519223352515,FALSE
+"Alcohol on variant","PE(32:1)","Glycerophospholipids",0.904038487275717,0.0781,0.10464261477507,FALSE
+"Alcohol on variant","PE(36:1)","Glycerophospholipids",0.373721269128446,0.163,0.150519223352515,FALSE
+"Alcohol on variant","PE(40:4)","Glycerophospholipids",0.152190182020148,0.536,0.2851831167089,FALSE
+"Alcohol on variant","PI(38:4)","Glycerophospholipids",-0.385900259072642,0.302,0.203584758858168,FALSE
+"Alcohol on variant","PI(36:4)","Glycerophospholipids",0.311313727322015,0.246,0.185826201669771,FALSE
+"Alcohol on variant","PI(40:6)","Glycerophospholipids",-0.325887094469279,0.382,0.234514818992824,FALSE
+"Alcohol on variant","DG(32:0)","Glycerolipids",0.00383372115232392,0.925,0.372341677023486,FALSE
+"Alcohol on variant","DG(32:1)","Glycerolipids",0.379489093380107,0.305,0.203584758858168,FALSE
+"Alcohol on variant","DG(32:2)","Glycerolipids",0.513039178625751,0.212,0.173726455524462,FALSE
+"Alcohol on variant","DG(34:0)","Glycerolipids",-0.0712466425423239,0.659,0.315015778040229,FALSE
+"Alcohol on variant","DG(34:1)","Glycerolipids",0.102142070645982,0.712,0.32350183236836,FALSE
+"Alcohol on variant","DG(34:2)","Glycerolipids",0.220980228429214,0.55,0.289277981843186,FALSE
+"Alcohol on variant","DG(36:2)","Glycerolipids",0.186555588235654,0.623,0.304954393979241,FALSE
+"Alcohol on variant","DG(36:3)","Glycerolipids",0.0550953534119931,0.931,0.37271883778241,FALSE
+"Alcohol on variant","DG(36:4)","Glycerolipids",0.279632057071818,0.416,0.247925233269901,FALSE
+"Alcohol on variant","DG(36:4)","Glycerolipids",-0.0538265580350303,0.68,0.318693416278305,FALSE
+"Alcohol on variant","DG(30:0)","Glycerolipids",0.559138151454795,0.0266,0.065982388615308,TRUE
+"Alcohol on variant","DG(30:1)","Glycerolipids",0.688310411307502,0.0996,0.114441746150286,FALSE
+"Alcohol on variant","DG(36:1)","Glycerolipids",0.126345538903208,0.718,0.324620937063275,FALSE
+"Alcohol on variant","DG(38:4)","Glycerolipids",-0.623611292224412,0.0278,0.0661286769262924,TRUE
+"Alcohol on variant","DG(38:5)","Glycerolipids",0.237068814914044,0.313,0.205929350945612,FALSE
+"Alcohol on variant","Cer(d18:0/16:0)","Sphingolipids",0.377193686320109,0.042,0.0798486123882242,TRUE
+"Alcohol on variant","Cer(d18:0/18:0)","Sphingolipids",-0.230341969257122,0.189,0.162877208368403,FALSE
+"Alcohol on variant","Cer(d18:0/20:0)","Sphingolipids",-0.314654823074634,0.0522,0.0878813941654548,FALSE
+"Alcohol on variant","Cer(d18:0/22:0)","Sphingolipids",-0.788846417552928,0.0118,0.0460852837457102,TRUE
+"Alcohol on variant","Cer(d18:0/24:0)","Sphingolipids",-0.0332503796315035,0.935,0.373105710059918,FALSE
+"Alcohol on variant","Ascorbic acid","Dihydrofurans",-0.177472887634102,0.861,0.356761138871649,FALSE
+"Alcohol on variant","Hippuric acid","Amino acids & derivatives",0.236606878821741,0.92,0.371154343297543,FALSE
+"Alcohol on variant","Hydroxyphenyllactic acid","Benzyl Alcohols and Derivatives",0.352457446174887,0.274,0.193406160274467,FALSE
+"Alcohol on variant","14:0","Fatty acids",-0.219506001405264,0.43,0.250574007129622,FALSE
+"Alcohol on variant","16:0","Fatty acids",-0.466440736903679,0.196,0.166563729545466,FALSE
+"Alcohol on variant","16:1n-7","Fatty acids",-0.549718402263157,0.263,0.188559717970314,FALSE
+"Alcohol on variant","16:1n-9","Fatty acids",-0.749473973918858,0.233,0.182010998702485,FALSE
+"Alcohol on variant",NA,"Fatty acids",-0.251685838851069,0.427,0.250574007129622,FALSE
+"Alcohol on variant","18:0","Fatty acids",-0.0405256014087432,0.769,0.340138944337596,FALSE
+"Alcohol on variant","18:1n-9","Fatty acids",-0.44309174173594,0.279,0.194684878689505,FALSE
+"Alcohol on variant",NA,"Fatty acids",-0.043622361907076,0.689,0.318693416278305,FALSE
+"Alcohol on variant","18:2n-6","Fatty acids",-0.980128048769607,0.127,0.128796263076198,FALSE
+"Alcohol on variant",NA,"Fatty acids",-0.0283096254484426,0.585,0.299115923844083,FALSE
+"Alcohol on variant","18:3n-3","Fatty acids",-0.609391877959916,0.255,0.18723122904825,FALSE
+"Alcohol on variant","18:3n-6","Fatty acids",-0.620170169796073,0.274,0.193406160274467,FALSE
+"Alcohol on variant",NA,"Fatty acids",0.129919155178287,0.865,0.357220190252885,FALSE
+"Alcohol on variant","20:1n-6","Fatty acids",-0.333196133295234,0.379,0.23345386172288,FALSE
+"Alcohol on variant","20:2n-6","Fatty acids",0.00260030196372379,0.788,0.345215518952737,FALSE
+"Alcohol on variant","20:3n-3","Fatty acids",-0.485053752185813,0.235,0.182010998702485,FALSE
+"Alcohol on variant",NA,"Fatty acids",0.442114328606443,0.598,0.303228997321128,FALSE
+"Alcohol on variant","20:3n-9","Fatty acids",0.356698104894853,0.421,0.250093113234702,FALSE
+"Alcohol on variant","20:4n-6","Fatty acids",-0.490313054339722,0.192,0.164689371345354,FALSE
+"Alcohol on variant",NA,"Fatty acids",-0.753266424052649,0.18,0.1580899766802,FALSE
+"Alcohol on variant","20:4n-3","Fatty acids",0.975738083025829,0.0929,0.112913570149712,FALSE
+"Alcohol on variant","20:5n-3","Fatty acids",0.725741370214681,0.0899,0.11225882013764,FALSE
+"Alcohol on variant","22:4n-6","Fatty acids",0.0889811790941423,0.755,0.334753192032369,FALSE
+"Alcohol on variant","22:5n-3","Fatty acids",0.40107598796884,0.412,0.246939061113008,FALSE
+"Alcohol on variant","22:5n-6","Fatty acids",-0.103070896830538,0.866,0.357220190252885,FALSE
+"Alcohol on variant","22:6n-3","Fatty acids",0.117620977736348,0.73,0.328428482327044,FALSE
+"Alcohol on variant","17:0","Fatty acids",-0.2054258272884,0.335,0.215009124266981,FALSE
+"Alcohol on variant",NA,"Fatty acids",-0.367004489837662,0.283,0.195981383789263,FALSE
+"Alcohol on variant",NA,"Fatty acids",0.180808097764324,0.0432,0.0798486123882242,TRUE
+"Alcohol on variant",NA,"Fatty acids",-0.458453767255173,0.332,0.214584258644087,FALSE
+"Alcohol on variant",NA,"Fatty acids",0.446335941650656,0.371,0.230850069713861,FALSE
+"Alcohol on variant",NA,"Fatty acids",-0.312131068515015,0.408,0.245549152850164,FALSE
+"Alcohol on variant","15-HETE","Oxidized fatty acids",0.0418403970290924,0.884,0.363827500392713,FALSE
+"Alcohol on variant","12-HETE","Oxidized fatty acids",0.194642516706468,0.957,0.377778381191598,FALSE
+"Alcohol on variant","9-HODE + 13-HODE","Oxidized fatty acids",-0.509930302782171,0.28,0.194684878689505,FALSE
+"Alcohol on variant","x-HODE","Oxidized fatty acids",-0.724992464956577,0.208,0.172762379744637,FALSE
+"Alcohol on variant","9,12,13-TriHOME","Oxidized fatty acids",-0.0965787582371265,0.527,0.281209694791461,FALSE
+"Alcohol on variant","PC(14:0/0:0)","Glycerophospholipids",1.00571919058179,0.00154,0.0185156202639361,TRUE
+"Alcohol on variant","PC(0:0/14:0)","Glycerophospholipids",1.15021749658887,0.00232,0.0185156202639361,TRUE
+"Alcohol on variant","PC(15:0/0:0)","Glycerophospholipids",0.0612371482928146,0.806,0.347729913103971,FALSE
+"Alcohol on variant","PC(0:0/15:0)","Glycerophospholipids",0.999495925535575,0.0832,0.106798562023957,FALSE
+"Alcohol on variant","PC(16:0/0:0)","Glycerophospholipids",0.0277816858781144,0.857,0.356737702405391,FALSE
+"Alcohol on variant","PC(0:0/16:0)","Glycerophospholipids",0.501927586815272,0.0634,0.0955414902327537,FALSE
+"Alcohol on variant","PC(0:0/16:1)","Glycerophospholipids",0.789658675181419,0.00716,0.0345865737870348,TRUE
+"Alcohol on variant","PC(16:1/0:0)","Glycerophospholipids",0.588973059373613,0.0111,0.045091920039327,TRUE
+"Alcohol on variant","PC(16:1/0:0)","Glycerophospholipids",0.569457976792425,0.017,0.0538020773127155,TRUE
+"Alcohol on variant","PC(0:0/18:0)","Glycerophospholipids",0.0483797414182486,0.974,0.383664093858864,FALSE
+"Alcohol on variant","PC(18:0/0:0)","Glycerophospholipids",-0.130899353240147,0.308,0.204842350621132,FALSE
+"Alcohol on variant","PC(0:0/18:1)","Glycerophospholipids",0.564131779652794,0.0402,0.0786964802945815,TRUE
+"Alcohol on variant","PC(18:1/0:0)","Glycerophospholipids",0.594544272259319,0.0141,0.0497730077221026,TRUE
+"Alcohol on variant","PC(18:1/0:0)","Glycerophospholipids",-0.150745483388225,0.429,0.250574007129622,FALSE
+"Alcohol on variant","PC(0:0/18:2)","Glycerophospholipids",-0.225800442385336,0.378,0.23345386172288,FALSE
+"Alcohol on variant","PC(18:2/0:0)","Glycerophospholipids",0.0569774774708853,0.992,0.388254900321635,FALSE
+"Alcohol on variant","PC(18:2/0:0)","Glycerophospholipids",1.51110518586345,0.000972,0.0154496357302886,TRUE
+"Alcohol on variant","PC(0:0/18:3)","Glycerophospholipids",1.28112608627005,0.107,0.11831881353746,FALSE
+"Alcohol on variant","PC(18:3/0:0)","Glycerophospholipids",0.487278779011008,0.275,0.193406160274467,FALSE
+"Alcohol on variant","PC(18:3/0:0)","Glycerophospholipids",0.492382189356854,0.233,0.182010998702485,FALSE
+"Alcohol on variant","PC(0:0/20:0)","Glycerophospholipids",-0.215296091013815,0.621,0.304954393979241,FALSE
+"Alcohol on variant","PC(20:0/0:0)","Glycerophospholipids",-0.276662333688335,0.571,0.294621558314514,FALSE
+"Alcohol on variant","PC(0:0/20:1)","Glycerophospholipids",0.956899967885487,0.0113,0.045091920039327,TRUE
+"Alcohol on variant","PC(20:1/0:0)","Glycerophospholipids",0.557587164542312,0.0603,0.0946040146774717,FALSE
+"Alcohol on variant","PC(20:1/0:0)","Glycerophospholipids",-0.702838020497181,0.259,0.187913230735088,FALSE
+"Alcohol on variant","PC(0:0/20:2)","Glycerophospholipids",0.925666093392069,0.0767,0.104289290254181,FALSE
+"Alcohol on variant","PC(20:2/0:0)","Glycerophospholipids",1.00324116297608,0.025,0.0643717360144399,TRUE
+"Alcohol on variant","PC(20:2/0:0)","Glycerophospholipids",0.681041112485327,0.0935,0.112913570149712,FALSE
+"Alcohol on variant","PC(0:0/20:3)","Glycerophospholipids",-0.310654139768401,0.31,0.205428190716208,FALSE
+"Alcohol on variant","PC(20:3/0:0)","Glycerophospholipids",-0.0320785373187422,0.71,0.323393598560447,FALSE
+"Alcohol on variant","PC(20:3/0:0)","Glycerophospholipids",0.823649398987314,0.112,0.121299901860178,FALSE
+"Alcohol on variant","PC(0:0/20:4)","Glycerophospholipids",-0.124098382080597,0.439,0.252610822890718,FALSE
+"Alcohol on variant","PC(20:4/0:0)","Glycerophospholipids",0.0223374422926425,0.955,0.377778381191598,FALSE
+"Alcohol on variant","PC(0:0/20:5)","Glycerophospholipids",1.4166012131034,0.0413,0.079800307117572,TRUE
+"Alcohol on variant","PC(20:5/0:0)","Glycerophospholipids",1.92723002003627,0.0779,0.10464261477507,FALSE
+"Alcohol on variant","PC(0:0/22:4)","Glycerophospholipids",0.21711756969832,0.244,0.185077053507426,FALSE
+"Alcohol on variant","PC(22:4/0:0)","Glycerophospholipids",0.57710879105355,0.225,0.180353739771625,FALSE
+"Alcohol on variant","PC(0:0/22:5)","Glycerophospholipids",0.775912458143974,0.0506,0.0860012726020465,FALSE
+"Alcohol on variant","PC(22:5/0:0)","Glycerophospholipids",1.00084510212122,0.0798,0.106145581685495,FALSE
+"Alcohol on variant","PC(0:0/22:5)","Glycerophospholipids",-0.0493682646362432,0.905,0.367526163215049,FALSE
+"Alcohol on variant","PC(22:5/0:0)","Glycerophospholipids",0.0730137542220946,0.914,0.369545960417423,FALSE
+"Alcohol on variant","PC(0:0/22:6)","Glycerophospholipids",0.261027960388458,0.211,0.173682358784757,FALSE
+"Alcohol on variant","PC(22:6/0:0)","Glycerophospholipids",0.434714289685149,0.172,0.152523308687596,FALSE
+"Alcohol on variant","PC(17:0/0:0)","Glycerophospholipids",-0.234304785076289,0.304,0.203584758858168,FALSE
+"Alcohol on variant","PC(0:0/17:0)","Glycerophospholipids",0.25258822968087,0.284,0.195981383789263,FALSE
+"Alcohol on variant","PC(19:0/0:0)","Glycerophospholipids",-0.537837909959283,0.0429,0.0798486123882242,TRUE
+"Alcohol on variant","LPC(22:0)","Glycerophospholipids",0.131163469623668,0.463,0.26150244057116,FALSE
+"Alcohol on variant","PC(17:1/0:0)","Glycerophospholipids",0.626499512072613,0.0164,0.0538020773127155,TRUE
+"Alcohol on variant","PC(0:0/17:1)","Glycerophospholipids",0.870500068616706,0.00358,0.0262857960781465,TRUE
+"Alcohol on variant","LPC(22:1)","Glycerophospholipids",0.110813375640646,0.817,0.349577023932584,FALSE
+"Alcohol on variant","PE(14:0/0:0)","Glycerophospholipids",0.99583831257777,0.0145,0.0502192530743549,TRUE
+"Alcohol on variant","PE(0:0/16:0)","Glycerophospholipids",0.347651376588599,0.354,0.221021258780447,FALSE
+"Alcohol on variant","PE(16:0/0:0)","Glycerophospholipids",0.130036858209171,0.542,0.286713358603581,FALSE
+"Alcohol on variant",NA,"Glycerophospholipids",0.982204674269753,0.0165,0.0538020773127155,TRUE
+"Alcohol on variant","PE(16:1/0:0)","Glycerophospholipids",-0.349758425205524,0.279,0.194684878689505,FALSE
+"Alcohol on variant","PE(0:0/18:0)","Glycerophospholipids",0.035677224832991,0.847,0.356737702405391,FALSE
+"Alcohol on variant","PE(18:0/0:0)","Glycerophospholipids",-0.212748813347577,0.319,0.207644145690418,FALSE
+"Alcohol on variant","PE(0:0/18:1)","Glycerophospholipids",0.75606413550975,0.0255,0.0643717360144399,TRUE
+"Alcohol on variant","PE(18:1/0:0)","Glycerophospholipids",0.41168007467452,0.158,0.147220733500664,FALSE
+"Alcohol on variant","PE(18:1/0:0)","Glycerophospholipids",-0.273464490501994,0.254,0.18723122904825,FALSE
+"Alcohol on variant","PE(0:0/18:2)","Glycerophospholipids",-0.014059094766522,0.889,0.363849499657065,FALSE
+"Alcohol on variant","PE(18:2/0:0)","Glycerophospholipids",0.311870026796956,0.486,0.267096328864182,FALSE
+"Alcohol on variant","PE(18:2/0:0)","Glycerophospholipids",0.883455612117759,0.0677,0.0987727772290021,FALSE
+"Alcohol on variant",NA,"Glycerophospholipids",0.782632557144175,0.117,0.123428295011524,FALSE
+"Alcohol on variant",NA,"Glycerophospholipids",0.983669555049753,0.239,0.184328062070637,FALSE
+"Alcohol on variant",NA,"Glycerophospholipids",0.184267052659567,0.632,0.30528931052243,FALSE
+"Alcohol on variant","PE(20:3/0:0)","Glycerophospholipids",0.499600103247231,0.244,0.185077053507426,FALSE
+"Alcohol on variant","PE(0:0/20:4)","Glycerophospholipids",-0.0190648660340701,0.799,0.3467244982375,FALSE
+"Alcohol on variant","PE(20:4/0:0)","Glycerophospholipids",0.206887687719372,0.556,0.291598216668983,FALSE
+"Alcohol on variant",NA,"Glycerophospholipids",1.57472625442342,0.054,0.0878813941654548,FALSE
+"Alcohol on variant",NA,"Glycerophospholipids",2.06519037359864,0.0723,0.102087615838525,FALSE
+"Alcohol on variant","PE(0:0/22:4)","Glycerophospholipids",0.0552862961819167,0.744,0.333542002967351,FALSE
+"Alcohol on variant","PE(22:4/0:0)","Glycerophospholipids",1.71484475442244,0.000164,0.0102531387335946,TRUE
+"Alcohol on variant",NA,"Glycerophospholipids",0.938442525039525,0.0482,0.0846124321749327,TRUE
+"Alcohol on variant",NA,"Glycerophospholipids",1.11474607822551,0.101,0.114441746150286,FALSE
+"Alcohol on variant",NA,"Glycerophospholipids",-0.132302949422439,0.613,0.304610425637587,FALSE
+"Alcohol on variant",NA,"Glycerophospholipids",0.141166498215354,0.843,0.356546322597982,FALSE
+"Alcohol on variant","PE(0:0/22:6)","Glycerophospholipids",0.264602415011601,0.181,0.158211262641145,FALSE
+"Alcohol on variant","PE(22:6/0:0)","Glycerophospholipids",0.301790830322896,0.562,0.293070272741523,FALSE
+"Alcohol on variant","LPG(16:0)","Glycerophospholipids",0.727646626473305,0.000538,0.012344411915191,TRUE
+"Alcohol on variant","LPG(16:0)","Glycerophospholipids",0.526462605985404,0.139,0.137176580422237,FALSE
+"Alcohol on variant","LPG(18:0)","Glycerophospholipids",0.20394743005435,0.542,0.286713358603581,FALSE
+"Alcohol on variant","LPG(18:1)","Glycerophospholipids",1.32187329007432,0.0356,0.0786964802945815,TRUE
+"Alcohol on variant","LPG(18:1)","Glycerophospholipids",0.764591731809633,0.000753,0.0153272623779695,TRUE
+"Alcohol on variant","LPG(18:2)","Glycerophospholipids",0.338657868309723,0.186,0.16104794951431,FALSE
+"Alcohol on variant","LPG(20:4)","Glycerophospholipids",0.973411185057618,0.000373,0.0102531387335946,TRUE
+"Alcohol on variant","LPG(22:4)","Glycerophospholipids",0.623136813723249,0.0166,0.0538020773127155,TRUE
+"Alcohol on variant","LPG(22:6)","Glycerophospholipids",1.72472153351168,0.0052,0.0318170716029706,TRUE
+"Alcohol on variant","LPI(16:0)","Glycerophospholipids",0.664884924475173,0.219,0.17787454087093,FALSE
+"Alcohol on variant","LPI(16:0)","Glycerophospholipids",0.603739991503464,0.0528,0.0878813941654548,FALSE
+"Alcohol on variant","LPI(18:0)","Glycerophospholipids",0.567611029166435,0.35,0.220020582080605,FALSE
+"Alcohol on variant","LPI(18:0)","Glycerophospholipids",0.169160116676746,0.482,0.267046667937351,FALSE
+"Alcohol on variant","LPI(18:1)","Glycerophospholipids",1.16624177897626,0.00224,0.0185156202639361,TRUE
+"Alcohol on variant","LPI(18:1)","Glycerophospholipids",0.780850152661188,0.00798,0.0366202256814959,TRUE
+"Alcohol on variant","LPI(18:1)","Glycerophospholipids",0.638016986457339,0.0435,0.0798486123882242,TRUE
+"Alcohol on variant","LPI(18:2)","Glycerophospholipids",0.371784796376512,0.235,0.182010998702485,FALSE
+"Alcohol on variant","LPI(18:2)","Glycerophospholipids",0.139547269638661,0.664,0.315419687179121,FALSE
+"Alcohol on variant","LPI(20:3)","Glycerophospholipids",1.00502695191723,0.0917,0.112913570149712,FALSE
+"Alcohol on variant","LPI(20:4)","Glycerophospholipids",0.48247487063194,0.225,0.180353739771625,FALSE
+"Alcohol on variant","LPI(20:4)","Glycerophospholipids",0.116829879845678,0.592,0.301018107643702,FALSE
+"Alcohol on variant","LPI(22:6)","Glycerophospholipids",2.22882775395055,0.00032,0.0102531387335946,TRUE
+"Alcohol on variant","PC(O-16:0/14:0)","Glycerophospholipids",0.591046055745169,0.0541,0.0878813941654548,FALSE
+"Alcohol on variant","PC(O-16:0/16:0)","Glycerophospholipids",0.479422044811121,0.1,0.114441746150286,FALSE
+"Alcohol on variant","PC(O-34:0)","Glycerophospholipids",0.271784775020292,0.121,0.124082477351508,FALSE
+"Alcohol on variant","PC(O-34:1)","Glycerophospholipids",0.651026787373541,0.103,0.115991919836219,FALSE
+"Alcohol on variant","PC(O-16:0/18:2)","Glycerophospholipids",0.149949796892051,0.6,0.303405005749878,FALSE
+"Alcohol on variant","PC(O-18:1/18:1)","Glycerophospholipids",0.801672085014765,0.164,0.150519223352515,FALSE
+"Alcohol on variant","PC(O-18:1/18:2)","Glycerophospholipids",0.566779488231361,0.171,0.152523308687596,FALSE
+"Alcohol on variant","PC(O-18:0/20:4)","Glycerophospholipids",0.0504442031011128,0.804,0.347729913103971,FALSE
+"Alcohol on variant","PC(O-38:5)","Glycerophospholipids",0.358047490065438,0.184,0.160071304455339,FALSE
+"Alcohol on variant","PC(P-18:0/20:4)","Glycerophospholipids",-0.613307070703252,0.000391,0.0102531387335946,TRUE
+"Alcohol on variant","PE(O-16:0/18:1)","Glycerophospholipids",0.373751208113059,0.251,0.18723122904825,FALSE
+"Alcohol on variant","PE(P-18:0/18:1)","Glycerophospholipids",0.385460793647001,0.339,0.216065450188442,FALSE
+"Alcohol on variant","PE(P-16:0/20:4)","Glycerophospholipids",0.306177755522544,0.244,0.185077053507426,FALSE
+"Alcohol on variant","PE(P-18:0/20:4)","Glycerophospholipids",0.0105904373231919,0.855,0.356737702405391,FALSE
+"Alcohol on variant","PE(P-18:1/20:4)","Glycerophospholipids",0.503752651092923,0.1,0.114441746150286,FALSE
+"Alcohol on variant","PE(P-16:0/22:6)","Glycerophospholipids",0.284079450824457,0.151,0.142141355386052,FALSE
+"Alcohol on variant","PE(18:1e/22:4)","Glycerophospholipids",-0.168589216922666,0.897,0.365896323434162,FALSE
+"Alcohol on variant","PE(18:2e/22:6)","Glycerophospholipids",0.579271712024612,0.0712,0.101313752152572,FALSE
+"Alcohol on variant","PC(O-16:0/0:0)","Glycerophospholipids",0.412706579893309,0.153,0.143289205904273,FALSE
+"Alcohol on variant","PC(O-18:0/0:0)","Glycerophospholipids",0.274412892108528,0.293,0.201434787806188,FALSE
+"Alcohol on variant","PC(O-18:1/0:0)","Glycerophospholipids",0.66957788355388,0.106,0.117923412234786,FALSE
+"Alcohol on variant","PC(O-20:0/0:0)","Glycerophospholipids",0.176829723444158,0.612,0.304610425637587,FALSE
+"Alcohol on variant","PC(O-20:1/0:0)","Glycerophospholipids",1.37014787627273,0.0403,0.0786964802945815,TRUE
+"Alcohol on variant","PE(O-16:0/0:0)","Glycerophospholipids",0.621823643032763,0.00654,0.0336526718877573,TRUE
+"Alcohol on variant","PE(P-16:1/0:0)","Glycerophospholipids",0.364399061112003,0.254,0.18723122904825,FALSE
+"Alcohol on variant","PE(P-18:0/0:0)","Glycerophospholipids",0.105209588977603,0.641,0.308015649881758,FALSE
+"Alcohol on variant","PE(P-18:1/0:0)","Glycerophospholipids",0.383003579999014,0.342,0.216474240481749,FALSE
+"Alcohol on variant","PE(P-18:1/0:0)","Glycerophospholipids",0.587750839376783,0.0765,0.104289290254181,FALSE
+"Alcohol on variant","PE(P-20:0/0:0)","Glycerophospholipids",-0.374203503662456,0.466,0.262389488561544,FALSE
+"Alcohol on variant","MG(18:1(9Z)/0:0/0:0)","Glycerolipids",-0.962926020300863,0.113,0.121299901860178,FALSE
+"Alcohol on variant","D(+) Trehalose reduced","Disaccharides",-0.0516848316408222,0.785,0.344723976927658,FALSE
+"Alcohol on variant","Sorbitol","Fatty Alcohols",0.20292668835587,0.575,0.29482406808726,FALSE
+"Alcohol on variant","NAE(16:0)","Fatty amides",0.162050097002813,0.319,0.207644145690418,FALSE
+"Alcohol on variant","NAE(18:0)","Fatty amides",0.113618745295043,0.545,0.287471883680686,FALSE
+"Alcohol on variant",NA,"Fatty amides",0.553235738655793,0.195,0.166484676992288,FALSE
+"Alcohol on variant","Guanosine","Purine Nucleosides and Analogues",-0.104858597740958,0.667,0.315552935554838,FALSE
+"Alcohol on variant","2'Deoxyguanosine","Purine Nucleosides and Analogues",0.189827250683776,0.623,0.304954393979241,FALSE
+"Alcohol on variant","Cytidine 5'-monophosphate","Pyrimidine Nucleotides",-0.0904844342188302,0.706,0.323175511486148,FALSE
+"Alcohol on variant","2'Inosine 5'-monophosphate","Purine Nucleotides",0.39951938555561,0.335,0.215009124266981,FALSE
+"Alcohol on variant","Guanosine 5'-monophosphate","Purine Nucleotides",-0.00848510023916674,0.932,0.37271883778241,FALSE
+"Alcohol on variant","Uridine 5'-monophosphate","Pyrimidine Nucleotides",-0.226464600392622,0.523,0.279888906397515,FALSE
+"Alcohol on variant","Inosine","Purine Nucleosides and Analogues",0.121601909087045,0.799,0.3467244982375,FALSE
+"Alcohol on variant","Xanthosine","Purine Nucleosides and Analogues",0.898235600881698,0.149,0.14171214633846,FALSE
+"Alcohol on variant","Adenosine","Purine Nucleosides and Analogues",0.185755192221578,0.632,0.30528931052243,FALSE
+"Alcohol on variant","UDP-Glucose","Pyrimidine Nucleotides",-0.541336163580708,0.852,0.356737702405391,FALSE
+"Alcohol on variant","ADP-ribose","Purine Nucleotides",-2.8191277114092,0.199,0.167561677372737,FALSE
+"Alcohol on variant","GDP-Glucose","Purine Nucleotides",0.768443685831936,0.0817,0.106798562023957,FALSE
+"Alcohol on variant","Uracil","Diazines",0.613654611282125,0.172,0.152523308687596,FALSE
+"Alcohol on variant","Uridine","Pyrimidine Nucleosides and Analogues",0.0033298219247051,0.904,0.367526163215049,FALSE
+"Alcohol on variant","SM(d18:0/16:0)","Sphingolipids",0.430746750531376,0.0991,0.114441746150286,FALSE
+"Alcohol on variant","SM(d18:0/18:0)","Sphingolipids",0.107751046102927,0.987,0.387123393394132,FALSE
+"Alcohol on variant","SM(d18:0/22:0)","Sphingolipids",-0.591341480311603,0.131,0.130686759406014,FALSE
+"Alcohol on variant","SM(32:1)","Sphingolipids",0.474018913851496,0.00503,0.0318170716029706,TRUE
+"Alcohol on variant","SM(33:1)","Sphingolipids",0.288061005530843,0.146,0.141273948619714,FALSE
+"Alcohol on variant","SM(d18:1/16:0)","Sphingolipids",0.376696713885957,0.0763,0.104289290254181,FALSE
+"Alcohol on variant","SM(d18:2/16:0)","Sphingolipids",0.126870408460851,0.483,0.267046667937351,FALSE
+"Alcohol on variant","SM(d18:1/17:0)","Sphingolipids",0.419776903847859,0.132,0.130972560860461,FALSE
+"Alcohol on variant","SM(d18:1/18:0)","Sphingolipids",0.24241636135346,0.501,0.273167734688681,FALSE
+"Alcohol on variant","SM(36:2)","Sphingolipids",0.0348405307668636,0.914,0.369545960417423,FALSE
+"Alcohol on variant","SM(38:1)","Sphingolipids",-0.322191139340644,0.178,0.157085024371175,FALSE
+"Alcohol on variant","SM(d18:2/20:0)","Sphingolipids",0.0526393297196975,0.843,0.356546322597982,FALSE
+"Alcohol on variant","SM(39:1)","Sphingolipids",-0.356848685194334,0.264,0.188559717970314,FALSE
+"Alcohol on variant","SM(d18:1/22:0)","Sphingolipids",-0.474525495103814,0.147,0.141273948619714,FALSE
+"Alcohol on variant","SM(d16:1/24:1)","Sphingolipids",-0.455851579738306,0.0923,0.112913570149712,FALSE
+"Alcohol on variant","SM(d18:1/23:0)","Sphingolipids",0.429781175865498,0.069,0.0997294642915643,FALSE
+"Alcohol on variant","SM(d18:1/23:1)","Sphingolipids",0.408685216502758,0.0592,0.0946040146774717,FALSE
+"Alcohol on variant","SM(d18:1/24:1) + SM(d18:2/24:0)","Sphingolipids",0.572277299620583,0.0496,0.0850895085284332,TRUE
+"Alcohol on variant","SM(42:3)","Sphingolipids",0.838628368678717,0.0366,0.0786964802945815,TRUE
+"Alcohol on variant","SM(42:1)","Sphingolipids",0.333936382626037,0.111,0.121280733101983,FALSE
+"Alcohol on variant","SM(38:0)","Sphingolipids",-0.500859468025828,0.225,0.180353739771625,FALSE
+"Alcohol on variant","TG(51:0)","Glycerolipids",-0.211753334720051,0.508,0.274800160281313,FALSE
+"Alcohol on variant","TG(42:0)","Glycerolipids",0.357614052917885,0.613,0.304610425637587,FALSE
+"Alcohol on variant","TG(44:0)","Glycerolipids",0.112195268024075,0.948,0.375842131744676,FALSE
+"Alcohol on variant","TG(44:1)","Glycerolipids",0.70414548770735,0.109,0.11980864134237,FALSE
+"Alcohol on variant","TG(44:2)","Glycerolipids",1.02309978354675,0.0447,0.0812389432969984,TRUE
+"Alcohol on variant","TG(45:0)","Glycerolipids",-0.0816364424537308,0.791,0.345704720301507,FALSE
+"Alcohol on variant","TG(46:0)","Glycerolipids",0.239532385398365,0.43,0.250574007129622,FALSE
+"Alcohol on variant","TG(46:1)","Glycerolipids",0.275059636270799,0.305,0.203584758858168,FALSE
+"Alcohol on variant","TG(46:2)","Glycerolipids",0.622234575979279,0.083,0.106798562023957,FALSE
+"Alcohol on variant","TG(46:3)","Glycerolipids",0.819354954851633,0.0345,0.0772295241770041,TRUE
+"Alcohol on variant","TG(47:0)","Glycerolipids",-0.192614054125961,0.614,0.304610425637587,FALSE
+"Alcohol on variant","TG(47:1)","Glycerolipids",-0.0383006475758275,0.927,0.372341677023486,FALSE
+"Alcohol on variant","TG(48:0)","Glycerolipids",-0.144820934099383,0.423,0.250470619504775,FALSE
+"Alcohol on variant","TG(48:1)","Glycerolipids",0.197367964493829,0.142,0.13938782911215,FALSE
+"Alcohol on variant","TG(48:2)","Glycerolipids",0.103761632426813,0.572,0.294621558314514,FALSE
+"Alcohol on variant","TG(48:3)","Glycerolipids",0.421082258551081,0.13,0.130397834438404,FALSE
+"Alcohol on variant","TG(48:4)","Glycerolipids",0.681361888758716,0.0954,0.113711861797829,FALSE
+"Alcohol on variant","TG(49:0)","Glycerolipids",-0.104717475899709,0.708,0.323284826275878,FALSE
+"Alcohol on variant","TG(49:1)","Glycerolipids",-0.219696391960851,0.262,0.188559717970314,FALSE
+"Alcohol on variant","TG(49:2)","Glycerolipids",-0.117086267584387,0.693,0.31881478630507,FALSE
+"Alcohol on variant","TG(49:3)","Glycerolipids",0.0620176646919289,0.748,0.333705003229438,FALSE
+"Alcohol on variant","TG(50:0)","Glycerolipids",-0.628294193120193,0.0124,0.0474196740236581,TRUE
+"Alcohol on variant","TG(50:1)","Glycerolipids",-0.0507806438243056,0.573,0.294621558314514,FALSE
+"Alcohol on variant","TG(50:2)","Glycerolipids",0.0239270973793113,0.681,0.318693416278305,FALSE
+"Alcohol on variant","TG(50:3)","Glycerolipids",-0.0959328514361326,0.573,0.294621558314514,FALSE
+"Alcohol on variant","TG(50:4)","Glycerolipids",0.132639185654368,0.643,0.308169969482478,FALSE
+"Alcohol on variant","TG(51:1)","Glycerolipids",-0.0346593392069401,0.859,0.356737702405391,FALSE
+"Alcohol on variant","TG(51:2)","Glycerolipids",-0.29563690565947,0.168,0.152523308687596,FALSE
+"Alcohol on variant","TG(51:3)","Glycerolipids",-0.15994832543056,0.509,0.274800160281313,FALSE
+"Alcohol on variant","TG(51:4)","Glycerolipids",-0.0922209292160102,0.816,0.349577023932584,FALSE
+"Alcohol on variant","TG(52:0)","Glycerolipids",-0.666144780344804,0.0169,0.0538020773127155,TRUE
+"Alcohol on variant","TG(52:1)","Glycerolipids",-0.712696706872243,0.00388,0.0268784327415205,TRUE
+"Alcohol on variant","TG(52:2)","Glycerolipids",-0.0533370823479025,0.377,0.23345386172288,FALSE
+"Alcohol on variant","TG(52:3)","Glycerolipids",-0.0467920566887041,0.571,0.294621558314514,FALSE
+"Alcohol on variant","TG(52:4)","Glycerolipids",-0.265695362410188,0.253,0.18723122904825,FALSE
+"Alcohol on variant","TG(52:5)","Glycerolipids",-0.0772713462523183,0.811,0.348635089218282,FALSE
+"Alcohol on variant","TG(53:0)","Glycerolipids",-0.266391155905968,0.59,0.300834491117831,FALSE
+"Alcohol on variant","TG(53:1)","Glycerolipids",-0.293134341736599,0.315,0.206505032038511,FALSE
+"Alcohol on variant","TG(53:2)","Glycerolipids",-0.0457213262851884,0.819,0.349617821683805,FALSE
+"Alcohol on variant","TG(53:3)","Glycerolipids",-0.0950229529454595,0.621,0.304954393979241,FALSE
+"Alcohol on variant","TG(54:0)","Glycerolipids",-0.216268855219135,0.632,0.30528931052243,FALSE
+"Alcohol on variant","TG(54:1)","Glycerolipids",-0.863700471136159,0.0481,0.0846124321749327,TRUE
+"Alcohol on variant","TG(54:2)","Glycerolipids",-0.544903758475006,0.0187,0.0562716808614959,TRUE
+"Alcohol on variant","TG(54:3)","Glycerolipids",0.217145950097803,0.24,0.184328062070637,FALSE
+"Alcohol on variant","TG(54:4)","Glycerolipids",-0.171513896702406,0.499,0.273167734688681,FALSE
+"Alcohol on variant","TG(54:5)","Glycerolipids",0.212073385853456,0.436,0.252250730959691,FALSE
+"Alcohol on variant","TG(54:5)","Glycerolipids",-2.35197263825547,0.0401,0.0786964802945815,TRUE
+"Alcohol on variant","TG(56:0)","Glycerolipids",-0.253921686977918,0.63,0.30528931052243,FALSE
+"Alcohol on variant","TG(56:1)","Glycerolipids",-0.294560130635084,0.446,0.25503979034732,FALSE
+"Alcohol on variant","TG(56:2)","Glycerolipids",-0.61364023867181,0.1,0.114441746150286,FALSE
+"Alcohol on variant","TG(56:3)","Glycerolipids",-0.306160338542926,0.401,0.244341494862344,FALSE
+"Alcohol on variant","TG(56:6)","Glycerolipids",-1.17884294560993,0.0922,0.112913570149712,FALSE
+"Alcohol on variant","TG(56:7)","Glycerolipids",-1.01667165247425,0.214,0.174585982641941,FALSE
+"Alcohol on variant","TG(56:7)","Glycerolipids",-2.2377007369037,0.0631,0.0955414902327537,FALSE
+"Alcohol on variant","TG(56:8)","Glycerolipids",-1.86516758578237,0.12,0.124082477351508,FALSE
+"Alcohol on variant","TG(58:1)","Glycerolipids",0.254597262658749,0.999,0.390162698830208,FALSE
+"Alcohol on variant","TG(58:2)","Glycerolipids",0.0948296869386236,0.612,0.304610425637587,FALSE
+"Alcohol on variant","TG(58:3)","Glycerolipids",-0.31959007538159,0.503,0.273167734688681,FALSE
+"Alcohol on variant","TG(58:4)","Glycerolipids",-0.0935145555453548,0.947,0.375842131744676,FALSE
+"Alcohol on variant","TG(58:8)","Glycerolipids",-1.80620651454091,0.148,0.14149418861898,FALSE
+"Alcohol on variant","TG(58:9)","Glycerolipids",-1.32980874204413,0.171,0.152523308687596,FALSE
+"Alcohol on variant","TG(59:1)","Glycerolipids",0.122131941690897,0.798,0.3467244982375,FALSE
+"Alcohol on variant","TG(60:1)","Glycerolipids",0.557307202948261,0.89,0.363849499657065,FALSE
+"Alcohol on variant","TG(60:2)","Glycerolipids",0.742146223500525,0.0371,0.0786964802945815,TRUE
+"Alcohol on variant","TG(60:3)","Glycerolipids",0.353273788461744,0.258,0.187913230735088,FALSE
+"Alcohol on variant","TG(42:1)","Glycerolipids",0.955852829805975,0.0945,0.113375311707418,FALSE
+"Alcohol on variant","TG(53:4)","Glycerolipids",-0.134088359464215,0.672,0.317101128888613,FALSE
+"Alcohol on variant","TG(45:1)","Glycerolipids",0.239491615575019,0.841,0.356546322597982,FALSE
+"Alcohol on variant","Pantothenic acid","Alkylamines",0.00880552846589494,0.858,0.356737702405391,FALSE

@@ -1,0 +1,6 @@
+KEGG_id,KEGG_title,concordance,FDR_Pmax,cpd_id
+mmu04152,AMPK signaling pathway,Same (↑↑),0.039959429926672646,C00354
+mmu04152,AMPK signaling pathway,Same (↑↑),0.039959429926672646,C00008
+mmu04152,AMPK signaling pathway,Same (↑↑),0.039959429926672646,C00020
+mmu04152,AMPK signaling pathway,Same (↑↑),0.039959429926672646,C00085
+mmu04152,AMPK signaling pathway,Same (↑↑),0.039959429926672646,C00003

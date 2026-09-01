@@ -1,0 +1,129 @@
+"block","label","value","arm","NES","padj","sig"
+"Acyl chain length (carbons)","22",22,"Alcohol on wild type",-0.771322430613903,0.831944744226203,FALSE
+"Acyl chain length (carbons)","35",35,"Alcohol on wild type",1.80581181757753,0.0150046829447306,TRUE
+"Acyl chain length (carbons)","50",50,"Alcohol on wild type",-1.75896889741648,0.0150046829447306,TRUE
+"Acyl chain length (carbons)","56",56,"Alcohol on wild type",-1.81004344939213,0.0150046829447306,TRUE
+"Acyl chain length (carbons)","52",52,"Alcohol on wild type",-1.71746150075032,0.0252759699360834,TRUE
+"Acyl chain length (carbons)","54",54,"Alcohol on wild type",-1.6891403087269,0.0354976139470833,TRUE
+"Acyl chain length (carbons)","51",51,"Alcohol on wild type",-1.6390928669702,0.0389663923964588,TRUE
+"Double bonds","8",8,"Alcohol on wild type",-1.6154775023519,0.0449474993944293,TRUE
+"Double bonds","4",4,"Alcohol on wild type",-1.57882302620277,0.05186006206791,TRUE
+"Acyl chain length (carbons)","18",18,"Alcohol on wild type",1.22757285118355,0.272334079045488,FALSE
+"Acyl chain length (carbons)","40",40,"Alcohol on wild type",0.606083742992819,0.970249319086528,FALSE
+"Acyl chain length (carbons)","58",58,"Alcohol on wild type",-1.50984571074657,0.155565693430657,FALSE
+"Double bonds","5",5,"Alcohol on wild type",1.64760118637329,0.0820934581531301,TRUE
+"Acyl chain length (carbons)","38",38,"Alcohol on wild type",-0.62488197508417,0.953746373101212,FALSE
+"Acyl chain length (carbons)","32",32,"Alcohol on wild type",1.39360565690226,0.206829268292683,FALSE
+"Acyl chain length (carbons)","20",20,"Alcohol on wild type",1.28045576233147,0.244716351501669,FALSE
+"Acyl chain length (carbons)","42",42,"Alcohol on wild type",1.54783732288755,0.110010368342604,FALSE
+"Acyl chain length (carbons)","30",30,"Alcohol on wild type",1.41808860323591,0.168905950095969,FALSE
+"Acyl chain length (carbons)","49",49,"Alcohol on wild type",-1.40224010977749,0.168905950095969,FALSE
+"Acyl chain length (carbons)","53",53,"Alcohol on wild type",-1.45141387058149,0.168905950095969,FALSE
+"Double bonds","0",0,"Alcohol on wild type",1.12873154545503,0.341696535244922,FALSE
+"Acyl chain length (carbons)","33",33,"Alcohol on wild type",1.46198506751025,0.152143845089903,FALSE
+"Acyl chain length (carbons)","37",37,"Alcohol on wild type",1.46729840804304,0.165327805130863,FALSE
+"Double bonds","1",1,"Alcohol on wild type",1.21371379432936,0.244716351501669,FALSE
+"Double bonds","3",3,"Alcohol on wild type",-1.01739295126327,0.544169611307421,FALSE
+"Acyl chain length (carbons)","34",34,"Alcohol on wild type",1.38712534036356,0.184284004786598,FALSE
+"Acyl chain length (carbons)","46",46,"Alcohol on wild type",-0.784915536343403,0.831944744226203,FALSE
+"Acyl chain length (carbons)","48",48,"Alcohol on wild type",-1.19824907376235,0.381517690875233,FALSE
+"Double bonds","6",6,"Alcohol on wild type",-0.961170106468956,0.577922682813228,FALSE
+"Acyl chain length (carbons)","16",16,"Alcohol on wild type",-1.04614333842698,0.501067615658363,FALSE
+"Acyl chain length (carbons)","36",36,"Alcohol on wild type",1.06373374443661,0.493486590038314,FALSE
+"Double bonds","2",2,"Alcohol on wild type",0.984207859614296,0.577845451084888,FALSE
+"Acyl chain length (carbons)","22",22,"Alcohol on variant",1.5128994923492,0.154762482631343,FALSE
+"Acyl chain length (carbons)","35",35,"Alcohol on variant",1.08920033293572,0.556206597222222,FALSE
+"Acyl chain length (carbons)","50",50,"Alcohol on variant",-1.22789948781847,0.395398993529835,FALSE
+"Acyl chain length (carbons)","56",56,"Alcohol on variant",-1.86969947440979,0.0868206764177,TRUE
+"Acyl chain length (carbons)","52",52,"Alcohol on variant",-1.52814141143442,0.173305474012492,FALSE
+"Acyl chain length (carbons)","54",54,"Alcohol on variant",-1.54883715386531,0.161369469852504,FALSE
+"Acyl chain length (carbons)","51",51,"Alcohol on variant",-1.35756793577823,0.275700934579439,FALSE
+"Double bonds","8",8,"Alcohol on variant",-1.46804524731464,0.17939214232765,FALSE
+"Double bonds","4",4,"Alcohol on variant",-0.880167204679326,0.774609471857178,FALSE
+"Acyl chain length (carbons)","18",18,"Alcohol on variant",-1.03394181480488,0.556206597222222,FALSE
+"Acyl chain length (carbons)","40",40,"Alcohol on variant",-1.80298568702541,0.0925789513150874,TRUE
+"Acyl chain length (carbons)","58",58,"Alcohol on variant",-1.74741668768732,0.0925789513150874,TRUE
+"Double bonds","5",5,"Alcohol on variant",1.30443297357586,0.285117056856187,FALSE
+"Acyl chain length (carbons)","38",38,"Alcohol on variant",-1.93342588850816,0.0868206764177,TRUE
+"Acyl chain length (carbons)","32",32,"Alcohol on variant",1.69609037012274,0.093291288603631,TRUE
+"Acyl chain length (carbons)","20",20,"Alcohol on variant",1.59432290237284,0.109191949016823,FALSE
+"Acyl chain length (carbons)","42",42,"Alcohol on variant",1.52116607051763,0.154762482631343,FALSE
+"Acyl chain length (carbons)","30",30,"Alcohol on variant",1.51115740733568,0.127481951238853,FALSE
+"Acyl chain length (carbons)","49",49,"Alcohol on variant",-1.11978323663314,0.556206597222222,FALSE
+"Acyl chain length (carbons)","53",53,"Alcohol on variant",-1.35555797017027,0.275700934579439,FALSE
+"Double bonds","0",0,"Alcohol on variant",-0.713159860114966,0.966996699669967,FALSE
+"Acyl chain length (carbons)","33",33,"Alcohol on variant",1.0700871289066,0.556206597222222,FALSE
+"Acyl chain length (carbons)","37",37,"Alcohol on variant",0.750451908287781,0.859137931034483,FALSE
+"Double bonds","1",1,"Alcohol on variant",0.801201243986026,0.877501453836418,FALSE
+"Double bonds","3",3,"Alcohol on variant",0.90945376571384,0.738945578231292,FALSE
+"Acyl chain length (carbons)","34",34,"Alcohol on variant",1.21120335055563,0.395398993529835,FALSE
+"Acyl chain length (carbons)","46",46,"Alcohol on variant",1.07353716267738,0.556206597222222,FALSE
+"Acyl chain length (carbons)","48",48,"Alcohol on variant",0.903336173465417,0.745257452574526,FALSE
+"Double bonds","6",6,"Alcohol on variant",1.22143578151658,0.380010548523207,FALSE
+"Acyl chain length (carbons)","16",16,"Alcohol on variant",-1.0028549836238,0.584426946631671,FALSE
+"Acyl chain length (carbons)","36",36,"Alcohol on variant",0.780120674857749,0.859137931034483,FALSE
+"Double bonds","2",2,"Alcohol on variant",0.84439366507287,0.840107568190549,FALSE
+"Acyl chain length (carbons)","22",22,"Variant alone",-2.10652915572628,0.000539763461603573,TRUE
+"Acyl chain length (carbons)","35",35,"Variant alone",1.03831286888984,0.728271357529874,FALSE
+"Acyl chain length (carbons)","50",50,"Variant alone",0.494476877053194,0.98728813559322,FALSE
+"Acyl chain length (carbons)","56",56,"Variant alone",1.80861262076758,0.0233416996335358,TRUE
+"Acyl chain length (carbons)","52",52,"Variant alone",1.39650265354589,0.346826987307949,FALSE
+"Acyl chain length (carbons)","54",54,"Variant alone",1.44370529683822,0.285429141716567,FALSE
+"Acyl chain length (carbons)","51",51,"Variant alone",1.28316917219479,0.521417699499891,FALSE
+"Double bonds","8",8,"Variant alone",1.54868180218863,0.140536901654683,FALSE
+"Double bonds","4",4,"Variant alone",-1.5242975874411,0.140536901654683,FALSE
+"Acyl chain length (carbons)","18",18,"Variant alone",0.812263698627238,0.862745098039216,FALSE
+"Acyl chain length (carbons)","40",40,"Variant alone",1.52818607705843,0.209737827715356,FALSE
+"Acyl chain length (carbons)","58",58,"Variant alone",1.6602564255185,0.0738720350236238,TRUE
+"Double bonds","5",5,"Variant alone",-0.920251437858829,0.782899131596526,FALSE
+"Acyl chain length (carbons)","38",38,"Variant alone",0.825678891710761,0.823970037453184,FALSE
+"Acyl chain length (carbons)","32",32,"Variant alone",-0.92773438543293,0.782899131596526,FALSE
+"Acyl chain length (carbons)","20",20,"Variant alone",-1.37204368529977,0.346826987307949,FALSE
+"Acyl chain length (carbons)","42",42,"Variant alone",-1.09364690617013,0.69438877755511,FALSE
+"Acyl chain length (carbons)","30",30,"Variant alone",-1.20944486488322,0.560568086883876,FALSE
+"Acyl chain length (carbons)","49",49,"Variant alone",0.84511737290094,0.823970037453184,FALSE
+"Acyl chain length (carbons)","53",53,"Variant alone",1.27554971303391,0.521417699499891,FALSE
+"Double bonds","0",0,"Variant alone",-0.673174677935713,0.98728813559322,FALSE
+"Acyl chain length (carbons)","33",33,"Variant alone",1.02997116924897,0.728271357529874,FALSE
+"Acyl chain length (carbons)","37",37,"Variant alone",1.31574736227195,0.472055888223553,FALSE
+"Double bonds","1",1,"Variant alone",1.40537370435134,0.16748986572154,FALSE
+"Double bonds","3",3,"Variant alone",1.12595375202007,0.62938353636028,FALSE
+"Acyl chain length (carbons)","34",34,"Variant alone",-0.845850772034404,0.823970037453184,FALSE
+"Acyl chain length (carbons)","46",46,"Variant alone",-1.16844673387023,0.62938353636028,FALSE
+"Acyl chain length (carbons)","48",48,"Variant alone",-0.841853677803291,0.823970037453184,FALSE
+"Double bonds","6",6,"Variant alone",-1.09385564907568,0.676409185803758,FALSE
+"Acyl chain length (carbons)","16",16,"Variant alone",-1.08921036685171,0.69438877755511,FALSE
+"Acyl chain length (carbons)","36",36,"Variant alone",-0.502710757743315,0.98728813559322,FALSE
+"Double bonds","2",2,"Variant alone",0.942120328324403,0.782899131596526,FALSE
+"Acyl chain length (carbons)","22",22,"Variant on alcohol",0.984137454237944,0.635093297631997,FALSE
+"Acyl chain length (carbons)","35",35,"Variant on alcohol",-1.4013795170084,0.268292682926829,FALSE
+"Acyl chain length (carbons)","50",50,"Variant on alcohol",1.46150559712876,0.138617886178862,FALSE
+"Acyl chain length (carbons)","56",56,"Variant on alcohol",1.66124803221674,0.0582599497998757,TRUE
+"Acyl chain length (carbons)","52",52,"Variant on alcohol",1.70295033550878,0.0457024436942199,TRUE
+"Acyl chain length (carbons)","54",54,"Variant on alcohol",1.58489614938865,0.0704843431212584,TRUE
+"Acyl chain length (carbons)","51",51,"Variant on alcohol",1.61395974133723,0.0582599497998757,TRUE
+"Double bonds","8",8,"Variant on alcohol",1.27133376329954,0.283300844704353,FALSE
+"Double bonds","4",4,"Variant on alcohol",1.17233738733669,0.374277574277574,FALSE
+"Acyl chain length (carbons)","18",18,"Variant on alcohol",-1.60139140188083,0.0704843431212584,TRUE
+"Acyl chain length (carbons)","40",40,"Variant on alcohol",-1.6458140165773,0.0704843431212584,TRUE
+"Acyl chain length (carbons)","58",58,"Variant on alcohol",1.33495857473563,0.25260029717682,FALSE
+"Double bonds","5",5,"Variant on alcohol",-0.897197351204125,0.720110957004161,FALSE
+"Acyl chain length (carbons)","38",38,"Variant on alcohol",-1.42421063477777,0.170598277895822,FALSE
+"Acyl chain length (carbons)","32",32,"Variant on alcohol",0.78854895688629,0.818155197657394,FALSE
+"Acyl chain length (carbons)","20",20,"Variant on alcohol",0.845151508158787,0.76192483315771,FALSE
+"Acyl chain length (carbons)","42",42,"Variant on alcohol",-0.9741575947285,0.635093297631997,FALSE
+"Acyl chain length (carbons)","30",30,"Variant on alcohol",-0.821601412138041,0.76192483315771,FALSE
+"Acyl chain length (carbons)","49",49,"Variant on alcohol",1.43509768047014,0.138617886178862,FALSE
+"Acyl chain length (carbons)","53",53,"Variant on alcohol",1.46963190739497,0.138617886178862,FALSE
+"Double bonds","0",0,"Variant on alcohol",-1.30541463283978,0.138617886178862,FALSE
+"Acyl chain length (carbons)","33",33,"Variant on alcohol",-1.31551796380131,0.301714285714286,FALSE
+"Acyl chain length (carbons)","37",37,"Variant on alcohol",-1.51795245381481,0.210526315789474,FALSE
+"Double bonds","1",1,"Variant on alcohol",0.586829674676009,0.98568281938326,FALSE
+"Double bonds","3",3,"Variant on alcohol",1.41195476103453,0.170598277895822,FALSE
+"Acyl chain length (carbons)","34",34,"Variant on alcohol",-0.683242906997966,0.934122032250223,FALSE
+"Acyl chain length (carbons)","46",46,"Variant on alcohol",1.34328633911017,0.210526315789474,FALSE
+"Acyl chain length (carbons)","48",48,"Variant on alcohol",1.29395868063994,0.268292682926829,FALSE
+"Double bonds","6",6,"Variant on alcohol",1.31671515739157,0.268292682926829,FALSE
+"Acyl chain length (carbons)","16",16,"Variant on alcohol",-1.16001450557545,0.373251074143439,FALSE
+"Acyl chain length (carbons)","36",36,"Variant on alcohol",0.657059629961464,0.934122032250223,FALSE
+"Double bonds","2",2,"Variant on alcohol",0.896680414478537,0.76192483315771,FALSE

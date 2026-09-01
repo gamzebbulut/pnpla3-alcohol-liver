@@ -1,0 +1,33 @@
+KEGG_id,category,note
+mmu00061,Lipid metabolism,
+mmu00071,Lipid metabolism,
+mmu00120,Lipid metabolism,bile acid
+mmu00564,Lipid metabolism,
+mmu00565,Lipid metabolism,
+mmu00590,Lipid metabolism,
+mmu00591,Lipid metabolism,
+mmu03320,Lipid metabolism,"KEGG files PPAR under signalling; grouped with lipid here because its gene set IS the fatty-acid oxidation programme - stated in the legend"
+mmu00260,Amino acid metabolism,
+mmu00270,Amino acid metabolism,
+mmu00400,Amino acid metabolism,
+mmu00470,Amino acid metabolism,KEGG files this under "other amino acids" - check
+mmu00450,Amino acid metabolism,KEGG files this under "other amino acids" - check
+mmu00670,Cofactors and vitamins,
+mmu00770,Cofactors and vitamins,
+mmu00860,Cofactors and vitamins,
+mmu01200,Global and overview,
+mmu01230,Amino acid metabolism,KEGG files it as a Global map; moved - it IS amino acid biosynthesis
+mmu01210,Amino acid metabolism,KEGG files it as a Global map; moved - 2-oxo acids are the AA precursor chain. Revert to "Global and overview" if you disagree
+mmu01250,Global and overview,
+mmu00970,Other,aminoacyl-tRNA - translation; folded into Other
+mmu03060,Other,protein export; folded into Other
+mmu04142,Other,folded into Other (Cellular processes)
+mmu04217,Other,necroptosis - cell death; folded into Other
+mmu04270,Other,folded into Other (Organismal systems)
+mmu04964,Other,folded into Other (Organismal systems)
+mmu04974,Other,folded into Other (Organismal systems)
+mmu04978,Other,folded into Other (Organismal systems)
+mmu05230,Other,folded into Other (Disease)
+mmu05320,Other,folded into Other (Disease)
+mmu05330,Other,folded into Other (Disease)
+mmu00996,Other,no title in the combo table either - resolve or drop
