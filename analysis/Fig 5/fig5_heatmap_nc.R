@@ -57,9 +57,13 @@ nc_style_report()
 GENE_FDR <- 0.10
 MET_P    <- 0.05
 qmap  <- c(C1 = "Q3", C2 = "Q4", C3 = "Q2", C4 = "Q5")
-## Plain language, wrapped to two lines, from the shared style file.
-xlab  <- c(C1 = "Alcohol on\nvariant",   C2 = "Alcohol on\nwild type",
-           C3 = "Variant\nalone",        C4 = "Variant on\nalcohol")
+## The columns are keyed C1..C4 internally. ckey turns each into the internal
+## contrast key, and nc_label_expr turns THAT into what the reader sees --
+## nc_style.R's display layer, two-line form, with the I148M superscript.
+## Nothing here is ever drawn as C1..C4 (revision task A2).
+ckey  <- c(C1 = "Alcohol on variant", C2 = "Alcohol on wild type",
+           C3 = "Variant alone",      C4 = "Variant on alcohol")
+X_LAB <- function(x) nc_label_expr(ckey[as.character(x)], two_line = TRUE)
 
 long <- do.call(rbind, lapply(names(qmap), function(cc) {
   f <- file.path(IN_BASE, paste0(qmap[[cc]], "_StoufferPMAX_pooled"),
@@ -146,7 +150,7 @@ p <- ggplot(hd, aes(contrast, pw_label)) +
                     labels = c(increased = "Increased", decreased = "Decreased")) +
   geom_text(data = armhdr, aes(x = x, y = n + 0.72, label = lab), inherit.aes = FALSE,
             size = NC_MIN / .pt, colour = NC_INK2, vjust = 0) +
-  scale_x_discrete(labels = xlab, position = "top", expand = c(0, 0)) +
+  scale_x_discrete(labels = X_LAB, position = "top", expand = c(0, 0)) +
   scale_y_discrete(expand = expansion(add = c(0.5, 1.5))) +
   coord_cartesian(clip = "off") +
   labs(x = NULL, y = NULL,

@@ -91,7 +91,9 @@ make_panel <- function(g) {
                          limits = c(-LIM, LIM), na.value = "grey92",
                          breaks = c(-4, 0, 4), name = expression("Log"[2]~"FC")) +
     scale_x_discrete(labels = lab_by_var, expand = c(0, 0)) +
-    scale_y_discrete(expand = c(0, 0)) +
+    ## Reader-facing contrast names from nc_style.R's display layer, parsed
+    ## for the I148M superscript. `clabel` stays the internal key.
+    scale_y_discrete(expand = c(0, 0), labels = nc_label_expr) +
     labs(x = NULL, y = NULL) +
     theme_nc() +
     theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 5),

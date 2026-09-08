@@ -84,7 +84,11 @@ SIG_CS <- enriched("total_cs_"); SIG_CL <- enriched("total_cl_")
 DIRCOL <- c(increased = NC_RED, decreased = NC_BLUE)          # panel c only
 ENRCOL <- c("Enriched (FDR < 0.10)" = NC_RED, "Not enriched" = "#9E9E9E")
 
-facets <- function() facet_wrap(~ cmp, nrow = 1)
+## One labeller feeds all three panels. Strip text is the reader-facing name
+## from nc_style.R's display layer, parsed for the I148M superscript; `cmp`
+## itself stays the internal key. 180 mm over four facets is 45 mm each, so the
+## one-line form fits.
+facets <- function() facet_wrap(~ cmp, nrow = 1, labeller = nc_labeller())
 legend_top <- function() theme(legend.position = "top",
                                legend.key.size = grid::unit(6, "pt"),
                                strip.text = element_text(size = NC_BASE))

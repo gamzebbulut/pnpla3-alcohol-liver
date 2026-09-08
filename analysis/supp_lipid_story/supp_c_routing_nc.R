@@ -95,14 +95,21 @@ p <- ggplot(agg, aes(pool, mean, fill = arm, group = arm)) +
   geom_errorbar(aes(ymin = mean - se, ymax = mean + se), position = dodge,
                 width = 0.18, linewidth = 0.25, colour = NC_INK) +
   facet_grid(~ compartment, scales = "free_x", space = "free_x") +
+  ## This is the panel the label form was approved on (notation_preview/).
+  ## Names come from nc_style.R's display layer, parsed for the I148M
+  ## superscript; the fills come from CONTRAST_COL, whose two reds were
+  ## exchanged on 1 Sep so pale always means the factor on its own.
   scale_fill_manual(values = CONTRAST_COL, name = NULL,
-                    breaks = unname(QLAB[c("Q4","Q3","Q2","Q5")])) +
+                    breaks = unname(QLAB[c("Q4","Q3","Q2","Q5")]),
+                    labels = nc_label_expr) +
   labs(x = NULL, y = expression("Mean log"[2]~"fold-change")) +
   guides(fill = guide_legend(nrow = 2, byrow = TRUE)) +
   theme_nc(grid_y = TRUE) +
   theme(legend.position = "top", legend.justification = "left",
         legend.key.size = grid::unit(6, "pt"),
-        legend.text = element_text(size = NC_BIG),
+        ## hjust = 0 keeps each parsed label pinned to its own swatch; without
+        ## it ggplot's equal-width legend cells let the short one drift.
+        legend.text = element_text(size = NC_BIG, hjust = 0),
         strip.text = element_text(size = NC_BIG),
         panel.spacing = grid::unit(5, "pt"),
         axis.title = element_text(size = NC_BIG),

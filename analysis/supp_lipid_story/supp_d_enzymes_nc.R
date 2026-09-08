@@ -129,7 +129,10 @@ p <- ggplot(D, aes(gene, contrast)) +
                        name = expression("Log"[2]~"fold-change"),
                        breaks = scales::pretty_breaks(4)) +
   scale_x_discrete(expand = expansion(add = 0.04)) +
-  scale_y_discrete(expand = expansion(add = 0.04)) +
+  ## Reader-facing contrast names from nc_style.R's display layer, parsed for
+  ## the I148M superscript. The CONTRASTS vector keeps the internal keys, which
+  ## are also the limma contrast formulas' names.
+  scale_y_discrete(expand = expansion(add = 0.04), labels = nc_label_expr) +
   labs(x = NULL, y = NULL) +
   guides(fill = guide_colourbar(barwidth = grid::unit(34, "pt"),
                                 barheight = grid::unit(5.5, "pt"),

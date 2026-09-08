@@ -78,7 +78,9 @@ p <- ggplot(sl, aes(slope, arm, colour = pool, group = pool)) +
                  height = 0, linewidth = 0.5, position = dodge) +
   geom_point(size = 1.8, shape = 16, position = dodge) +
   scale_colour_manual(values = POOL_COL, name = NULL) +
-  scale_y_discrete(expand = expansion(add = 0.55)) +
+  ## Reader-facing contrast names from nc_style.R's display layer, parsed for
+  ## the I148M superscript. The data keeps the internal keys.
+  scale_y_discrete(expand = expansion(add = 0.55), labels = nc_label_expr) +
   labs(x = "Slope of log2 fold-change\non acyl-chain double bonds", y = NULL) +
   guides(colour = guide_legend(nrow = 1, override.aes = list(size = 1.8))) +
   theme_nc() +

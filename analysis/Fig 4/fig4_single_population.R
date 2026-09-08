@@ -295,11 +295,14 @@ for (i in seq_len(nrow(sig))) {
                labeller = labeller(gene = lab)) +
     scale_fill_manual(values = stats::setNames(c(NC_GREY, NC_BLUE),
                                                c(BOX_REF, BOX_ALT)), guide = "none") +
-    scale_x_discrete(labels = c("No alcohol", "Alcohol")) +
-    labs(x = NULL, y = expression("Log"[2]~"CPM")) +
+    ## Same two groups as Fig 2d, so the same labels: ticks carry alcohol, the
+    ## axis title carries the background. From nc_style.R's group layer.
+    scale_x_discrete(labels = ALC_TICKS) +
+    labs(x = alc_axis(), y = expression("Log"[2]~"CPM")) +
     theme_nc() +
     theme(strip.text = element_text(size = NC_MIN, face = "italic"),
-          axis.text.x = element_text(size = NC_MIN))
+          axis.text.x  = element_text(size = NC_BASE + 2),
+          axis.title.x = element_text(size = NC_BASE, margin = ggplot2::margin(t = 2)))
   save_nc(p, file.path(D_BOX, sprintf("Boxplots_%s_%s_%s", kid, POPTAG, QUESTION)),
           180, 80)
 }

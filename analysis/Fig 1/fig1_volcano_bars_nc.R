@@ -279,12 +279,16 @@ barpanel_merged <- function(mode) {
     fill_aes <- "dir"
     fill_val <- c(increased = NC_RED, decreased = NC_BLUE)
     fill_brk <- c("increased", "decreased")
+    fill_lab <- ggplot2::waiver()          # "increased"/"decreased", not a contrast
     ## room at the left for the per-bar comparison names
     xlo <- XNEG - 0.46 * (XPOS - XNEG)
   } else {
     fill_aes <- "comparison"
     fill_val <- CONTRAST_COL[PAIR_ORDER]
     fill_brk <- PAIR_ORDER
+    ## Reader-facing names come from nc_style.R's display layer, never from the
+    ## internal keys the data carries. Parsed, for the I148M superscript.
+    fill_lab <- function(x) nc_label_expr(x)
     xlo <- XNEG - 0.12 * (XPOS - XNEG)   # room for the widest decreased label
   }
   ## Breaks come from the DATA range, not from the limits: in "direction" mode
@@ -302,7 +306,8 @@ barpanel_merged <- function(mode) {
     geom_text(data = lb, aes(label = n, hjust = hj, group = comparison),
               position = dodge, size = NC_BIG / .pt, colour = NC_INK,
               inherit.aes = TRUE, show.legend = FALSE) +
-    scale_fill_manual(values = fill_val, breaks = fill_brk, name = NULL) +
+    scale_fill_manual(values = fill_val, breaks = fill_brk, labels = fill_lab,
+                      name = NULL) +
     ## Two rows, not one: at 88 mm the two contrast names side by side are wider
     ## than the panel and the second one clips.
     guides(fill = guide_legend(nrow = 2, byrow = TRUE)) +
@@ -322,7 +327,10 @@ barpanel_merged <- function(mode) {
     ## to "top" rather than letting it overlap a bar.
     theme(legend.position = LEGEND_POS, legend.justification = LEGEND_JUST,
           legend.key.size = grid::unit(6, "pt"),
-          legend.text = element_text(size = NC_BIG),
+          ## hjust = 0 — parsed labels differ in width and ggplot sizes every
+          ## legend cell to the widest, so without it the short label drifts
+          ## off its own swatch.
+          legend.text = element_text(size = NC_BIG, hjust = 0),
           legend.background = element_rect(fill = "white", colour = NA),
           legend.margin = ggplot2::margin(1, 2, 1, 1),
           axis.title  = element_text(size = NC_BIG),
@@ -342,9 +350,10 @@ barpanel_merged <- function(mode) {
     ## a legend would make the reader map a colour to a comparison and then a
     ## position to a direction, which is one indirection too many.
     pl <- unique(CNT[, c("class", "comparison")])
-    p <- p + geom_text(data = pl, aes(x = xlo, y = class,
-                                      label = as.character(comparison),
-                                      group = comparison),
+    ## parse = TRUE: the plotmath string carries the I148M superscript.
+    pl$lab <- unname(CONTRAST_PLOTMATH[as.character(pl$comparison)])
+    p <- p + geom_text(data = pl, aes(x = xlo, y = class, label = lab,
+                                      group = comparison), parse = TRUE,
                        position = dodge, hjust = 0, size = NC_MIN / .pt,
                        colour = NC_INK2, inherit.aes = FALSE, show.legend = FALSE)
   }

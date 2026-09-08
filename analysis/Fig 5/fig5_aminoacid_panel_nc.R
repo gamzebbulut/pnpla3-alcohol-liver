@@ -132,22 +132,35 @@ p <- ggplot(d, aes(name, logFC)) +
   ## genotypes; both groups here carry PNPLA3 I148M. Named in plain language
   ## only -- the C1..C4 shorthand is not to appear anywhere a reader can see
   ## (revision task A2, Sanyal).
+  ## The wording is the approved one from nc_style.R's display layer, so the
+  ## caption and every axis in the paper say the same thing; parsed, so the
+  ## superscript matches the figures.
   labs(y = expression("Log"[2]~"fold-change"), x = NULL,
-       caption = "Alcohol on the PNPLA3 I148M background") +
+       caption = expression("Alcohol on the "*PNPLA3^"I148M"*" background")) +
   guides(size = guide_legend(override.aes = list(fill = NC_GREY, alpha = c(0.45, 1)),
                              title = "Significant")) +
   theme_nc(grid_y = TRUE) +
   theme(strip.background = element_blank(),
-        strip.text.x = element_text(size = NC_MIN, colour = NC_INK2, lineheight = 0.9,
+        ## 8 pt, not 6. The co-authors' complaint about this panel was that
+        ## nobody could read the metabolite names, and 6 pt was the smallest
+        ## type in the paper. The labels are ROTATED, so their size is limited
+        ## by panel HEIGHT, not by the 4.8 mm between columns -- at 8 pt the 37
+        ## names still clear each other; the panel just grows 72 -> 84 mm.
+        strip.text.x = element_text(size = NC_BASE, colour = NC_INK2, lineheight = 0.9,
                                     margin = margin(b = 1)),
         panel.spacing.x = grid::unit(3, "pt"),
-        axis.text.x = element_text(size = NC_MIN, angle = 90, hjust = 1, vjust = 0.5),
+        axis.text.x = element_text(size = NC_BASE, angle = 90, hjust = 1, vjust = 0.5),
         legend.position = "top", legend.key.size = grid::unit(7, "pt"),
         legend.title = element_text(size = NC_MIN, colour = NC_INK2),
         plot.caption = element_text(size = NC_MIN, colour = NC_INK2, hjust = 0)) +
   nc_tag("b")
 
-save_nc(p, file.path(OUT, "Fig5b_aminoacid_groups"), width_mm = NC_W2, height_mm = 72)
+## 84 mm, up from 72, to carry the 8 pt names. Figure 5 then totals
+## 135 (panel a) + 84 = 219 mm against the 225 mm page maximum, leaving 6 mm
+## for the gutter and the panel letters. If that is too tight, the lever is
+## panel a's row height in fig5_heatmap_nc.R (H <- 26 + 5.2 * n): 5.0 mm per
+## row gives back 4 mm and 21 rows will still take it.
+save_nc(p, file.path(OUT, "Fig5b_aminoacid_groups"), width_mm = NC_W2, height_mm = 84)
 
 utils::write.csv(d[, c("group","name","logFC","p","q","sig")],
                  file.path(OUT, "SourceData_Fig5b_groups.csv"), row.names = FALSE)

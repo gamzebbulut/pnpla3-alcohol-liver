@@ -15,8 +15,10 @@
 #  Two house rules that are not Nature's but are ours:
 #    1. No in-panel titles. Nature panels carry a letter, not a title; the
 #       message lives in the legend. fmt_p() and the legend do that work.
-#    2. No "C1..C4" anywhere a reader can see (revision task A2). Use
-#       CONTRAST_LABEL / CONTRAST_SHORT below.
+#    2. No "C1..C4" anywhere a reader can see (revision task A2). Internal
+#       keys are CONTRAST_LABEL / CONTRAST_SHORT; what a READER sees comes
+#       from the display layer below — nc_label(), nc_label_expr(),
+#       nc_labeller() — approved 8 September 2026. Never draw a raw key.
 # =============================================================================
 
 ## ---- canvas -----------------------------------------------------------------
@@ -109,11 +111,15 @@ CONTRAST_SHORT <- c(
   "C2 alcohol (WT)"  = "Alcohol | wild type",
   "C3 mutation"      = "Variant alone",
   "C4 mut (alc bg)"  = "variant | alcohol")
+## Colour rule, approved 1 September 2026: PALE is the factor on its own,
+## SATURATED is that factor on the other's background. The blue pair already
+## read that way; the two reds were the wrong way round and were exchanged.
+## A reader can now decode the key without reading it.
 CONTRAST_COL <- c(
   "Alcohol on wild type" = NC_BLUE_L,
   "Alcohol on variant"   = NC_BLUE,
-  "Variant alone"        = NC_RED,
-  "Variant on alcohol"   = NC_RED_L)
+  "Variant alone"        = NC_RED_L,
+  "Variant on alcohol"   = NC_RED)
 ## Reading order: alcohol first, then variant (revision task A1 — alcohol,
 ## then variant, then the combination).
 CONTRAST_ORDER <- c("Alcohol on wild type", "Alcohol on variant",
@@ -124,6 +130,122 @@ relabel_contrast <- function(x, short = FALSE) {
   out <- unname(m[as.character(x)])
   out[is.na(out)] <- as.character(x)[is.na(out)]
   out
+}
+
+## ---- reader-facing contrast labels (approved 8 September 2026) --------------
+## Everything above is INTERNAL. Scripts index by those strings and the
+## published SourceData_*.csv files carry them in their `contrast` / `cmp`
+## columns, so they must not move. What follows is a DISPLAY layer: the only
+## thing a reader sees. A future wording change is one edit here plus a
+## re-render, not twelve scripts again.
+##
+##   Alcohol on wild type -> Alcohol alone
+##   Alcohol on variant   -> Alcohol (PNPLA3^I148M bg)
+##   Variant alone        -> PNPLA3^I148M alone
+##   Variant on alcohol   -> PNPLA3^I148M (alcohol bg)
+##
+## "Alone" is exact rather than shorthand: alcohol on the wild-type background
+## IS alcohol alone, and the variant on the no-alcohol background IS the variant
+## alone. The set reads as two pairs — one insult on two backgrounds, then one
+## variant on two backgrounds.
+
+## Flat form. For captions, console output and anything that cannot parse.
+CONTRAST_DISPLAY <- c(
+  "Alcohol on wild type" = "Alcohol alone",
+  "Alcohol on variant"   = "Alcohol (PNPLA3-I148M bg)",
+  "Variant alone"        = "PNPLA3-I148M alone",
+  "Variant on alcohol"   = "PNPLA3-I148M (alcohol bg)")
+
+## Plotmath form — the one that goes in figures. The superscript is
+## load-bearing, not cosmetic: written flat, these labels clip off the right
+## edge of an 88 mm panel (rendered evidence, notation_preview/, form D).
+## plotmath is the house route for superscripts; label_parsed is already used in
+## fig4_boxplots_nc.R and fig5_aminoacid_boxplots_nc.R, and ggtext was
+## deliberately removed from fig5_heatmap_nc.R and is not coming back.
+##
+## SPACING: use *" (" — a quoted leading space. Measured at real 6 pt in Arial
+## metrics: quoted space = 0.589 mm, one normal word space; `~` = 1.100 mm,
+## 1.9x too wide. The `~` is what produced the wide gap in the 31 Aug preview,
+## so notation_preview/render.R is NOT the form to copy.
+CONTRAST_PLOTMATH <- c(
+  "Alcohol on wild type" = '"Alcohol alone"',
+  "Alcohol on variant"   = '"Alcohol"*" ("*PNPLA3^"I148M"*" bg)"',
+  "Variant alone"        = 'PNPLA3^"I148M"*" alone"',
+  "Variant on alcohol"   = 'PNPLA3^"I148M"*" (alcohol bg)"')
+
+## Two-line form, for an axis too narrow to take the label on one line —
+## Figure 5a's four columns are the only current case.
+CONTRAST_PLOTMATH_2L <- c(
+  "Alcohol on wild type" = 'atop("Alcohol", "alone")',
+  "Alcohol on variant"   = 'atop("Alcohol", "("*PNPLA3^"I148M"*" bg)")',
+  "Variant alone"        = 'atop(PNPLA3^"I148M", "alone")',
+  "Variant on alcohol"   = 'atop(PNPLA3^"I148M", "(alcohol bg)")')
+
+## Flat labels. Unknown strings pass through unchanged.
+nc_label <- function(x) {
+  out <- unname(CONTRAST_DISPLAY[as.character(x)])
+  out[is.na(out)] <- as.character(x)[is.na(out)]
+  out
+}
+
+## Parsed labels, one expression per input — for `labels =` in any scale, for
+## annotate(parse = TRUE), and anywhere else a plotmath slot takes a vector.
+## An unknown string is quoted rather than dropped, so a typo shows up as plain
+## text in the panel instead of throwing.
+nc_label_expr <- function(x, two_line = FALSE) {
+  tab <- if (two_line) CONTRAST_PLOTMATH_2L else CONTRAST_PLOTMATH
+  s <- unname(tab[as.character(x)])
+  s[is.na(s)] <- sprintf('"%s"', as.character(x)[is.na(s)])
+  parse(text = s)
+}
+
+## Facet labeller:  facet_wrap(~ cmp, labeller = nc_labeller())
+## Built on call rather than at load, so sourcing this file never needs ggplot2.
+nc_labeller <- function(two_line = FALSE) {
+  tab <- if (two_line) CONTRAST_PLOTMATH_2L else CONTRAST_PLOTMATH
+  ggplot2::as_labeller(tab, default = ggplot2::label_parsed)
+}
+
+## ---- group labels, as distinct from contrast labels ------------------------
+## A CONTRAST is a comparison (four of them, above). A GROUP is one arm of the
+## study. They were drifting apart: Fig 2d said "Variant / Variant + alcohol",
+## the Fig 4d boxplots said "No alcohol / Alcohol", and Fig 2f said
+## "WD / WD+var / WD+alc / WD+var+alc" -- three vocabularies for the same mice.
+## Everything a reader sees now comes from here.
+
+## Two-group boxplots (Fig 2d, the Fig 4d boxplots). BOTH groups are on the
+## variant background, so naming it on every tick prints the same gene name
+## twelve times across six facets, and at 8 pt in 180 mm the two names collide
+## (measured: 15 mm per label, the name needs ~15 mm on its own). The
+## background is therefore named ONCE, in the axis title, and the ticks carry
+## only what differs.
+##
+## The tick marks are the ASCII hyphen and plus, NEVER U+2212. A true minus is
+## the same class of character as the Unicode >= that rendered as an empty box
+## in Illustrator, and as the triangles that came out as dots in Fig 5.
+ALC_TICKS <- c("-", "+")
+
+## x-axis title for those panels. background = FALSE where the surrounding
+## figure has already established it.
+alc_axis <- function(background = TRUE) {
+  if (background) expression("Alcohol (all mice "*PNPLA3^"I148M"*")")
+  else            expression("Alcohol")
+}
+
+## The four study arms (Fig 2f, and Supp Fig 1 when it is rewritten). Every arm
+## is on Western diet, so "WD" carries no information inside a panel and is
+## dropped from the label and stated in the legend instead: spelled out in full
+## the codes truncate mid-superscript at 60 mm even at the 6 pt floor.
+ARM_PLOTMATH <- c(
+  "WD"         = 'atop("Control", "")',
+  "WD+var"     = 'atop(PNPLA3^"I148M", "")',
+  "WD+alc"     = 'atop("Alcohol", "")',
+  "WD+var+alc" = 'atop(PNPLA3^"I148M", "+ alcohol")')
+
+nc_arm_expr <- function(x) {
+  s <- unname(ARM_PLOTMATH[as.character(x)])
+  s[is.na(s)] <- sprintf('"%s"', as.character(x)[is.na(s)])
+  parse(text = s)
 }
 
 ## ---- exact P values (revision task J8) --------------------------------------
@@ -172,7 +294,11 @@ theme_nc <- function(base = NC_BASE, grid_y = FALSE, tick_size = NC_MIN + 1) {
       axis.ticks       = ggplot2::element_line(linewidth = 0.25, colour = NC_INK),
       axis.ticks.length = grid::unit(1.2, "pt"),
       legend.title     = ggplot2::element_blank(),
-      legend.text      = ggplot2::element_text(size = base, colour = NC_INK),
+      ## hjust = 0 is not cosmetic. ggplot sizes every legend cell to the
+      ## widest label, so with parsed labels of unequal width a short one
+      ## drifts away from its own key. Pinning it left keeps each label on its
+      ## swatch. Any script that overrides legend.text must carry this too.
+      legend.text      = ggplot2::element_text(size = base, colour = NC_INK, hjust = 0),
       legend.key.size  = grid::unit(6, "pt"),
       legend.margin    = ggplot2::margin(0, 0, 0, 0),
       legend.box.spacing = grid::unit(2, "pt"),

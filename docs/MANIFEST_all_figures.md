@@ -41,8 +41,8 @@ Output: `Fig 2/nc_panels/`
 | b | Sphingo- + glycerolipids | same script | `Fig2b_sphingo_glycerolipids.svg` | 88 x 44 |
 | c | Amino acids + other classes | same script | `Fig2c_aminoacids_other.svg` | 88 x 44 |
 | d | Six lipotoxic readouts, boxplots | `fig2_d_lipotoxic_boxplots_nc.R` | `Fig2d_lipotoxic.svg` | 180 x 42 |
-| e | PC fold-change by unsaturation bin | `fig2_e_f_pc_composition_nc.R` | `Fig2e_PC_unsaturation.svg` | 120 x 62 |
-| f | PC saturation index, one point per mouse | same script | `Fig2f_PC_saturation_index.svg` | 60 x 62 |
+| e | PC fold-change by unsaturation bin | `fig2_e_f_pc_composition_nc.R` | `Fig2e_PC_unsaturation.svg` | 108 x 62 |
+| f | PC saturation index, one point per mouse | same script | `Fig2f_PC_saturation_index.svg` | 72 x 62 |
 
 Reads: `Fig 1/FC_Q2..Q5_metabolites.csv` (a-c);
 `Data/Data_22_0018_VCU_PNPLA3 EtOH.xlsx` (d-f, or a CSV cache via `OWL_CACHE`).
@@ -99,7 +99,7 @@ Output: `Fig 5/nc_panels/`
 | panel | what it shows | script | file | mm |
 |---|---|---|---|---|
 | a | Cross-contrast pathway heatmap, 21 pathways | `fig5_heatmap_nc.R` | `Fig5_integrated_pathways.svg` | 180 x 135 |
-| b | 37 amino-acid + sulfur metabolites by pathway | `fig5_aminoacid_panel_nc.R` | `Fig5b_aminoacid_groups.svg` | 180 x 72 |
+| b | 37 amino-acid + sulfur metabolites by pathway | `fig5_aminoacid_panel_nc.R` | `Fig5b_aminoacid_groups.svg` | 180 x 84 |
 
 Reads: `GB_metabolomics_20260628/Q*_StoufferPMAX_pooled/*.csv` (a);
 `Fig 1/FC_Q3_metabolites.csv` (b).

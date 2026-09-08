@@ -100,8 +100,15 @@ d_panel <- ggplot(dfl, aes(grp, val)) +
   scale_fill_manual(values = c("Variant" = NC_GREY, "Variant\n+ alcohol" = NC_BLUE),
                     guide = "none") +
   scale_y_continuous(expand = expansion(mult = c(0.08, 0.34))) +
-  labs(x = NULL, y = "Relative abundance") +
+  ## Both groups are on the variant background, so the background is named once
+  ## in the axis title and the ticks carry only alcohol. See nc_style.R's group
+  ## layer for why: the full name on both ticks collides at 8 pt in this row.
+  scale_x_discrete(labels = stats::setNames(ALC_TICKS,
+                                            c("Variant", "Variant\n+ alcohol"))) +
+  labs(x = alc_axis(), y = "Relative abundance") +
   theme_nc() +
+  theme(axis.text.x  = element_text(size = NC_BASE + 2),
+        axis.title.x = element_text(size = NC_BASE, margin = ggplot2::margin(t = 2))) +
   nc_tag("d")
 
 save_nc(d_panel, file.path(OUT, "Fig2d_lipotoxic"), width_mm = 180, height_mm = 42)

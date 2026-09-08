@@ -66,8 +66,10 @@ for (m in mets) d[[m]][is.na(d[[m]])] <- min(d[[m]], na.rm = TRUE) / 5
 ## G_LAB is the two-line version used only for the x axis of panel f.
 GRP_MAP <- c("AAV Luc" = "WD", "PNPLA3 MUT" = "WD+var",
              "PNPLA3 Luc-WD + EtOH" = "WD+alc", "PNPLA3 MUT + EtOH" = "WD+var+alc")
-G_WRAP  <- c("WD" = "WD", "WD+var" = "WD\n+var",
-             "WD+alc" = "WD\n+alc", "WD+var+alc" = "WD+var\n+alc")
+## G_WRAP retired 8 Sep 2026. Panel f's x labels now come from ARM_PLOTMATH in
+## nc_style.R, keyed by G itself, so the four arms are named the same way here,
+## in Fig 2d and in Supp Fig 1. The old two-line codes are kept only as a
+## comment: "WD", "WD\n+var", "WD\n+alc", "WD+var\n+alc".
 d$G <- unname(GRP_MAP[as.character(d$Sample)])
 d   <- d[!is.na(d$G), ]
 d$G <- factor(d$G, levels = unname(GRP_MAP))
@@ -135,6 +137,10 @@ e <- ggplot(bars, aes(contrast, mean, fill = ubin)) +
                 position = position_dodge(0.8), width = 0.2,
                 colour = NC_INK, linewidth = 0.25) +
   scale_fill_manual(values = BIN_COL, name = "Double bonds") +
+  ## Reader-facing contrast names from nc_style.R's display layer. Two-line
+  ## form: four labels share 120 mm, so 30 mm each, and the one-line
+  ## "Alcohol (PNPLA3-I148M bg)" needs about 32 mm at 8 pt.
+  scale_x_discrete(labels = function(x) nc_label_expr(x, two_line = TRUE)) +
   scale_y_continuous(expand = expansion(mult = c(0.06, 0.08))) +
   labs(x = NULL, y = expression("Mean log"[2]~"fold-change")) +
   guides(fill = guide_legend(nrow = 1, title.position = "left",
@@ -147,10 +153,14 @@ e <- ggplot(bars, aes(contrast, mean, fill = ubin)) +
         axis.text.x = element_text(size = NC_BASE)) +
   nc_tag("e")
 
-save_nc(e, file.path(OUT, "Fig2e_PC_unsaturation"), width_mm = 120, height_mm = 62)
+## 108 + 72 = 180, the same row total as the old 120 + 60. Panel f took the
+## 12 mm because its four arm names need ~18 mm each; panel e's four two-line
+## contrast labels still clear at 27 mm each. Both measured at true size.
+save_nc(e, file.path(OUT, "Fig2e_PC_unsaturation"), width_mm = 108, height_mm = 62)
 
 ## ---- panel f: the index itself, one point per mouse ------------------------
-fd <- data.frame(G = factor(unname(G_WRAP[as.character(d$G)]), levels = unname(G_WRAP)),
+## G stays the internal key; ARM_PLOTMATH turns it into what the reader sees.
+fd <- data.frame(G = factor(as.character(d$G), levels = levels(d$G)),
                  alc = grepl("alc", as.character(d$G)), index = index)
 mu <- do.call(rbind, lapply(split(fd, fd$G), function(z)
   data.frame(G = z$G[1], m = mean(z$index), se = sd(z$index)/sqrt(nrow(z)))))
@@ -174,6 +184,10 @@ f <- ggplot(fd, aes(G, index)) +
   annotate("text", x = 3, y = ytop2 + span2 * 0.08, parse = TRUE,
            label = fmt_p_expr(p_mut), size = NC_P / .pt, colour = NC_INK) +
   scale_fill_manual(values = c("FALSE" = NC_GREY, "TRUE" = NC_BLUE), guide = "none") +
+  ## Arm names from nc_style.R's group layer. "WD" is dropped from the labels --
+  ## every arm is on Western diet, so it is stated in the legend instead; with
+  ## it the labels truncate mid-superscript even at the 6 pt floor.
+  scale_x_discrete(labels = nc_arm_expr) +
   scale_y_continuous(expand = expansion(mult = c(0.06, 0.22))) +
   ## "4+", not ">=4": the plotmath >= is a real Unicode glyph and drops out as a
   ## missing-character box in Illustrator, the same failure as Fig 1c's pool
@@ -182,7 +196,7 @@ f <- ggplot(fd, aes(G, index)) +
   theme_nc() +
   nc_tag("f")
 
-save_nc(f, file.path(OUT, "Fig2f_PC_saturation_index"), width_mm = 60, height_mm = 62)
+save_nc(f, file.path(OUT, "Fig2f_PC_saturation_index"), width_mm = 72, height_mm = 62)
 
 ## ---- Source Data + the numbers for the legend ------------------------------
 utils::write.csv(data.frame(sample_id = d[[1]], group = as.character(d$G), tot,

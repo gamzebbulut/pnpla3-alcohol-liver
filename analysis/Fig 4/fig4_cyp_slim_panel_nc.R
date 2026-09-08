@@ -181,8 +181,11 @@ p <- ggplot(mapping = aes(gene, row)) +
                        breaks = scales::pretty_breaks(4)) +
   scale_x_discrete(expand = expansion(add = 0.04)) +
   ## a little y padding, or the circles on the top row are sliced in half by
-  ## the panel edge
-  scale_y_discrete(expand = expansion(add = 0.14)) +
+  ## the panel edge.
+  ## The y axis mixes two contrast rows with three pathway rows. nc_label_expr
+  ## rewrites the contrasts to the reader-facing names (I148M superscript) and
+  ## passes the pathway names through quoted, so one labeller serves both.
+  scale_y_discrete(expand = expansion(add = 0.14), labels = nc_label_expr) +
   labs(x = NULL, y = NULL) +
   guides(fill = guide_colourbar(barwidth = grid::unit(34, "pt"),
                                 barheight = grid::unit(5.5, "pt"),

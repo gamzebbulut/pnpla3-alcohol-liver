@@ -6,9 +6,9 @@ fixes; this file covers only the two new pieces of work.
 
 **Decisions already made:** notation moves to the `PNPLA3-I148M` form, not
 `-mut`, keeping the Banini convention the eight legends now use. Repo is private
-now, public at acceptance. **Still open:** the exact glyph — superscript `mut`,
-superscript `m`, or spelled-out `I148M`. Nothing in Task 1 starts until that is
-settled (see 1.6).
+now, public at acceptance. **SETTLED 8 Sep 2026:** superscript `I148M`, and Task 1 is done — see
+`figure making/FIGURE_REMAKE_TASKLIST.md`. (Was open: the exact glyph — superscript `mut`,
+superscript `m`, or spelled-out `I148M`. spelled-out `I148M`. Nothing in Task 1 started until that was settled; see 1.6.)
 
 ---
 
