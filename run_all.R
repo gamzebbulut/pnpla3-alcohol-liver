@@ -53,5 +53,10 @@ run("supp_lipid_story/supp_b_slopes_nc.R")
 run("supp_lipid_story/supp_c_routing_nc.R")
 run("supp_lipid_story/supp_d_enzymes_nc.R")
 
-message("\ndone. panels are under analysis/<Fig N>/nc_panels/")
+## -- supplementary tables (need openxlsx, flextable, officer) ----------------
+run("supp_tables/supp_table1_alcohol_both_backgrounds.R")
+run("supp_tables/supp_table2_alcohol_variant_only.R")
+run("supp_tables/supp_table3_joint_pathways.R")
+
+message("\ndone. panels are under analysis/<Fig N>/nc_panels/, tables under analysis/supp_tables/out/")
 writeLines(capture.output(sessionInfo()), "sessionInfo.txt")
