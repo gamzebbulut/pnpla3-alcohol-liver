@@ -11,7 +11,7 @@
 # Earlier this lived in SuppTables_joint_pathways_14_and_13.docx (31 Aug), built
 # by hand outside R, next to a second 13-pathway list (FDR on Pmax). That second
 # list is now a column here instead of a separate table: 13 of the 14 pass
-# FDR(Pmax) < 0.10, and those 13 are the KEGG maps of Supplementary Fig. 3.
+# FDR(Pmax) < 0.10; the one that does not is shaded.
 #
 # Input: the integration pipeline output, read verbatim -- nothing is recomputed.
 #   GB_metabolomics_20260628/Q3_StoufferPMAX_pooled/modalities_pmax_gene_plus_metDec12.csv
@@ -180,8 +180,7 @@ if (requireNamespace("flextable", quietly = TRUE) &&
              ch("P", 9, italic = TRUE), ch("max", 9, vertical.align = "subscript"),
              ch(" is the larger of the two arms' ", 9), ch("P", 9, italic = TRUE),
              ch(sprintf(paste0(" values, and joint FDR is Benjamini–Hochberg on it. %d of the %d ",
-                               "also pass joint FDR < %.2f; these are the KEGG maps of Supplementary ",
-                               "Fig. 3. The shaded row (%s) is the one that does not. %d pathways are ",
+                               "also pass joint FDR < %.2f; the shaded row (%s) is the one that does not. %d pathways are ",
                                "concordant (%d increased, %d decreased) and %d discordant."),
                         n_pmax, nrow(tab), PMAX_FDR_CUT, paste(miss_pmax, collapse = ", "),
                         n_conc, n_up, n_dn, n_disc), 9),
