@@ -111,8 +111,6 @@ if (!INCLUDE_UNANNOTATED) t98 <- t98[!t98$unann, ]
 tab <- data.frame(
   Metabolite        = display_name(t98),
   Class             = class_label(t98$CLASS),
-  `Probable composition` = ifelse(is.na(t98[["INDIVIDUAL.COMPOSITION.OR.PROBABLE.ID"]]),
-                                  "", t98[["INDIVIDUAL.COMPOSITION.OR.PROBABLE.ID"]]),
   HMDB              = ifelse(is.na(t98$HMDB), "", t98$HMDB),
   q3_fc = round(t98$log2_FC, 2),    q3_p = signif(t98$p, 2),    q3_q = signif(t98$qvalue, 2),
   q4_fc = round(t98$log2_FC_wt, 2), q4_p = signif(t98$p_wt, 2), q4_q = signif(t98$qvalue_wt, 2),
@@ -139,7 +137,7 @@ cat(sprintf("rows %d | up %d | down %d | same direction on WT %d | nominal P<%.2
             n_rows, n_up, n_dn, n_same_wt, P_CUT, n_nom_wt))
 
 hdr <- c(paste(LAB_Q3, c("log2 FC", "P", "q")), paste(LAB_Q4, c("log2 FC", "P", "q")))
-csv_out <- tab; names(csv_out)[5:10] <- hdr
+csv_out <- tab; names(csv_out)[4:9] <- hdr
 write.csv(csv_out, file.path(OUT_DIR, "Supplementary_Table_2.csv"),
           row.names = FALSE, na = "")
 
@@ -151,17 +149,17 @@ if (requireNamespace("openxlsx", quietly = TRUE)) {
   writeData(wb, 1, sprintf(paste0("%s | Metabolites altered by alcohol on the PNPLA3 I148M ",
                                   "background but not on wild type (n = %d)"), TABLE_NO, n_rows),
             startRow = 1)
-  writeData(wb, 1, t(c(rep("", 4), LAB_Q3, "", "", LAB_Q4, "", "", "", "", "")),
+  writeData(wb, 1, t(c(rep("", 3), LAB_Q3, "", "", LAB_Q4, "", "", "", "", "")),
             startRow = 3, colNames = FALSE)
-  mergeCells(wb, 1, cols = 5:7, rows = 3); mergeCells(wb, 1, cols = 8:10, rows = 3)
+  mergeCells(wb, 1, cols = 4:6, rows = 3); mergeCells(wb, 1, cols = 7:9, rows = 3)
   body <- tab
-  names(body) <- c(names(tab)[1:4], "log2 FC", "P", "q", "log2 FC", "P", "q", names(tab)[11:13])
+  names(body) <- c(names(tab)[1:3], "log2 FC", "P", "q", "log2 FC", "P", "q", names(tab)[10:12])
   writeData(wb, 1, body, startRow = 4, headerStyle =
               createStyle(textDecoration = "bold", border = "Bottom", halign = "center"))
   addStyle(wb, 1, createStyle(textDecoration = "bold", halign = "center", border = "Bottom"),
-           rows = 3, cols = 5:10, gridExpand = TRUE)
+           rows = 3, cols = 4:9, gridExpand = TRUE)
   addStyle(wb, 1, createStyle(textDecoration = "bold", fontSize = 12), rows = 1, cols = 1)
-  setColWidths(wb, 1, cols = 1:13, widths = c(22, 26, 30, 11, 9, 9, 9, 9, 9, 9, 11, 15, 13))
+  setColWidths(wb, 1, cols = 1:12, widths = c(22, 26, 11, 9, 9, 9, 9, 9, 9, 11, 15, 13))
   freezePane(wb, 1, firstActiveRow = 5, firstActiveCol = 2)
   saveWorkbook(wb, file.path(OUT_DIR, "Supplementary_Table_2.xlsx"), overwrite = TRUE)
 }

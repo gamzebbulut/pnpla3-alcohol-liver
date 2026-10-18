@@ -97,8 +97,6 @@ direction <- ifelse(sign(t9$log2_FC) == sign(t9$log2_FC_wt),
 tab <- data.frame(
   Metabolite        = display_name(t9),
   Class             = class_label(t9$CLASS),
-  `Probable composition` = ifelse(is.na(t9[["INDIVIDUAL.COMPOSITION.OR.PROBABLE.ID"]]),
-                                  "", t9[["INDIVIDUAL.COMPOSITION.OR.PROBABLE.ID"]]),
   HMDB              = ifelse(is.na(t9$HMDB), "", t9$HMDB),
   q3_fc = round(t9$log2_FC, 2),    q3_p = signif(t9$p, 2),    q3_q = signif(t9$qvalue, 2),
   q4_fc = round(t9$log2_FC_wt, 2), q4_p = signif(t9$p_wt, 2), q4_q = signif(t9$qvalue_wt, 2),
@@ -112,7 +110,7 @@ cls_order <- c("Amino acids and derivatives", sort(setdiff(unique(tab$Class),
 tab <- tab[order(match(tab$Class, cls_order), -tab$q3_fc), ]
 
 hdr <- c(paste(LAB_Q3, c("log2 FC", "P", "q")), paste(LAB_Q4, c("log2 FC", "P", "q")))
-names(tab)[5:10] <- hdr
+names(tab)[4:9] <- hdr
 print(tab, row.names = FALSE)
 
 write.csv(tab, file.path(OUT_DIR, "Supplementary_Table_1.csv"),
@@ -145,23 +143,23 @@ if (requireNamespace("openxlsx", quietly = TRUE)) {
                  "same direction on both backgrounds.")
   writeData(wb, 1, title, startRow = 1)
   # two-level header: comparison spans over log2 FC / P / q
-  writeData(wb, 1, t(c(rep("", 4), LAB_Q3, "", "", LAB_Q4, "", "", "", "")),
+  writeData(wb, 1, t(c(rep("", 3), LAB_Q3, "", "", LAB_Q4, "", "", "", "")),
             startRow = 3, colNames = FALSE)
-  mergeCells(wb, 1, cols = 5:7, rows = 3); mergeCells(wb, 1, cols = 8:10, rows = 3)
-  sub_hdr <- c(names(tab)[1:4], "log2 FC", "P", "q", "log2 FC", "P", "q", names(tab)[11:12])
+  mergeCells(wb, 1, cols = 4:6, rows = 3); mergeCells(wb, 1, cols = 7:9, rows = 3)
+  sub_hdr <- c(names(tab)[1:3], "log2 FC", "P", "q", "log2 FC", "P", "q", names(tab)[10:11])
   body <- tab; names(body) <- sub_hdr
   writeData(wb, 1, body, startRow = 4, headerStyle =
               createStyle(textDecoration = "bold", border = "Bottom", halign = "center"))
   addStyle(wb, 1, createStyle(textDecoration = "bold", halign = "center", border = "Bottom"),
-           rows = 3, cols = 5:10, gridExpand = TRUE)
+           rows = 3, cols = 4:9, gridExpand = TRUE)
   addStyle(wb, 1, createStyle(textDecoration = "bold", fontSize = 12), rows = 1, cols = 1)
-  addStyle(wb, 1, createStyle(halign = "center"), rows = 5:(4 + nrow(tab)), cols = 5:10,
+  addStyle(wb, 1, createStyle(halign = "center"), rows = 5:(4 + nrow(tab)), cols = 4:9,
            gridExpand = TRUE, stack = TRUE)
   writeData(wb, 1, note, startRow = 6 + nrow(tab))
   addStyle(wb, 1, createStyle(wrapText = TRUE, valign = "top", fontSize = 9),
            rows = 6 + nrow(tab), cols = 1)
-  mergeCells(wb, 1, cols = 1:12, rows = 6 + nrow(tab)); setRowHeights(wb, 1, 6 + nrow(tab), 48)
-  setColWidths(wb, 1, cols = 1:12, widths = c(16, 26, 30, 11, 9, 9, 9, 9, 9, 9, 18, 11))
+  mergeCells(wb, 1, cols = 1:11, rows = 6 + nrow(tab)); setRowHeights(wb, 1, 6 + nrow(tab), 48)
+  setColWidths(wb, 1, cols = 1:11, widths = c(16, 26, 11, 9, 9, 9, 9, 9, 9, 18, 11))
   freezePane(wb, 1, firstActiveRow = 5, firstActiveCol = 2)
 
   addWorksheet(wb, "Venn counts");               writeData(wb, "Venn counts", venn)
@@ -192,13 +190,13 @@ if (requireNamespace("flextable", quietly = TRUE) &&
   }
 
   w <- data.frame(Metabolite = tab$Metabolite, Class = tab$Class,
-                  fc3 = tab[[5]], p3 = tab[[6]], q3 = tab[[7]],
-                  fc4 = tab[[8]], p4 = tab[[9]], q4 = tab[[10]],
+                  fc3 = tab[[4]], p3 = tab[[5]], q3 = tab[[6]],
+                  fc4 = tab[[7]], p4 = tab[[8]], q4 = tab[[9]],
                   Direction = ifelse(tab$Direction == "Increased on both", "Increased ↑",
                               ifelse(tab$Direction == "Decreased on both", "Decreased ↓", "Opposite")),
                   stringsAsFactors = FALSE)
   w$fc3 <- fmt_fc(w$fc3); w$fc4 <- fmt_fc(w$fc4)
-  num_raw <- tab[, 5:10]   # keep numeric P / q for the superscript formatting
+  num_raw <- tab[, 4:9]   # keep numeric P / q for the superscript formatting
 
   ft <- flextable(w)
   ft <- set_header_labels(ft, Metabolite = "Metabolite", Class = "Class",
